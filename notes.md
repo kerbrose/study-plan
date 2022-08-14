@@ -71,4 +71,49 @@ export class ServersComponent implements OnInit {
 ```
 
 ### Section 3: Course Project - The Basics
+### Section 4: Debugging
+### Section 5: Componenets & Databinding Deep Dive
 
+- video 67: Binding to Custom properties, exposing a property using `@Input`
+```typescript
+@Input() element : {type:string, name: string, content: string};
+```
+- video 68: Assigning an alias to custom properties
+```typescript
+@Input('srvElement') element : {type:string, name: string, content: string};
+```
+- video 69: Binding to Custom events, fire a custom event
+```typescript
+@Output() serverCreated = new EventEmitter<{name: sting}>
+```
+- video 70: Assiging an alias to custom events
+```typescript
+@Output('SeverAdded') serverCreated = new EventEmitter<{name: sting}>
+```
+- video 73: More on View encapsulation. changing component encapsulation `ViewEncapsulation`.
+
+- video 74: Using local references in templates
+- note 75: `@ViewChild()` in Angular 8+
+- video 76: getting access to the template & DOM with @ViewChild
+```typescript
+@ViewChild() serverContent: ElementRef<HTMLInputElement>;
+```
+- video 77: projecting content into Components with `ng-content`
+
+
+- video 78: angular lifecycle hooks
+
+- video 79: seeing lifecycle hooks in action. `ngOnChanges` and `SimpleChanges` arguments
+
+### Section 6: Course Project - Componenets & Databinding Deep Dive
+
+- video 86: Adding Navigation with Event Binding and ngIf. you could pass the data in addition to the `$event` itself.
+```html
+<li><a href="#" (click)="onSelect('recipe', $event)">Recipes</a></li>
+```
+- video 88: passing data with event and property binding (combined), you use `void` in event emitter as 
+```typescript
+@Output() recipeSelected = new EventEmitter<void>();
+```
+
+### Section 7: Directive Deep Dive
