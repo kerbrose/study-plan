@@ -117,3 +117,60 @@ export class ServersComponent implements OnInit {
 ```
 
 ### Section 7: Directive Deep Dive
+
+- video 91: Module Introduction. two types of directives; attribute directive & structural directive.
+
+- video 93: `ngClass` and `ngStyle` recap
+
+- video 94: creating basic attribute directive using `@Directive` decorator.
+
+- video 97: Using `HostListener` to listen to host events.
+
+- video 98: using `HostBinding` to bind to host properties.
+
+- video 101: building structural directive. using `set` on a property as a setter.
+
+- video 102: understanding `ngSwitch`
+
+### Section 8: Course Project - Directive
+
+- Note 104: closing the Dropdown directive
+```typescript
+import {Directive, ElementRef, HostBinding, HostListener} from '@angular/core';
+
+@Directive({
+  selector: '[appDropdown]'
+})
+export class DropdownDirective {
+  @HostBinding('class.open') isOpen = false;
+  @HostListener('document:click', ['$event']) toggleOpen(event: Event) {
+    this.isOpen = this.elRef.nativeElement.contains(event.target) ? !this.isOpen : false;
+  }
+  
+  constructor(private elRef: ElementRef) {}
+}
+```
+
+### Section 9: Using services & Dependency Injection
+
+- video 108: injecting the logging service into components. how the shared service is instantiated among different components using `providers`.
+```typescript
+import { LoggingService } from 'logging.service';
+@component({
+  providers: [LoggingService]
+})
+export class NewAccountComponent{
+  constructor(private loggingService: LoggingService){}
+}
+```
+
+- video 111: how many instances of service should it be. how share only one isntance of the service among components by removing class name from `providers`
+
+- video 112: injecting services into services. using `@Injectable` decorator.
+
+- note 114: A Different Way Of Injecting Services
+```typescript
+@Injectable({providedIn: 'root'})
+export class MyService { ... }
+```
+
