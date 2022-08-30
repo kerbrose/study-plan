@@ -293,3 +293,29 @@ export class HomeComponent implements OnInit{
 }
 ```
 
+- video 140; setting up Child (Nested) Routes
+```typescript
+const appRoutes: Routes = {
+  { path: 'servers',
+    component: ServersComponent,
+    children:[
+      {path: ':id', component: ServerComponent },
+      {path: ':id/edit', component: EditServerComponent },
+    ]
+  }
+};
+```
+
+- video 140: usage of `router-outlet`
+
+- video 141: configuring the handling of query parameters; usage of `queryParamsHandling`
+
+- video 143: redirecting and wildcard routes
+
+- video 147: Protecting routes with `canActivate`;
+- video 148; protecting nested routes; usage of `canActivateChild`
+
+- video 150: controlling navigation with `canDeactivate`.
+
+- video 153: understanding location strategies; usage of `useHash` configuration.
+
