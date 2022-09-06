@@ -319,3 +319,12 @@ const appRoutes: Routes = {
 
 - video 153: understanding location strategies; usage of `useHash` configuration.
 
+### Section 12: Course Project - Routing
+
+- video 156; Setting up routes; usage of `pathMatch` regarding matching strategy
+```typescript
+const appRoutes: Routes = [
+  { path: '', redirectTo: '/recipes', pathMatch: 'full' }
+]
+```
+
