@@ -2,11 +2,11 @@
 
 ### Section 1: getting started
 
-- video 8: editing the first app. introduction to the usage `ngModel` to add **two way binding**. imported from `FormsModule`.
+- video 7: editing the first app. introduction to the usage `ngModel` to add **two way binding**. imported from `FormsModule`.
 
 
 ### Section 2: The Basics
-- video 24: Fully understanding the component selector.
+- video 23: Fully understanding the component selector.
 ```html
 <app-server><app-server>
 <!-- could be selected using attribute selectors -->
@@ -44,21 +44,22 @@ export class ServersComponent implements OnInit {
 <!-- binding disabled property with allowNewServer -->
 <button class="btn btn-primary" [disabled]="!allowNewServer">Add Server</button>
 ```
-- video 30: event binding. 
-- video 32: passing and using data with event binding. there a reserved word in templates `$event` to pass the event value to methods
+- video 29: event binding. 
+- video 31: passing and using data with event binding. there a reserved word in templates `$event` to pass the event value to methods
 ```html
 <input type="text" class="form-control" (input)="onUpdateServerName($event)">
 ```
-- note 33: related to video 8.
-- video 38: using ngif to output data conditionally. as ngIf is a **structural directive**, it uses a * such as `*ngIf`, unlike **attribute directive**
-- video 39: enhancing ngif with an else condition. add `else` to ngIf using local reference temaplate
+- note 32: related to video 7.
+- video 33: Two-way data binding. using `ngModel`
+- video 37: using ngif to output data conditionally. as ngIf is a **structural directive**, it uses a * such as `*ngIf`, unlike **attribute directive**
+- video 38: enhancing ngif with an else condition. add `else` to ngIf using local reference temaplate
 ```html
 <p *ngIf="serverCreated; else noServer">Server was created, server name is {{ serverName }}</p>
 <ng-template #noServer>
   <p>No server was created!</p>
 </ng-template>
 ```
-- video 40: styling elements dynamically with ngStyle. **attribut directive** `ngStyle` can used to style dom elements.
+- video 39: styling elements dynamically with ngStyle. **attribut directive** `ngStyle` can used to style dom elements.
 - video 40; ngStyle directive can receieve object notation as following
 ```html
 <p [ngStyle]="{'background-color': getColor()}"></p>
@@ -327,4 +328,7 @@ const appRoutes: Routes = [
   { path: '', redirectTo: '/recipes', pathMatch: 'full' }
 ]
 ```
+
+### Section 13: Understanding Observables
+
 
