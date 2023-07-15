@@ -60,13 +60,13 @@ export class ServersComponent implements OnInit {
 </ng-template>
 ```
 - video 39: styling elements dynamically with ngStyle. **attribut directive** `ngStyle` can used to style dom elements.
-- video 40; ngStyle directive can receieve object notation as following
+- video 39; ngStyle directive can receieve object notation as following
 ```html
 <p [ngStyle]="{'background-color': getColor()}"></p>
 <!-- using camel case notation -->
 <p [ngStyle]="{backgroundColor: getColor()}"></p>
 ```
-- video 44; getting the index when using `ngFor`
+- video 43; getting the index when using `ngFor`
 ```html
 <div *ngFor="let value of items; let i = index"></div>
 ```
@@ -75,23 +75,36 @@ export class ServersComponent implements OnInit {
 ### Section 4: Debugging
 ### Section 5: Componenets & Databinding Deep Dive
 
-- video 67: Binding to Custom properties, exposing a property using `@Input`
+- video 66: Binding to Custom properties, exposing a property using `@Input`
 ```typescript
+// app-server-element class
 @Input() element : {type:string, name: string, content: string};
 ```
-- video 68: Assigning an alias to custom properties
+```html
+<!-- HTML template of parent component -->
+<div class="col-xs-12">
+  <app-server-element *ngFor="let serverElement of serverElements" [element]="serverElement"></app-server-element>
+</div>
+```
+- video 67: Assigning an alias to custom properties
 ```typescript
 @Input('srvElement') element : {type:string, name: string, content: string};
 ```
-- video 69: Binding to Custom events, fire a custom event
+```html
+<!-- HTML template of parent component -->
+<div class="col-xs-12">
+  <app-server-element *ngFor="let serverElement of serverElements" [srvElement]="serverElement"></app-server-element>
+</div>
+```
+- video 68: Binding to Custom events, fire a custom event
 ```typescript
 @Output() serverCreated = new EventEmitter<{name: sting}>
 ```
-- video 70: Assiging an alias to custom events
+- video 69: Assiging an alias to custom events
 ```typescript
 @Output('SeverAdded') serverCreated = new EventEmitter<{name: sting}>
 ```
-- video 73: More on View encapsulation. changing component encapsulation `ViewEncapsulation`.
+- video 72: More on View encapsulation. changing component encapsulation `ViewEncapsulation`.
 
 - video 74: Using local references in templates
 - note 75: `@ViewChild()` in Angular 8+
