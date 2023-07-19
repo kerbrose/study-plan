@@ -106,49 +106,53 @@ export class ServersComponent implements OnInit {
 ```
 - video 72: More on View encapsulation. changing component encapsulation `ViewEncapsulation`.
 
-- video 74: Using local references in templates
-- note 75: `@ViewChild()` in Angular 8+
-- video 76: getting access to the template & DOM with @ViewChild
+- video 73: Using local references in templates
+- note 74: `@ViewChild()` in Angular 8+
+- video 75: getting access to the template & DOM with @ViewChild
 ```typescript
 @ViewChild() serverContent: ElementRef<HTMLInputElement>;
 ```
-- video 77: projecting content into Components with `ng-content`
+- video 76: projecting content into Components with `ng-content`
 
 
-- video 78: angular lifecycle hooks
+- video 77: angular lifecycle hooks
 
-- video 79: seeing lifecycle hooks in action. `ngOnChanges` and `SimpleChanges` arguments
+- video 78: seeing lifecycle hooks in action. `ngOnChanges` and `SimpleChanges` arguments
+
+- video 81: getting access to ng-content with `@ContentChild`
+
+- video 83: assignment solution, usage of function `clearInterval()`
 
 ### Section 6: Course Project - Componenets & Databinding Deep Dive
 
-- video 86: Adding Navigation with Event Binding and ngIf. you could pass the data in addition to the `$event` itself.
+- video 85: Adding Navigation with Event Binding and ngIf. you could pass the data in addition to the `$event` itself.
 ```html
 <li><a href="#" (click)="onSelect('recipe', $event)">Recipes</a></li>
 ```
-- video 88: passing data with event and property binding (combined), you use `void` in event emitter as 
+- video 87: passing data with event and property binding (combined), you use `void` in event emitter as 
 ```typescript
 @Output() recipeSelected = new EventEmitter<void>();
 ```
 
 ### Section 7: Directive Deep Dive
 
-- video 91: Module Introduction. two types of directives; attribute directive & structural directive.
+- video 90: Module Introduction. two types of directives; attribute directive & structural directive.
 
-- video 93: `ngClass` and `ngStyle` recap
+- video 92: `ngClass` and `ngStyle` recap
 
-- video 94: creating basic attribute directive using `@Directive` decorator.
+- video 93: creating basic attribute directive using `@Directive` decorator.
 
-- video 97: Using `HostListener` to listen to host events.
+- video 96: Using `HostListener` to listen to host events.
 
-- video 98: using `HostBinding` to bind to host properties.
+- video 97: using `HostBinding` to bind to host properties.
 
-- video 101: building structural directive. using `set` on a property as a setter.
+- video 100: building structural directive. using `set` on a property as a setter.
 
-- video 102: understanding `ngSwitch`
+- video 101: understanding `ngSwitch` & `ngSwitchDefault`
 
 ### Section 8: Course Project - Directive
 
-- Note 104: closing the Dropdown directive
+- Note 103: closing the Dropdown directive
 ```typescript
 import {Directive, ElementRef, HostBinding, HostListener} from '@angular/core';
 
@@ -167,7 +171,7 @@ export class DropdownDirective {
 
 ### Section 9: Using services & Dependency Injection
 
-- video 108: injecting the logging service into components. how the shared service is instantiated among different components using `providers`.
+- video 107: injecting the logging service into components. how the shared service is instantiated among different components using `providers`.
 ```typescript
 import { LoggingService } from 'logging.service';
 @component({
@@ -177,6 +181,8 @@ export class NewAccountComponent{
   constructor(private loggingService: LoggingService){}
 }
 ```
+
+- video 110: understanding the hierarchical injector
 
 - video 111: how many instances of service should it be. how to share only one isntance of the service among components by removing class name from `providers`
 
@@ -191,6 +197,8 @@ export class MyService { ... }
 ### Section 10: Course Project - Services & Dependency Injection
 
 - video 119: using a service for cross-component communication; using `subscribe` on a service.
+
+- video 121: using services for pushing data from A to B
 ### Section 11: Changing pages with Routing
 
 - video 127: setting up and loading routes. you could load routes definition in `app.module.ts` as following:
