@@ -216,7 +216,7 @@ imports:[
 ]
 ```
 
-- video 127: using `router-outlet` tag to display route content
+- video 127: setting up and loading routes. using `router-outlet` tag to display route content
 
 - video 128: navigating with router link; using `routerLink` directive, you can also use property binding.
 ```html
@@ -241,7 +241,7 @@ imports:[
 </ul>
 ```
 
-- video 131: navigating programmatically; injecting the router into a component
+- video 131: navigating programmatically; injecting the router `ActivatedRoute` into a component
 ```typescript
 import { Router, ActivatedRoute} from '@angular/router';
 @Component({})
@@ -281,7 +281,7 @@ export class HomeComponent implements OnInit{
   }
 }
 ```
-- video 134: subscribe to path params
+- video 135: fetching route parameters reactively, subscribe to path params
 ```typescript
 import { ActivatedRoute} from '@angular/router';
 @Component({})
@@ -330,7 +330,7 @@ const appRoutes: Routes = {
 
 - video 140: usage of `router-outlet`
 
-- video 141: configuring the handling of query parameters; usage of `queryParamsHandling`
+- video 142: configuring the handling of query parameters; usage of `queryParamsHandling`
 
 - video 143: redirecting and wildcard routes
 
