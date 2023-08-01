@@ -339,6 +339,8 @@ const appRoutes: Routes = {
 
 - video 150: controlling navigation with `canDeactivate`.
 
+- view 152: resolving dynamic data with the resolve guard
+
 - video 153: understanding location strategies; usage of `useHash` configuration.
 
 ### Section 12: Course Project - Routing
