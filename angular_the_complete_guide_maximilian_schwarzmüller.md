@@ -351,7 +351,14 @@ const appRoutes: Routes = [
   { path: '', redirectTo: '/recipes', pathMatch: 'full' }
 ]
 ```
-
+- video 159: fixing page reload issues, usage of style `cursor: pointer`
 ### Section 13: Understanding Observables
 
+- video 173: getting closer to the core of observales. usage of `ngOnDestroy` life-cycle hooks
+
+- video 174: building a custom observable. 
+- video 177: understanding operators. using pipes of rxjs
+- video 178: subjects. usage of rxjs `subjects`
+
+### Section 14: Course Project - Observables
 

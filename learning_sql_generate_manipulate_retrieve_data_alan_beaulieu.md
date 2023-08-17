@@ -258,3 +258,57 @@ SELECT fa.actor_id, f.rating, count(*) FROM film_actor fa
 ```
 
 ### Chapter 9
+
+- page 167: example of using `ALL` operator
+```sql
+SELECT first_name, last_name FROM customer
+  WHERE customer_id <> ALL
+  (SELECT customer_id FROM payment WHERE amount = 0);
+```
+
+- page 168: example of using `ANY` operator
+```sql
+SELECT customer_id, sum(amount) FROM payment
+  GROUP BY customer_id
+  HAVING sum(amount) > ANY 
+    (SELECT sum(p.amount) FROM payment p
+      INNER JOIN customer c
+      ON p.customer_id = c.customer_id
+      INNER JOIN address a
+      ON c.address_id = a.address_id
+      INNER JOIN city ct
+      ON ct.city_id = ct.city_id
+      INNER JOIN country co
+      ON ct.country_id = co.country_id
+    WHERE co.country_id IN ('Bolivia', 'Paraguay', 'Chile')
+    GROUP BY co.country
+    );
+```
+
+- page 173: usage of `EXISTS` operator
+
+```sql
+/* please note that number 1 in the subquery is not related to column sequence however it is a generated column. column sequence is coming after order by or group by */
+SELECT c.first_name, c.last_name FROM customer c
+  WHERE EXISTS (
+    SELECT 1 FROM rental r WHERE r.customer_id = c.customer_id AND date() < '2005-05-25'
+  );
+```
+
+- page 181: intro to Common Table Expressions or `CTE`s
+```sql
+WITH actors_s AS
+(SELECT actor_id, first_name, last_name FROM actor WHERE last_name LIKE 'S%'),
+actors_s_pg AS
+(SELECT s.actor_id, s.first_name, s.last_name, f.film_id, f.title FROM actors_s s
+  INNER JOIN film_actor fa ON s.actor_id = fa.actor_id
+  INNER JOIN film f ON f.film_id = fa.film_id WHERE f.rating = 'PG'),
+actors_s_pg_revenue AS
+(SELECT spg.first_name, spg.last_name, p.amount FROM actors_s_pg spg
+  INNER JOIN inventory i ON i.film_id = spg.film_id
+  INNER JOIN rental r ON i.inventory_id = r.inventory_id
+  INNER JOIN payment p ON r.rental_id = p.rental_id) /* end of With clause */
+SELECT spg_rev.first_name, spg_rev.last_name, sum(spg_rev.amount) tot_revenue FROM actors_s_pg_revenue spg_rev
+  GROUP BY spg_rev.first_name, spg_rev.last_name
+  ORDER BY 3 desc;
+```
