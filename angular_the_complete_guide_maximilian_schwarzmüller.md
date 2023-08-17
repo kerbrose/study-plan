@@ -355,7 +355,30 @@ const appRoutes: Routes = [
 ### Section 13: Understanding Observables
 
 - video 173: getting closer to the core of observales. usage of `ngOnDestroy` life-cycle hooks
+```typescript
+import { Subscription } from 'rxjs';
 
+export class HomeComponent implements OnInit, OnDestroy {
+  private _routerEvent : Subscription;
+
+  ngOnInit(){
+    this._routerEvent = this.router.events.pipe(
+        filter(e => e instanceof NavigationStart)
+      ).subscribe((ev: any)  => {
+        if (ev && ev.url && ev.url === '/search'){
+          this.showBackButton = true;
+        } else {
+          this.showBackButton = false;
+        }
+      });
+  }
+  ngOnDestroy(): void {
+    this._routerEvent.unsubscribe();
+  }
+
+}
+
+```
 - video 174: building a custom observable. 
 - video 177: understanding operators. using pipes of rxjs
 - video 178: subjects. usage of rxjs `subjects`
