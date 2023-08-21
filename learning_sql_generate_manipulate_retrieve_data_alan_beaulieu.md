@@ -312,3 +312,79 @@ SELECT spg_rev.first_name, spg_rev.last_name, sum(spg_rev.amount) tot_revenue FR
   GROUP BY spg_rev.first_name, spg_rev.last_name
   ORDER BY 3 desc;
 ```
+
+
+### Chapter 10
+
+### Chapter 11
+
+- page 201: usage of `CASE`
+```sql
+SELECT first_name, last_name,
+  CASE
+    WHEN active = 1 THEN 'ACTIVE'
+    ELSE 'INACTIVE'
+  END activity_type
+FROM CUSTOMER;
+```
+
+- page 205: comparison between Simple `CASE` expression and Searched `CASE` expression. simple case expressions are less flexibles
+```sql
+/* simple case expression */
+SELECT
+  CASE category.name
+    WHEN 'Children' THEN 'All Ages'
+    WHEN 'Family' THEN 'All Ages'
+    WHEN 'Sports' THEN 'All Ages'
+    WHEN 'Animation' THEN 'All Ages'
+    WHEN 'Horror' THEN 'Adult'
+    WHEN 'Music' THEN 'Teens'
+    WHEN 'Games' THEN 'Teens'
+    ELSE 'Other'
+  END
+FROM category;
+
+/* searched case expression */
+
+SELECT
+  CASE
+    WHEN category.name = 'Children' THEN 'All Ages'
+    WHEN category.name = 'Family' THEN 'All Ages'
+    WHEN category.name = 'Sports' THEN 'All Ages'
+    WHEN category.name = 'Animation' THEN 'All Ages'
+    WHEN category.name = 'Horror' THEN 'Adult'
+    WHEN category.name = 'Music' THEN 'Teens'
+    WHEN category.name = 'Games' THEN 'Teens'
+    ELSE 'Other'
+  END
+FROM category;
+```
+
+- page 206: checking for existance
+```sql
+SELECT a.first_name, a.last_name,
+  CASE
+    WHEN EXISTS (SELECT 1 FROM film_actor fa 
+      INNER JOIN film f ON fa.film_id = f.film_id 
+        WHERE fa.actor_id = a.actor_id AND f.rating = 'G') THEN 'Y'
+    ELSE 'N'
+  END g_actor,
+  CASE
+    WHEN EXISTS (SELECT 1 FROM film_actor fa 
+      INNER JOIN film f ON fa.film_id = f.film_id 
+        WHERE fa.actor_id = a.actor_id AND f.rating = 'PG') THEN 'Y'
+    ELSE 'N'
+  END pg_actor,
+  CASE
+    WHEN EXISTS (SELECT 1 FROM film_actor fa 
+      INNER JOIN film f ON fa.film_id = f.film_id 
+        WHERE fa.actor_id = a.actor_id AND f.rating = 'NC-17') THEN 'Y'
+    ELSE 'N'
+  END nc17_actor
+FROM actor a;
+```
+
+### Chapter 12
+
+### Chapter 13
+
