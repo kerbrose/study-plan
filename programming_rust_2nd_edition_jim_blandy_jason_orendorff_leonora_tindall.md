@@ -79,6 +79,7 @@ let b =  r##"
         "##
 ```
 
+- rust function are thread-safe. // need to validate this.
 
 ### Chapter 3: Fundamental Types
 
