@@ -171,7 +171,52 @@ export class DropdownDirective {
 
 ### Section 9: Using services & Dependency Injection
 
+- video 106: creating a logging service
+```typescript
+/* a service is just a class as following */
+export class LogginService {
+  logStatusChange(status: string){
+    console.log("called the service", status);
+  }
+}
+```
 - video 107: injecting the logging service into components. how the shared service is instantiated among different components using `providers`.
+
+```typescript
+/* usage of the service,
+    1 - import the service
+    2 - add service in providers of the component
+    3 - add service to constructor
+*/
+import { LoggingService } from './logging.service';
+
+@Component({
+  selector: 'app-new-account',
+  templateUrl: './new-account.component.html',
+  styleUrls: './new-account.component.css',
+  providers: [LoggingService]
+})
+export class NewAccountComponent {
+  constructor(private loggingService : LoggingService )
+}
+
+/* or as following */
+
+import { Component, Input, Output, inject } from '@angular/core'; // <- Add inject import
+
+import { LoggingService } from './logging.service';
+
+@Component(...)
+export class AccountComponent {
+  
+  private loggingService?: LoggingService; // <- must be added
+     
+  constructor() {
+    this.loggingService = inject(LoggingService);
+    }
+}
+```
+
 ```typescript
 import { LoggingService } from 'logging.service';
 @component({
@@ -185,6 +230,16 @@ export class NewAccountComponent{
 - video 110: understanding the hierarchical injector
 
 - video 111: how many instances of service should it be. how to share only one isntance of the service among components by removing class name from `providers`
+
+```typescript
+import { AccountsService } from 'logging.service';
+@component({
+  providers: [] // removed from providers
+})
+export class NewAccountComponent{
+  constructor(private accountsService: AccountsService){}
+}
+```
 
 - video 112: injecting services into services. using `@Injectable` decorator.
 
