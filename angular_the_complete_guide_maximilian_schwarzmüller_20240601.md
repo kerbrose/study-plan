@@ -16,7 +16,7 @@ ng new todo --routing false --style css --skip-git --skip-tests --package-manage
 - video 11: understanding component & how content ends up on the screen.
 
 ```typescript
-// angualar app bootstrapping
+// angualar app bootstrapping using angular component
 
 import { bootstrapApplication} from '@angular/platform-browser';
 import { AppComponent } from './app.component';
@@ -24,7 +24,7 @@ import { AppComponent } from './app.component';
 bootstrapApplication(AppComponent).catch((err) => console.error(err));
 ```
 
-- video 23: Fully understanding the component selector.
+- video 14: configuring the custom component.
 ```html
 <app-server><app-server>
 <!-- could be selected using attribute selectors -->
@@ -46,6 +46,16 @@ the code
   selector: '.app-servers', // selecting by class name
 })
 ```
+
+- video 14: configuring the custom component. the `standalone` component property
+
+```typescript
+@Component({
+  selector: 'app-servers', // selecting by element name
+  standalone: true, // standalone component property
+})
+```
+
 - selecting by `ID` is not supported by Angular.
 - video 28: property binding in angular using `[]`
 ```typescript
