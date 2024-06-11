@@ -21,7 +21,7 @@ ng new todo --routing false --style css --skip-git --skip-tests --package-manage
 import { bootstrapApplication} from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
-bootstrapApplication(AppComponent);
+bootstrapApplication(AppComponent).catch((err) => console.error(err));
 ```
 
 - video 23: Fully understanding the component selector.
