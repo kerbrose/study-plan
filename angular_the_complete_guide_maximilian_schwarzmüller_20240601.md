@@ -56,6 +56,95 @@ the code
 })
 ```
 
+- video 15: using the custom component. 
+```typescript
+// using imports property 
+
+import { Component } from '@angular/core';
+import { HeaderComponent } from './';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [HeaderComponent],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+})
+export class AppComponent {}
+
+```
+
+- video 22: property binding & outputing computed values.
+```html
+<!-- apply curly brackets to the property -->
+<img [src]="selectedUser.avatar" /> 
+
+```
+
+- video 24: using getters for computed values.
+```typescript
+export class UserComponent {
+  selectedUser = DUMMY_USERS[randomIndex];
+  get imagePath() {
+    return "/assets/users/" + this.selectedUser.avatar;
+  }
+}
+```
+```html
+<!-- using getters in the path -->
+<img [src]="imagePath" />
+```
+
+- video 25: listening to events with event binding.
+```html
+<!-- using event binding -->
+<button (click)="onSelectedUser()">Click me</button>
+```
+```typescript
+export class UserComponent {
+  onSelectedUser() {
+    console.log("User clicked!");
+  }
+}
+```
+
+
+- video 28: introducing signals
+```typescript
+import { Component, computed, signal } from '@angular/core';
+import { DUMMY_USERS } from '../dummy-users';
+
+@Component({
+  selector: 'app-user',
+  standalone: true,
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.css'],
+})
+export class UserComponent {
+  // defining a signal
+  selectedUser = signal(DUMMY_USERS[randomIndex])
+  imagePath = computed(() => 'assets/users/' + this.selectedUser().avatar)
+
+  onSelectedUser() {
+    const randomIndex = Math.floor(Math.random() * DUMMY_USERS.length);
+    // usage of set function of the signal
+    this.selectedUser.set(DUMMY_USERS[randomIndex]); 
+  }
+}
+
+```
+```html
+<!-- using the signal -->
+<img [src]="imgagePath()" />
+<!-- when using the signal -->
+<span>{{ selectedUser().name }}</span>
+<!-- when using property -->
+<span>{{ selectedUser.name }}</span>
+```
+  
+
+
+
 - selecting by `ID` is not supported by Angular.
 - video 28: property binding in angular using `[]`
 ```typescript
