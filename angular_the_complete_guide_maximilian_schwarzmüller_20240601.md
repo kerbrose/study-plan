@@ -143,7 +143,122 @@ export class UserComponent {
 ```
   
 
+- video 30: definig component inputs
+```typescript
+import { Component, Input } from '@angular/core';
 
+@Component({
+  selector: 'app-user',
+  standalone: true,
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.css'],
+})
+export class UserComponent {
+  @Input() avatar!: string;
+  
+  onSelectedUser() {
+    
+  }
+}
+
+```
+
+```html
+<app-user [avatar]="users[0].avatar"></app-user>
+```
+
+- video 31: required & optional inputs
+```typescript
+import { Component, Input} from '@angular/core';
+
+@Component({
+  selector: 'app-user',
+  standalone: true,
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.css'],
+})
+export class UserComponent {
+  @Input({required: true}) avatar!: string;
+  
+  onSelectedUser() {
+    
+  }
+}
+
+```
+
+- video 32: using signal inputs
+```typescript
+// using small letter input instead of Input
+import { Component, Input, input} from '@angular/core';
+
+@Component({
+  selector: 'app-user',
+  standalone: true,
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.css'],
+})
+export class UserComponent {
+  // @Input({required: true}) avatar!: string;
+  avatar = input<string>();
+  // or 
+  avatar = input.required<string>();
+  
+  onSelectedUser() {
+    
+  }
+}
+```
+
+- video 34: working with outputs & emitting events
+
+```typescript
+import { Component, Input, input, EventEmitter} from '@angular/core';
+
+@Component({
+  selector: 'app-user',
+  standalone: true,
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.css'],
+})
+export class UserComponent {
+  @Input({required: true}) avatar!: string;
+  @Input({required: true}) name!: string;
+  @Output() select = new EventEmitter();
+  
+  
+  onSelectedUser() {
+    this.select.emit();
+  }
+}
+```
+```html
+<button (click)="onSelectUser()"></button>
+<app-user (select)="onSelectUser($event)"></app-user>
+```
+
+- video 35: using the output() function
+```typescript
+import { Component, Input, input, output} from '@angular/core';
+
+@Component({
+  selector: 'app-user',
+  standalone: true,
+  templateUrl: './user.component.html',
+  styleUrls: ['./user.component.css'],
+})
+export class UserComponent {
+  @Input({required: true}) avatar!: string;
+  @Input({required: true}) name!: string;
+  // @Output() select = new EventEmitter();
+  select = output<string>();
+  
+  
+  onSelectedUser() {
+    this.select.emit();
+  }
+}
+```
 
 - selecting by `ID` is not supported by Angular.
 - video 28: property binding in angular using `[]`
