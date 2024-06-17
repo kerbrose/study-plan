@@ -260,6 +260,74 @@ export class UserComponent {
 }
 ```
 
+
+- video 40: typescript: type aliases & interfaces
+
+```typescript
+type User = {
+  id: string;
+  avatar: string;
+  name: string;
+ 
+}
+// or
+interface User {
+  id: string;
+  avatar: string;
+  name: string;
+  
+}
+
+```
+
+- video 41: outputting list content
+```html
+<ul id="users">
+  @for (user of users; track user.id){
+    <li>
+      <app-user [user]="user" (select)="onSelectUser($event)">
+    </li>
+  }
+</ul>
+```
+
+- video 42: outputting conditional content 
+```html
+@if (selectedUser){
+  <app-tasks [name]="selectedUser.name" />
+} @else {
+  <p id="fallback">Select a user to see their tasks!</p>
+}
+```
+- video 48: dynamic css styling with class bindings
+```html
+<button [class.active]="selected"></button>
+```
+
+- video 52: using directive & two way binding
+`[(ngModel)]`
+```typescript
+import { FormsModule } from '@angular/forms';
+
+@Component({
+  selector: 'app-new-task',
+  standalone: true,
+  templateUrl: './new-task.component.html',
+  styleUrls: ['./new-task.component.css'],
+  imports: [FormsModule]
+})
+export class NewTaskComponent {}
+```
+- video 54: handling form submission
+`ngSubmit`
+
+```html
+<form (ngSubmit)="">
+</form>
+```
+- video 56: content projection with `ng-content`
+
+
 - selecting by `ID` is not supported by Angular.
 - video 28: property binding in angular using `[]`
 ```typescript
