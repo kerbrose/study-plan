@@ -327,6 +327,57 @@ export class NewTaskComponent {}
 ```
 - video 56: content projection with `ng-content`
 
+- video 59: getting started with dependency injection
+```typescript
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class TasksService {
+  
+}
+```
+```typescript
+// importing the service for dependency injection, using the constructor
+import { TasksService } from './tasks.service';
+
+@Component({
+  selector: 'app-tasks',
+  standalone: true,
+  templateUrl: './tasks.component.html',
+  styleUrls: ['./tasks.component.css'],
+  imports: [TaskComponent, NewTaskComponent]
+})
+export class TasksComponent {
+  constructor(private tasksService: TasksService){
+
+  }
+}
+```
+
+- video 60: More service usage & alternative dependency injection mechanism
+```typescript
+import { inject } from '@angular/core';
+import { TasksService } from './tasks.service';
+
+@Component({
+  selector: 'app-new-task',
+  standalone: true,
+  imports: [FormsModule]
+  templateUrl: './new-task.component.html',
+  styleUrl: './new-task.component.css',
+})
+export class NewTaskComponent {
+  private = tasksService = inject(TasksService);
+}
+```
+
+- video 62: using `localStorage` for data storage
+```typescript
+import {  }
+
+```
 
 - selecting by `ID` is not supported by Angular.
 - video 28: property binding in angular using `[]`
