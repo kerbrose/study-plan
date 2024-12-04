@@ -8,6 +8,12 @@ install go docs
 go install golang.org/x/tools/cmd/godoc@latest
 ```
 
+view documentation of a function
+
+```bash
+go doc fmt
+```
+
 running go package by
 
 ```bash
@@ -130,3 +136,44 @@ func fetch(url string){
 logging in go
 
 ## Chaperter 2
+
+
+printing the type of the variable in Go, using `Printf()` verbs `%T`.
+
+```go
+import(
+    "fmt"
+)
+myNumber := 22
+fmt.Printf("the type is:  %T", myNumber)
+```
+
+example of creating `arrays`
+
+```go
+first := [4]string{"zero", "one", "two", "three"}
+second := [...]string{"zero", "one", "two", "three"}
+```
+
+example of 2D slice
+
+```go
+// example of a 2D slice
+twoD := [][]int{{1, 2, 3}, {4, 5, 6}}
+for _, i := range twoD {
+    for _, k := range i {
+        fmt.Print(k, " ")
+    }
+    fmt.Println()
+}
+```
+
+accessing a memory address of a variable using `&`
+```go
+var f float64 = 12.123
+fmt.Println("Memory address of f:", &f)
+```
+
+## Chaperter 3
+
+
