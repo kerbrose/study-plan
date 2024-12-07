@@ -177,3 +177,64 @@ fmt.Println("Memory address of f:", &f)
 ## Chaperter 3
 
 
+creating a map in 2 ways
+
+```go
+first_map := make(map[string]int)
+first_map["foo"] = 1
+first_map["bar"] = 2
+
+second_map := := map[string]int {
+    "foo": 1
+    "bar": 2
+}
+```
+
+iterating over a map
+
+```go
+menu := map[string]float64{
+    "eggs":    1.75,
+    "bacon":   3.22,
+    "sausage": 1.89,
+}
+
+for dish, price := range menu {
+    fmt.Println(dish, price)
+}
+// or
+for _, price := range menu {
+    fmt.Println(price)
+}
+for dish := range menu {
+    fmt.Println(dish)
+}
+```
+
+in golang regex negative lookahead isn't supported for technical reasons, more in https://stackoverflow.com/questions/26771592/negative-look-ahead-in-go-regular-expressions
+
+matching an expression could be as
+
+```go
+package main
+import (
+	"fmt"
+	"regexp"
+)
+func main(){
+    first := "AA"
+    second := "Aa"
+    third := "Apple"
+    t1 := []byte(first)
+    t2 := []byte(second)
+    t3 := []byte(third)
+    re := regexp.MustCompile(`^[A-Z][a-z]*$`)
+    match1 := re.Match(t1)
+    match2 := re.Match(t2)
+    match3 := re.Match(t3)
+    fmt.Println(match1)
+    fmt.Println(match2)
+    fmt.Println(match3)
+}
+```
+
