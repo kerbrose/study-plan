@@ -238,3 +238,43 @@ func main(){
 }
 ```
 
+## Chaperter 4
+
+defining a function with generic slice
+
+```go
+func f1[S interface{ ~[]E }, E interface{}](x S) int {
+    return len(x)
+}
+func f2[S ~[]E, E interface{}](x S) int {
+    return len(x)
+}
+func f3[S ~[]E, E any](x S) int {
+    return len(x)
+}
+```
+
+
+intro to golang `receiver`
+
+
+```go
+import (
+    "fmt"
+    "errors"
+)
+
+type TreeLast[T any] []T
+
+func (t TreeLast[T]) replaceLast(element T) (TreeLast[T], error) {
+    if len(t) == 0 {
+        return t, errors.New("This is empty!")
+    }
+    t[len(t) - 1] = element
+    return t, nil
+}
+
+```
+
+
+## Chaperter 5
