@@ -3,6 +3,7 @@
 
 ### Chapter 1
 
+- linear equations page 106
 
 - in a **contradiction equation** the solution set is the **empty set**, symbolized **∅**.
 page 108
