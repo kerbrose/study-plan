@@ -8,6 +8,7 @@
 - in a **contradiction equation** the solution set is the **empty set**, symbolized **∅**.
 page 108
 
+- recommanded book George Polya (1887-1985) How to Solve It.
 
 ### STARTING PAGE 110 QUESTION 23
 
