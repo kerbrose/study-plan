@@ -12,3 +12,17 @@
 
 Consumer Price Index (CPI) 
 
+
+- important skills in page 6
+
+
+real vs perceived differences
+
+
+
+
+## Chapter 3:
+
+- characteristics of univariate data: *Measurement*, *Center*, *Variability*, *Shape*
+
+
