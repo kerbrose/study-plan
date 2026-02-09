@@ -626,3 +626,28 @@ In both cases, the median is indeed $(d)$.
 
 ---
 
+## Q13
+
+### Statement (1)  
+- The average of $(x, y, z)$ is 6.  
+- So $(\frac{x+y+z}{3} = 6 \implies x+y+z = 18)$.  
+- This relates the three variables but does not fix $(z)$.  
+- **Insufficient.**
+
+### Statement (2)  
+- $(x = -y)$.  
+- This gives a relationship between $(x)$ and $(y)$, but says nothing about $(z)$.  
+- **Insufficient.**
+
+### Combining (1) and (2)  
+- From (2): $(x = -y)$.  
+- Substitute into (1): $(x + y + z = 18 \implies (-y) + y + z = 18 \implies z = 18)$.  
+- So yes, $(z = 18)$.  
+- **Together, sufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(C)** — Both statements together are sufficient, but neither alone is sufficient.  
+
+---
