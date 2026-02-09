@@ -1,6 +1,6 @@
 # Data Sufficiency
 
-<h3>1- Is zw positive?</h3> [explanation](amat_answer_explanations.md.md#Q1)
+<h3>1- Is zw positive?</h3> [explanation](./amat_answer_explanations.md.md#Q1)
 
 (1) z + w^3 = 20
 
