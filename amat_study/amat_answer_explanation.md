@@ -474,4 +474,60 @@ Correct choice: **C** (Both statements together are sufficient, but neither alon
 
 ---
 
-Would you like me to show you a **matrix shortcut** for solving these paired linear equations quickly, so you can avoid substitution in DS problems?
+
+## Q8
+
+
+### Statement (1)
+- 40% of the total donations came from corporate sources.
+- This tells us the proportion but not the actual amount.  
+- Alone, it’s insufficient.
+
+### Statement (2)
+- $1.5 million came from noncorporate donations.
+- This gives us a dollar amount, but not the total.  
+- Alone, it’s insufficient.
+
+### Combining (1) and (2)
+- If 40% came from corporate donations, then 60% came from noncorporate donations.
+- Statement (2) says noncorporate donations = $1.5 million.
+- So, 60% of the total = $1.5 million.
+- Total donations = $(\frac{1.5}{0.6} = 2.5)$ million.
+
+✅ Together, the statements are sufficient to determine the total amount donated: **$2.5 million**.
+
+---
+
+## Q9
+
+
+### Statement (1)
+- Rule: After the first two terms, each term = average of the last two preceding terms.  
+- This defines the recurrence relation, but without knowing the actual values of the first two terms, we cannot compute the sequence.  
+- **Insufficient alone.**
+
+### Statement (2)
+- The average of the first three terms = 10.  
+- So $((a_1 + a_2 + a_3)/3 = 10 \implies a_1 + a_2 + a_3 = 30)$.  
+- But we don’t know how the terms are related, so we cannot determine the fourth term.  
+- **Insufficient alone.**
+
+### Combining (1) and (2)
+- From (1): $(a_3 = (a_1 + a_2)/2)$.  
+- Plug into (2): $(a_1 + a_2 + (a_1 + a_2)/2 = 30)$.  
+- That simplifies to $(1.5(a_1 + a_2) = 30 \implies a_1 + a_2 = 20)$.  
+- Then $(a_3 = 10)$.  
+- From (1): (a_4 = (a_2 + a_3)/2 = (a_2 + 10)/2)$.  
+
+Now the sum of the first four terms:  
+$[
+a_1 + a_2 + a_3 + a_4 = 20 + 10 + \frac{a_2 + 10}{2} = 30 + \frac{a_2 + 10}{2}
+]$
+
+This still depends on $(a_2)$. Without knowing $(a_2)$ individually, we cannot fix the sum.  
+
+### Conclusion
+Even together, the statements are **not sufficient** to determine the sum of the first four terms.  
+
+---
+
