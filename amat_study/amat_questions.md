@@ -486,12 +486,15 @@ mean) of the last two preceding terms.
 </fieldset>
 
 
-<h3>14-Elena receives a salary plus a commission that is equal to a fixed percentage of her sales
+<h3>14- Elena receives a salary plus a commission that is equal to a fixed percentage of her sales
 revenue. What was the total of Elena's salary and commission last month?</h3>
+
 (1) Elena's monthly salary is $1 ,000.
+
 (2) Elena's commission is 5 percent of her sales revenue.
--
-Answer is E
+
+[explanation](./amat_answer_explanation.md#Q14)
+
 <fieldset> 
 
   <div>

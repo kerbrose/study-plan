@@ -651,3 +651,29 @@ In both cases, the median is indeed $(d)$.
 **(C)** — Both statements together are sufficient, but neither alone is sufficient.  
 
 ---
+
+## Q14
+
+### Statement (1)  
+- Elena’s monthly salary = \$1,000.  
+- But we don’t know her commission (depends on sales revenue).  
+- **Insufficient.**
+
+### Statement (2)  
+- Commission = 5% of sales revenue.  
+- But we don’t know her salary or her sales revenue.  
+- **Insufficient.**
+
+### Combining (1) and (2)  
+- Salary = \$1,000.  
+- Commission = 5% of sales revenue.  
+- $Total = (1000 + 0.05 \times \text{sales revenue})$.  
+- Without knowing sales revenue, we cannot calculate the total.  
+- **Still insufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(E)** — Statements (1) and (2) together are not sufficient.  
+
+---
