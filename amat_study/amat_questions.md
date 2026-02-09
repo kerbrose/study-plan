@@ -131,6 +131,8 @@ been 5 percent less.
 
 [explanation](./amat_answer_explanation.md#Q4)
 
+----
+
 <fieldset> 
 
   <div>
@@ -157,14 +159,20 @@ been 5 percent less.
   
 </fieldset>
 
+----
 
 <h3>5- The total cost of an office dinner was shared equally by k of the n employees who attended the
 dinner. What was the total cost of the dinner?</h3>
+
 (1) Each of the k employees who shared the cost of the dinner paid $19.
+
 (2) If the total cost of the dinner had been shared equally by k +1 of the n employees who
 attended the dinner, each of the k +1 employees would have paid $18.
--
-Answer is C
+
+[explanation](./amat_answer_explanation.md#Q5)
+
+----
+
 <fieldset> 
 
   <div>
@@ -176,7 +184,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -184,13 +194,12 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>6- If x and y are integers, what is the value of y ?</h3>
 (1) xy = 27

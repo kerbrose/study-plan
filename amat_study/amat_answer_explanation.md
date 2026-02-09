@@ -272,3 +272,76 @@ Each statement alone already gives the answer, so combining is unnecessary.
 ### Final Answer
 Correct choice: **D** (Each statement alone is sufficient).
 
+---
+
+
+## Q5
+
+### Problem Restatement
+Total cost of the dinner = ?  
+It was shared equally by $(k)$ of the $(n)$ employees.  
+We want the **total cost**.
+
+---
+
+### Step 1: Analyze Statement (1)
+Each of the $(k)$ employees paid $19.  
+So:
+
+$[
+\text{Total cost} = 19k
+]$
+
+But we don’t know \(k\).  
+❌ Statement (1) alone is **insufficient**.
+
+---
+
+### Step 2: Analyze Statement (2)
+If the cost had been shared by $(k+1)$ employees, each would have paid $18.  
+So:
+
+$[
+\text{Total cost} = 18(k+1)
+]$
+
+But we don’t know \(k\).  
+❌ Statement (2) alone is **insufficient**.
+
+---
+
+### Step 3: Combine Statements (1) and (2)
+From (1):  
+$[
+\text{Total cost} = 19k
+]$
+
+From (2):  
+$[
+\text{Total cost} = 18(k+1)
+]$
+
+Set equal:  
+$[
+19k = 18(k+1)
+]$
+$[
+19k = 18k + 18
+]$
+$[
+k = 18
+]$
+
+So:  
+$[
+\text{Total cost} = 19k = 19 \cdot 18 = 342
+]$
+
+✅ Together, the statements are **sufficient**.
+
+---
+
+### Final Answer
+Correct choice: **C** (Both statements together are sufficient, but neither alone is sufficient).
+
+---
