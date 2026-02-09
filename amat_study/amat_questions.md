@@ -871,14 +871,19 @@ of 2*?</h3>
 
 
 <h3>25- Rita's monthly salary is 2/3 Juanita's monthly salary. What is their combined monthly salary?</h3>
+
 (1) Rita's monthly salary is $ 4,000.
+
 (2) Either Rita's monthly salary or Juanita's monthly salary is $ 6,000.
--
-Answer is A
+
+[explanation](./amat_answer_explanation.md#Q25)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -894,12 +899,11 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
 
 <h3>26- A certain dealership has a number of cars to be sold by its salespeople. How many cars are to
 be sold?</h3>
