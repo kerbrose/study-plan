@@ -716,3 +716,33 @@ In both cases, the median is indeed $(d)$.
 
 ---
 
+## Q16
+
+
+### Statement (1)  
+- The volume of cube $(A)$ is 160% of the volume of cube $(B)$.  
+- That means $(V_A = 1.6 \cdot V_B)$.  
+- Clearly, $(V_A > V_B)$.  
+- **Sufficient.**
+
+---
+
+### Statement (2)  
+- The volume of cube $(B)$ is 62.5% of the volume of cube $(A)$.  
+- That means $(V_B = 0.625 \cdot V_A)$.  
+- Equivalently, $(V_A = 1.6 \cdot V_B)$.  
+- Again, $(V_A > V_B)$.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines that cube $(A)$’s volume is greater.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---

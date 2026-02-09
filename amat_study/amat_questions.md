@@ -555,11 +555,13 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 </fieldset>
 
 
-<h3>16 Is the volume of cube A greater than the volume of cube B?</h3>
-1) The volume of cube A is 160 percent of the volume of cube B.
-2) The volume of cube B is 62.5 percent of the volume of cube A.
--
-Answer is D
+<h3>16- Is the volume of cube A greater than the volume of cube B?</h3>
+
+1) The volume of cube $A$ is 160 percent of the volume of cube $B$.
+2) The volume of cube $B$ is 62.5 percent of the volume of cube $A$.
+
+
+[explanation](./amat_answer_explanation.md#Q16)
 <fieldset> 
 
   <div>
@@ -575,13 +577,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
