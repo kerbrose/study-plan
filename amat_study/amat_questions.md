@@ -622,10 +622,12 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 
 
 <h3>18- What is the value of 2x - y?</h3>
-1) x + y = 12
-2) x - y = 4
--
-Answer is C
+
+1) $x + y = 12$
+2) $x - y = 4$
+
+[explanation](./amat_answer_explanation.md#Q18)
+
 <fieldset> 
 
   <div>
@@ -637,7 +639,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -645,9 +649,7 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
