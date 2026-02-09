@@ -655,15 +655,20 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 </fieldset>
 
 
-<h3>19-What is the ratio of c to d?</h3>
-(1) The ratio of 3c to 3d is 3 to 4.
-(2) The ratio of c + 3 to d +3 is 4 to 5.
--
-Answer is A
+<h3>19- What is the ratio of c to d?</h3>
+
+(1) The ratio of $3c$ to $3d$ is 3 to 4.
+
+(2) The ratio of $c + 3$ to $d +3$ is 4 to 5.
+
+[explanation](./amat_answer_explanation.md#Q19)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -679,9 +684,7 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>

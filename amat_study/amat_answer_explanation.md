@@ -829,3 +829,42 @@ So the value is uniquely determined: $(2x - y = 12)$.
 **(C)** — Both statements together are sufficient, but neither alone is sufficient.  
 
 ---
+
+
+## Q19
+
+
+We want: **the ratio of $(c)$ to $(d)$.**
+
+---
+
+### Statement (1)  
+- The ratio of $(3c)$ to $(3d)$ is $(3:4)$.  
+- That means $(\frac{3c}{3d} = \frac{3}{4} \implies \frac{c}{d} = \frac{3}{4})$.  
+- So the ratio of $(c)$ to $(d)$ is uniquely determined.  
+- **Sufficient.**
+
+---
+
+### Statement (2)  
+- The ratio of $(c+3)$ to $(d+3)$ is $(4:5)$.  
+- So $(\frac{c+3}{d+3} = \frac{4}{5})$.  
+- Cross multiply: $(5(c+3) = 4(d+3))$.  
+- Simplify: $(5c + 15 = 4d + 12 \implies 5c = 4d - 3)$.  
+- This gives a linear relationship between $(c)$ and $(d)$, but not a fixed ratio.  
+- For example, if $(d=3)$, then $(c=1)$ → ratio $(1:3)$. If $(d=7)$, then $(c=5)$ → ratio $(5:7)$.  
+- Different possible ratios.  
+- **Insufficient.**
+
+---
+
+### Combining  
+- Statement (1) alone already determines the ratio uniquely $(3:4)$.  
+- Statement (2) is not needed.  
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
