@@ -1200,6 +1200,49 @@ We’re asked: **How many hours would it take Pump A and Pump B working together
 
 ---
 
+## Q29
+
+We’re asked: **What is the area of rectangular region $R$?**
+
+---
+
+### Statement (1): Each diagonal of $R$ has length 5  
+- Let the sides be $a$ and $b$.  
+- Diagonal length: $\sqrt{a^2 + b^2} = 5 \implies a^2 + b^2 = 25$.  
+- This gives a relationship but not the product $ab$ (which is the area).  
+- For example: $a=3, b=4 \implies \text{area}=12$. Or $a=1, b=\sqrt{24} \implies \text{area} \approx 4.9$.  
+- Multiple possible areas.  
+- **Insufficient.**
+
+---
+
+### Statement (2): The perimeter of $R$ is 14  
+- Perimeter: $2(a+b) = 14 \implies a+b = 7$.  
+- Again, this gives a relationship but not the product $ab$.  
+- For example: $a=3, b=4 \implies \text{area}=12$. Or $a=2, b=5 \implies \text{area}=10$.  
+- Multiple possible areas.  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+We have:  
+$a^2 + b^2 = 25 \quad \text{and} \quad a+b = 7$
+
+Square the sum:  
+$(a+b)^2 = 49 = a^2 + b^2 + 2ab$  
+Substitute:  
+$49 = 25 + 2ab \implies 2ab = 24 \implies ab = 12$
+
+So the area of $R$ is **12**.  
+- **Together, sufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(C)** — Both statements together are sufficient, but neither alone is sufficient.  
+
+---
 
 
 

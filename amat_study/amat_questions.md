@@ -1037,12 +1037,16 @@ rate, to empty a tank that was initially full?</h3>
   
 </fieldset>
 
+----
 
 <h3>29- What is the area of rectangular region R?</h3>
-(1) Each diagonal of R has length 5.
-(2) The perimeter of R is 14.
--
-Answer is C
+
+(1) Each diagonal of $R$ has length 5.
+
+(2) The perimeter of $R$ is 14.
+
+[explanation](./amat_answer_explanation.md#Q29)
+
 <fieldset> 
 
   <div>
@@ -1054,7 +1058,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1062,13 +1068,12 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>30- A tank containing water started to leak. Did the tank contain more than 30 gallons of water
 when it started to leak? (Note: 1 gallon = 128 ounces)</h3>
