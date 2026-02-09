@@ -677,3 +677,42 @@ In both cases, the median is indeed $(d)$.
 **(E)** — Statements (1) and (2) together are not sufficient.  
 
 ---
+
+
+## Q15
+
+---
+
+### Statement (1)  
+- $(S)$ consists of five consecutive integers.  
+- We’re told 11 is in $(S)$, but 10 is not.  
+- That means the set must be $(11, 12, 13, 14, 15)$.  
+- Sum = $(11 + 12 + 13 + 14 + 15 = 65)$.  
+- **Sufficient.**
+
+---
+
+### Statement (2)  
+- The sum of the even integers in $(S)$ is 26.  
+- In any set of five consecutive integers, there are either 2 or 3 even numbers.  
+- Let’s test:  
+  - If the set is $(9, 10, 11, 12, 13)$, evens = $(10 + 12 = 22)$. Not 26.  
+  - If the set is $(10, 11, 12, 13, 14)$, evens = $(10 + 12 + 14 = 36)$. Not 26.  
+  - If the set is $(11, 12, 13, 14, 15)$, evens = $(12 + 14 = 26)$. Matches.  
+- So the set must be $(11, 12, 13, 14, 15)$.  
+- Sum = 65.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines the sum.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+

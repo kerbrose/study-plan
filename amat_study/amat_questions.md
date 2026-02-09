@@ -521,13 +521,13 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
-<h3>15-
-.
-If the set S consists of five consecutive positive integers, what is the sum of these five integers?</h3>
-(1) The integer 11 is in S, but 10 is not in S
-(2) The sum of the even integers in S is 26
--
-Answer is D
+<h3>15- If the set S consists of five consecutive positive integers, what is the sum of these five integers?</h3>
+
+(1) The integer 11 is in $S$, but 10 is not in $S$
+
+(2) The sum of the even integers in $S$ is 26
+
+[explanation](./amat_answer_explanation.md#Q15)
 <fieldset> 
 
   <div>
@@ -543,13 +543,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
