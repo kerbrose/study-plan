@@ -762,10 +762,14 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 
 <h3>22- For all x, the expression x* is defined to be ax+ a, where a is a constant. What is the value
 of 2*?</h3>
-(1) 3*=2
-(2) 5*=3
--
-Answer is D
+
+(1) $3*=2$
+
+(2) $5*=3$
+
+[explanation](./amat_answer_explanation.md#Q22)
+
+
 <fieldset> 
 
   <div>
@@ -781,13 +785,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>

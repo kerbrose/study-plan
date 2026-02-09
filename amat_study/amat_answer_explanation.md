@@ -934,6 +934,47 @@ We’re asked: **Which of the positive numbers $x$ or $y$ is greater?**
 ---
 
 
+## Q22
+
+We’re asked: **What is the value of $2^*$ if $x^* = ax + a$, where $a$ is a constant?**
+
+---
+
+### Statement (1): $3^* = 2$  
+By definition:  
+$3^* = a(3) + a = 3a + a = 4a$  
+So $4a = 2 \implies a = \tfrac{1}{2}$.  
+Now compute:  
+$2^* = a(2) + a = 2a + a = 3a = 3 \cdot \tfrac{1}{2} = \tfrac{3}{2}$  
+Unique value found.  
+**Sufficient.**
+
+---
+
+### Statement (2): $5^* = 3$  
+By definition:  
+$5^* = a(5) + a = 5a + a = 6a$  
+So $6a = 3 \implies a = \tfrac{1}{2}$.  
+Now compute:  
+$2^* = 2a + a = 3a = 3 \cdot \tfrac{1}{2} = \tfrac{3}{2}$  
+Unique value found.  
+**Sufficient.**
+
+---
+
+### Combining  
+Each statement alone already determines $2^* = \tfrac{3}{2}$.  
+So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+
+
 
 
 
