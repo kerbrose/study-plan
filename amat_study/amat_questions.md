@@ -238,11 +238,18 @@ attended the dinner, each of the k +1 employees would have paid $18.
 
 ----
 
+
 <h3>7- What is the average (arithmetic mean) of x and y?</h3>
+
 (1) The average of x and 2y is 10.
+
 (2) The average of 2x and 7y is 32.
--
-Answer is C
+
+[explanation](./amat_answer_explanation.md#Q7)
+
+----
+
+
 <fieldset> 
 
   <div>
@@ -254,7 +261,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -262,13 +271,12 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>8- What was the amount of money donated to a certain charity?</h3>
 (1) Of the amount donated, 40 percent came from corporate donations.

@@ -397,3 +397,81 @@ y = 3
 Correct choice: **C** (Both statements together are sufficient, but neither alone is sufficient).
 
 ---
+
+
+## Q7
+
+### Problem Restatement
+We want the average of $(x)$ and $(y)$:  
+$[
+\frac{x+y}{2}
+]$
+
+---
+
+### Step 1: Statement (1) Alone
+The average of $(x)$ and $(2y)$ is 10:  
+$[
+\frac{x + 2y}{2} = 10 \quad \Rightarrow \quad x + 2y = 20
+]$
+
+This is one equation with two unknowns.  
+We cannot determine $(\frac{x+y}{2})$ uniquely.  
+❌ Statement (1) alone is **insufficient**.
+
+---
+
+### Step 2: Statement (2) Alone
+The average of $(2x)$ and $(7y)$ is 32:  
+$[
+\frac{2x + 7y}{2} = 32 \quad \Rightarrow \quad 2x + 7y = 64
+]$
+
+This is also one equation with two unknowns.  
+We cannot determine $(\frac{x+y}{2})$ uniquely.  
+❌ Statement (2) alone is **insufficient**.
+
+---
+
+### Step 3: Combine Statements (1) and (2)
+We now have a system of equations:
+
+1. $(x + 2y = 20)$  
+2. $(2x + 7y = 64)$
+
+Solve (1) for $(x)$:  
+$[
+x = 20 - 2y
+]$
+
+Substitute into (2):  
+$[
+2(20 - 2y) + 7y = 64
+]$  
+$[
+40 - 4y + 7y = 64
+]$  
+$[
+3y = 24 \quad \Rightarrow \quad y = 8
+]$
+
+Then:  
+$[
+x = 20 - 2(8) = 4
+]$
+
+So:  
+$[
+\frac{x+y}{2} = \frac{4+8}{2} = 6
+]$
+
+✅ Together, the statements are **sufficient**.
+
+---
+
+### Final Answer
+Correct choice: **C** (Both statements together are sufficient, but neither alone is sufficient).
+
+---
+
+Would you like me to show you a **matrix shortcut** for solving these paired linear equations quickly, so you can avoid substitution in DS problems?
