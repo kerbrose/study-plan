@@ -1115,14 +1115,19 @@ when it started to leak? (Note: 1 gallon = 128 ounces)</h3>
 
 <h3>31-During a certain bicycle ride, was Sherry's average speed faster than 24 kilometers per hour? (1
 kilometer = 1000 meter)</h3>
+
 (1) Sherry's average speed during the bicycle ride was faster than 7 meters per second.
+
 (2) Sherry's average speed during the bicycle ride was slower than 8 meters per second.
--
-Answer is A
+
+[explanation](./amat_answer_explanation.md#Q31)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1138,9 +1143,7 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
