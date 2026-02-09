@@ -531,7 +531,7 @@ Even together, the statements are **not sufficient** to determine the sum of the
 
 ---
 
-## Q 10
+## Q10
 
 ### Statement (1)
 - $(101 < N < 103)$.  
@@ -552,5 +552,38 @@ Even together, the statements are **not sufficient** to determine the sum of the
 
 ### Correct Answer Choice:
 **(D)** — Each statement alone is sufficient.  
+
+---
+
+## Q11
+### Statement (1): $(a < c < e)$  
+- This only gives us a partial ordering among three of the numbers.  
+- We don’t know where $(b)$ and $(d)$ fit relative to them.  
+- So we cannot determine whether $(d)$ is the median.  
+- **Insufficient.**
+
+### Statement (2): $(b < d < c)$  
+- This gives us a partial ordering among three numbers.  
+- But again, we don’t know where $(a)$ and $(e)$ fit.  
+- So we cannot determine whether $(d)$ is the median.  
+- **Insufficient.**
+
+### Combining (1) and (2)  
+- From (1): $(a < c < e)$.  
+- From (2): $(b < d < c)$.  
+- Together we know: $(a < c < e)$ and $(b < d < c)$.  
+- So the combined order is: $(a, b, d, c, e)$ (with some flexibility between $(a)$ and $(b)$, since we don’t know which is smaller).  
+
+Now, the median of five numbers is the third number when arranged in ascending order.  
+- If $(a < b)$, the order is $(a, b, d, c, e)$. Median = $(d)$.  
+- If $(b < a)$, the order is $(b, a, d, c, e)$. Median = $(d)$.  
+
+In both cases, the median is indeed $(d)$.  
+- **Together, sufficient.**
+
+---
+
+### Correct Answer Choice:
+**(C)** — Both statements together are sufficient, but neither alone is sufficient.  
 
 ---

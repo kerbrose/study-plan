@@ -382,11 +382,14 @@ mean) of the last two preceding terms.
 </fieldset>
 
 
-<h3>11-Is the median of the five numbers a,b,c,d and e equal to d?</h3>
-(1) a<c<e
-(2) b<d<c
--
-Answer is E
+<h3>11-Is the median of the five numbers a, b, c, d and e equal to d?</h3>
+
+(1) $a < c < e$
+
+(2) $b < d < c$
+
+[explanation](./amat_answer_explanation.md#Q11)
+
 <fieldset> 
 
   <div>
