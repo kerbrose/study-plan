@@ -1245,6 +1245,44 @@ So the area of $R$ is **12**.
 ---
 
 
+## Q30
+
+We’re asked: **Did the tank contain more than 30 gallons of water when it started to leak?**  
+(Remember: $1 \text{ gallon} = 128 \text{ ounces}$. So 30 gallons = $30 \times 128 = 3840$ ounces.)
+
+---
+
+### Statement (1): Leak rate = 6.4 ounces/minute  
+- This gives the rate, but not the total time until empty.  
+- Without knowing how long it leaked, we cannot determine the initial volume.  
+- **Insufficient.**
+
+---
+
+### Statement (2): Tank became empty in less than 12 hours  
+- This gives a maximum time, but no leak rate.  
+- Without the leak rate, we cannot determine the initial volume.  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+- Leak rate = 6.4 ounces/minute.  
+- Time < 12 hours = $12 \times 60 = 720$ minutes.  
+- Maximum leaked volume = $6.4 \times 720 = 4608$ ounces.  
+- So the initial volume < 4608 ounces.  
+- Compare with 30 gallons = 3840 ounces:  
+  - The tank could have contained **less than 30 gallons** (e.g., 3000 ounces).  
+  - Or **more than 30 gallons** (e.g., 4000 ounces, still < 4608).  
+- Both possibilities exist.  
+- **Still insufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(E)** — Statements (1) and (2) together are not sufficient.  
+
+---
 
 
 

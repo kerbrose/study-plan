@@ -1077,10 +1077,13 @@ rate, to empty a tank that was initially full?</h3>
 
 <h3>30- A tank containing water started to leak. Did the tank contain more than 30 gallons of water
 when it started to leak? (Note: 1 gallon = 128 ounces)</h3>
+
 (1) The water leaked from the tank at a constant rate of 6.4 ounces per minute.
+
 (2) The tank became empty less than 12 hours after it started to leak.
--
-Answer is E
+
+[explanation](./amat_answer_explanation.md#Q30)
+
 <fieldset> 
 
   <div>
@@ -1107,6 +1110,8 @@ Answer is E
   
 </fieldset>
 
+
+----
 
 <h3>31-During a certain bicycle ride, was Sherry's average speed faster than 24 kilometers per hour? (1
 kilometer = 1000 meter)</h3>
