@@ -692,10 +692,12 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 
 
 <h3>20- What is the value of x?</h3>
-(1) x + 1 = 2 - 3x
-(2) 1/(2x) = 2
--
-Answer is D
+(1) $x + 1 = 2 - 3x$
+
+(2) $1/(2x) = 2$
+
+[explanation](./amat_answer_explanation.md#Q20)
+
 <fieldset> 
 
   <div>
@@ -711,13 +713,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>

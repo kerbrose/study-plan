@@ -869,6 +869,51 @@ We want: **the ratio of $(c)$ to $(d)$.**
 
 ---
 
+## Q20
+
+We want the value of $x$.
+
+---
+
+### Statement (1): $x + 1 = 2 - 3x$  
+$x + 1 = 2 - 3x \implies 4x = 1 \implies x = \tfrac{1}{4}$  
+This gives a unique value for $x$.  
+**Sufficient.**
+
+---
+
+### Statement (2): $\frac{1}{2x} = 2$  
+$\frac{1}{2x} = 2 \implies 1 = 4x \implies x = \tfrac{1}{4}$  
+Again, this gives a unique value for $x$.  
+**Sufficient.**
+
+---
+
+### Combining  
+Each statement alone already determines $x = \tfrac{1}{4}$.  
+So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 ## Q52
 
 We want: **the amount Elena spent on newspapers** given her total spending was \$720.
