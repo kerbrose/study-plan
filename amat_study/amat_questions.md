@@ -416,11 +416,13 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
-<h3>12-If n is an integer, then n is divisible by how many positive integers?</h3>
-(1) n is the product of two different prime numbers.
-(2) n and 2^3 are each divisible by the same number of positive integers.
--
-Answer is D
+<h3>12- If n is an integer, then n is divisible by how many positive integers?</h3>
+
+(1) $n$ is the product of two different prime numbers.
+
+(2) $n$ and $2^3$ are each divisible by the same number of positive integers.
+
+
 <fieldset> 
 
   <div>
@@ -436,13 +438,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>

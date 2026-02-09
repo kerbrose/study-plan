@@ -556,6 +556,7 @@ Even together, the statements are **not sufficient** to determine the sum of the
 ---
 
 ## Q11
+
 ### Statement (1): $(a < c < e)$  
 - This only gives us a partial ordering among three of the numbers.  
 - We don’t know where $(b)$ and $(d)$ fit relative to them.  
@@ -587,3 +588,41 @@ In both cases, the median is indeed $(d)$.
 **(C)** — Both statements together are sufficient, but neither alone is sufficient.  
 
 ---
+
+## Q12
+
+
+
+### Statement (1)  
+- $(n)$ is the product of two different prime numbers.  
+- So $(n = p \cdot q)$, where $(p)$ and $(q)$ are distinct primes.  
+- The number of positive divisors of $(n)$ is $((1+1)(1+1) = 4)$.  
+- Divisors are: $(1, p, q, pq)$.  
+- **Sufficient.**
+
+---
+
+### Statement (2)  
+- $(n)$ and $(2^3 = 8)$ are each divisible by the same number of positive integers.  
+- The number of divisors of 8 is 4 (since $(8 = 2^3)$, divisors count = $(3+1 = 4)$).  
+- So $(n)$ also has 4 divisors.  
+- The only integers with exactly 4 divisors are:  
+  - The cube of a prime $(p^3)$, divisors: $(1, p, p^2, p^3)$.  
+  - The product of two distinct primes $(p \cdot q)$, divisors: $(1, p, q, pq)$.  
+- In both cases, the number of divisors is 4.  
+- The question asks: “How many positive integers divide $(n)$?” → Answer is 4.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines the answer (4 divisors).  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
