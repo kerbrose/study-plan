@@ -689,39 +689,6 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
-<h3>52 Last year, if Elena spent a total of $720 on newspapers, magazines, and books, what amount
-did she spend on newspapers?</h3>
-(1)Last year, the amount that Elena spent on magazines was 80 percent of the amount that she
-spent on books.
-(2)Last year, the amount that Elena spent on newspapers was 60 percent of the total amount
-that she spent on magazines and books.
--
-Answer is B
-<fieldset> 
-
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
-
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
-
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
-
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
-
-  <div>
-    <mark>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
-  </div>
-  
-</fieldset>
 
 
 <h3>20- What is the value of x?</h3>
@@ -1759,6 +1726,44 @@ Answer is E
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
     </mark>
+  </div>
+  
+</fieldset>
+
+
+<h3>52- Last year, if Elena spent a total of $720 on newspapers, magazines, and books, what amount
+did she spend on newspapers?</h3>
+
+(1)Last year, the amount that Elena spent on magazines was 80 percent of the amount that she
+spent on books.
+
+(2)Last year, the amount that Elena spent on newspapers was 60 percent of the total amount
+that she spent on magazines and books.
+
+[explanation](./amat_answer_explanation.md#Q52)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+    </mark>
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
   </div>
   
 </fieldset>

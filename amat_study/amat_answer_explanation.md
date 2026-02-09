@@ -292,7 +292,7 @@ $[
 \text{Total cost} = 19k
 ]$
 
-But we don’t know \(k\).  
+But we don’t know $k$.  
 ❌ Statement (1) alone is **insufficient**.
 
 ---
@@ -305,7 +305,7 @@ $[
 \text{Total cost} = 18(k+1)
 ]$
 
-But we don’t know \(k\).  
+But we don’t know $k$.  
 ❌ Statement (2) alone is **insufficient**.
 
 ---
@@ -754,7 +754,7 @@ We’re asked: **What is the value of $(m)$ if $(m = \frac{4c}{5d})$ and $(d \ne
 
 ---
 
-### Statement (1): \(c = 10d\)  
+### Statement (1): $c = 10d$  
 - Substitute into $(m = \frac{4c}{5d})$:  
   $[m = \frac{4(10d)}{5d} = \frac{40d}{5d} = 8]$  
 - This gives a unique value for $(m)$.  
@@ -866,5 +866,44 @@ We want: **the ratio of $(c)$ to $(d)$.**
 
 ### Correct Answer Choice:  
 **(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+## Q52
+
+We want: **the amount Elena spent on newspapers** given her total spending was \$720.
+
+---
+
+### Statement (1)  
+- Magazines = 80% of books.  
+- So if books = $(B)$, magazines = $(0.8B)$.  
+- Newspapers = $(N)$.  
+- Total: $(N + B + 0.8B = 720 \implies N + 1.8B = 720)$.  
+- Two unknowns, one equation. Cannot solve for $(N)$.  
+- **Insufficient.**
+
+---
+
+### Statement (2)  
+- Newspapers = 60% of (magazines + books).  
+- So $N = 0.6(M + B)$.  
+- Total: $N + M + B = 720$.  
+- Substitute: $0.6(M+B) + (M+B) = 720 \implies 1.6(M+B) = 720$.  
+- So $M+B = 450$.  
+- Then $N = 0.6(450) = 270$.  
+- Unique value for newspapers.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Statement (2) alone already gives the answer.  
+- Statement (1) is not needed.
+
+---
+
+### Correct Answer Choice:  
+**(B)** — Statement (2) alone is sufficient, but statement (1) alone is not.  
 
 ---
