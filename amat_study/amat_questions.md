@@ -200,9 +200,9 @@ attended the dinner, each of the k +1 employees would have paid $18.
 ----
 
 <h3>6- If x and y are integers, what is the value of y ?</h3>
-(1) xy = 27
+(1) $xy = 27$
 
-(2) x = y^2
+(2) $x = y^2$
 
 [explanation](./amat_answer_explanation.md#Q6)
 
@@ -239,9 +239,9 @@ attended the dinner, each of the k +1 employees would have paid $18.
 
 <h3>7- What is the average (arithmetic mean) of x and y?</h3>
 
-(1) The average of x and 2y is 10.
+(1) The average of $x$ and $2y$ is 10.
 
-(2) The average of 2x and 7y is 32.
+(2) The average of $2x$ and $7y$ is 32.
 
 [explanation](./amat_answer_explanation.md#Q7)
 
@@ -692,6 +692,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 
 
 <h3>20- What is the value of x?</h3>
+
 (1) $x + 1 = 2 - 3x$
 
 (2) $1/(2x) = 2$
@@ -797,15 +798,21 @@ of 2*?</h3>
 </fieldset>
 
 
-<h3>23- If x^2 + y^2 = 29, what is the value of (x - y) ^2?</h3>
-(1) xy = 10
-(2) x = 5
--
-Answer is A
+<h3>23- If x² + y² = 29, what is the value of (x - y)²?</h3>
+
+(1) $xy = 10$
+
+(2) $x = 5$
+
+
+[explanation](./amat_answer_explanation.md#Q23)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -821,12 +828,11 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
 
 <h3>24- Is 2x > 2y?</h3>
 (1) x > y
