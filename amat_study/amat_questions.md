@@ -1225,10 +1225,13 @@ kilometer = 1000 meter)</h3>
 
 
 <h3>34- If x and y are positive, is xy > x + y?</h3>
-(1) x < y
-(2) 2 < x
--
-Answer is C
+
+(1) $x < y$
+
+(2) $2 < x$
+
+[explanation](./amat_answer_explanation.md#Q34)
+
 <fieldset> 
 
   <div>
@@ -1240,7 +1243,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1248,9 +1253,7 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
