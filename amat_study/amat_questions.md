@@ -907,10 +907,13 @@ of 2*?</h3>
 
 <h3>26- A certain dealership has a number of cars to be sold by its salespeople. How many cars are to
 be sold?</h3>
+
 (1) If each of the salespeople sells 4 of the cars, 23 cars will remain unsold.
+
 (2) If each of the salespeople sells 6 of the cars, 5 cars will remain unsold.
--
-Answer is C
+
+[explanation](./amat_answer_explanation.md#Q26)
+
 <fieldset> 
 
   <div>
@@ -922,7 +925,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -930,9 +935,7 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
