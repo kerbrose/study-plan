@@ -973,16 +973,527 @@ So combining is unnecessary.
 
 ---
 
+## Q23
+
+We want: **the value of $(x-y)^2$ given $x^2 + y^2 = 29$.**
+
+---
+
+### Statement (1): $xy = 10$  
+We know:  
+$(x-y)^2 = x^2 + y^2 - 2xy$  
+Substitute:  
+$(x-y)^2 = 29 - 2(10) = 29 - 20 = 9$  
+So $(x-y)^2 = 9$.  
+**Sufficient.**
+
+---
+
+### Statement (2): $x = 5$  
+Substitute into $x^2 + y^2 = 29$:  
+$25 + y^2 = 29 \implies y^2 = 4 \implies y = \pm 2$  
+Now compute:  
+- If $y = 2$: $(x-y)^2 = (5-2)^2 = 9$.  
+- If $y = -2$: $(x-y)^2 = (5 - (-2))^2 = (7)^2 = 49$.  
+Two possible values.  
+**Insufficient.**
+
+---
+
+### Combining  
+Statement (1) alone already gives a unique value.  
+Statement (2) alone does not.  
+So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
 
 
+## Q24
+
+We’re asked: **Is $2x > 2y$?**
+
+---
+
+### Statement (1): $x > y$  
+- If $x > y$, then multiplying both sides by 2 (positive constant) gives $2x > 2y$.  
+- So the answer is **Yes**.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $3x > 3y$  
+- Divide both sides by 3 (positive constant): $x > y$.  
+- Same reasoning as above: $2x > 2y$.  
+- So the answer is **Yes**.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines the answer.  
+- Combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
 
 
+# Q25
+
+We’re asked: **What is their combined monthly salary?**
+
+---
+
+### Statement (1): Rita’s monthly salary = \$4,000  
+- Given: Rita’s salary = $\tfrac{2}{3}$ Juanita’s salary.  
+- So Juanita’s salary = $\tfrac{3}{2} \times 4000 = 6000$.  
+- Combined = $4000 + 6000 = 10{,}000$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): Either Rita’s salary or Juanita’s salary = \$6,000  
+- Case 1: Rita = 6000. Then Juanita = $\tfrac{3}{2} \times 6000 = 9000$. Combined = 15,000.  
+- Case 2: Juanita = 6000. Then Rita = $\tfrac{2}{3} \times 6000 = 4000$. Combined = 10,000.  
+- Two possible totals (10,000 or 15,000).  
+- **Insufficient.**
+
+---
+
+### Combining  
+- Statement (1) alone already gives the answer (10,000).  
+- Statement (2) alone does not.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+## Q26
+
+We’re asked: **How many cars are to be sold?**
+
+---
+
+### Statement (1)  
+- Suppose there are $C$ cars and $S$ salespeople.  
+- Each salesperson sells 4 cars → total sold = $4S$.  
+- Remaining unsold = 23.  
+- So:  
+$C - 4S = 23 \quad \implies \quad C = 4S + 23$  
+- Two unknowns, one equation. Cannot determine $C$.  
+- **Insufficient.**
+
+---
+
+### Statement (2)  
+- Each salesperson sells 6 cars → total sold = $6S$.  
+- Remaining unsold = 5.  
+- So:  
+$C - 6S = 5 \quad \implies \quad C = 6S + 5$  
+- Again, two unknowns, one equation. Cannot determine $C$.  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+We have:  
+$C = 4S + 23 \quad (1)$  
+$C = 6S + 5 \quad (2)$
+
+Set equal:  
+$4S + 23 = 6S + 5 \implies 2S = 18 \implies S = 9$  
+Substitute back:  
+$C = 4(9) + 23 = 36 + 23 = 59$  
+
+So the dealership has **59 cars**.  
+- **Together, sufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(C)** — Both statements together are sufficient, but neither alone is sufficient.  
+
+---
+
+## Q27
+
+We’re asked: **If $x$ is a positive integer, what is the value of $x$?**
+
+---
+
+### Statement (1): $x^2 = \sqrt{x}$  
+- Rewrite: $x^2 = x^{1/2}$.  
+- So $x^{3/2} = 1 \implies x^{3} = 1$.  
+- Thus $x = 1$.  
+- Since $x$ is a positive integer, the only solution is $x=1$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $\frac{n}{x} = n$ and $n \neq 0$  
+- Divide both sides by $n$: $\frac{1}{x} = 1$.  
+- So $x = 1$.  
+- Unique value.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines $x = 1$.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
 
 
+## Q28
+
+We’re asked: **How many hours would it take Pump A and Pump B working together to empty the tank?**
+
+---
+
+### Statement (1)  
+- Pump A alone empties the tank in 4 hours 20 minutes.  
+- Convert: $4 \text{ hours } 20 \text{ minutes} = 4 + \tfrac{20}{60} = 4 + \tfrac{1}{3} = \tfrac{13}{3}$ hours.  
+- So Pump A’s rate = $\tfrac{1}{13/3} = \tfrac{3}{13}$ tanks per hour.  
+- We know Pump A’s rate, but not Pump B’s.  
+- **Insufficient.**
+
+---
+
+### Statement (2)  
+- Pump B empties the tank at 72 liters per minute.  
+- But we don’t know the total capacity of the tank, so we cannot convert this into “tanks per hour.”  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+- Pump A’s rate = $\tfrac{3}{13}$ tanks/hour.  
+- Pump B’s rate = $\tfrac{72}{60} = 1.2$ liters/second? Careful—let’s standardize.  
+  - Pump B = 72 liters/minute = $72 \times 60 = 4320$ liters/hour.  
+- But we don’t know the tank’s total volume in liters.  
+- Without the tank capacity, we cannot express Pump B’s rate in “tanks per hour.”  
+- Therefore, we cannot combine the two rates to find the joint time.  
+- **Still insufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(E)** — Statements (1) and (2) together are not sufficient.  
+
+---
+
+## Q29
+
+We’re asked: **What is the area of rectangular region $R$?**
+
+---
+
+### Statement (1): Each diagonal of $R$ has length 5  
+- Let the sides be $a$ and $b$.  
+- Diagonal length: $\sqrt{a^2 + b^2} = 5 \implies a^2 + b^2 = 25$.  
+- This gives a relationship but not the product $ab$ (which is the area).  
+- For example: $a=3, b=4 \implies \text{area}=12$. Or $a=1, b=\sqrt{24} \implies \text{area} \approx 4.9$.  
+- Multiple possible areas.  
+- **Insufficient.**
+
+---
+
+### Statement (2): The perimeter of $R$ is 14  
+- Perimeter: $2(a+b) = 14 \implies a+b = 7$.  
+- Again, this gives a relationship but not the product $ab$.  
+- For example: $a=3, b=4 \implies \text{area}=12$. Or $a=2, b=5 \implies \text{area}=10$.  
+- Multiple possible areas.  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+We have:  
+$a^2 + b^2 = 25 \quad \text{and} \quad a+b = 7$
+
+Square the sum:  
+$(a+b)^2 = 49 = a^2 + b^2 + 2ab$  
+Substitute:  
+$49 = 25 + 2ab \implies 2ab = 24 \implies ab = 12$
+
+So the area of $R$ is **12**.  
+- **Together, sufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(C)** — Both statements together are sufficient, but neither alone is sufficient.  
+
+---
 
 
+## Q30
+
+We’re asked: **Did the tank contain more than 30 gallons of water when it started to leak?**  
+(Remember: $1 \text{ gallon} = 128 \text{ ounces}$. So 30 gallons = $30 \times 128 = 3840$ ounces.)
+
+---
+
+### Statement (1): Leak rate = 6.4 ounces/minute  
+- This gives the rate, but not the total time until empty.  
+- Without knowing how long it leaked, we cannot determine the initial volume.  
+- **Insufficient.**
+
+---
+
+### Statement (2): Tank became empty in less than 12 hours  
+- This gives a maximum time, but no leak rate.  
+- Without the leak rate, we cannot determine the initial volume.  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+- Leak rate = 6.4 ounces/minute.  
+- Time < 12 hours = $12 \times 60 = 720$ minutes.  
+- Maximum leaked volume = $6.4 \times 720 = 4608$ ounces.  
+- So the initial volume < 4608 ounces.  
+- Compare with 30 gallons = 3840 ounces:  
+  - The tank could have contained **less than 30 gallons** (e.g., 3000 ounces).  
+  - Or **more than 30 gallons** (e.g., 4000 ounces, still < 4608).  
+- Both possibilities exist.  
+- **Still insufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(E)** — Statements (1) and (2) together are not sufficient.  
+
+---
 
 
+## Q31
+
+We’re asked: **Was Sherry’s average speed faster than 24 km/h?**
+
+---
+
+### Step 1: Convert 24 km/h into meters per second  
+$24 \text{ km/h} = \frac{24{,}000 \text{ m}}{3600 \text{ s}} = \frac{24{,}000}{3600} = 6.\overline{6} \text{ m/s}$  
+So the threshold is about **6.67 m/s**.
+
+---
+
+### Statement (1): Sherry’s average speed > 7 m/s  
+- Since 7 m/s > 6.67 m/s, her speed was faster than 24 km/h.  
+- **Sufficient.**
+
+---
+
+### Statement (2): Sherry’s average speed < 8 m/s  
+- This only tells us her speed was below 8 m/s.  
+- But it could be 6 m/s (slower than 24 km/h) or 7.5 m/s (faster than 24 km/h).  
+- Cannot determine.  
+- **Insufficient.**
+
+---
+
+### Combining  
+- Statement (1) alone already answers the question definitively.  
+- Statement (2) alone does not.  
+- Together, the answer is still determined by (1).  
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+## Q32
+
+We’re asked: **Was Sherry’s average speed faster than 24 km/h?**
+
+---
+
+### Step 1: Convert 24 km/h into meters per second  
+$24 \text{ km/h} = \frac{24{,}000 \text{ m}}{3600 \text{ s}} = \frac{24{,}000}{3600} = 6.\overline{6} \text{ m/s}$  
+So the threshold is about **6.67 m/s**.
+
+---
+
+### Statement (1): Sherry’s average speed > 7 m/s  
+- Since 7 m/s > 6.67 m/s, her speed was faster than 24 km/h.  
+- **Sufficient.**
+
+---
+
+### Statement (2): Sherry’s average speed < 8 m/s  
+- This only tells us her speed was below 8 m/s.  
+- But it could be 6 m/s (slower than 24 km/h) or 7.5 m/s (faster than 24 km/h).  
+- Cannot determine.  
+- **Insufficient.**
+
+---
+
+### Combining  
+- Statement (1) alone already answers the question definitively.  
+- Statement (2) alone does not.  
+- Together, the answer is still determined by (1).  
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+## Q33
+
+We’re asked: **If $y = x^2 - 6x + 9$, what is the value of $x$?**
+
+---
+
+### Step 1: Simplify the expression  
+Notice:  
+$y = x^2 - 6x + 9 = (x - 3)^2$  
+
+So $y = (x-3)^2$.
+
+---
+
+### Statement (1): $y = 0$  
+$(x-3)^2 = 0 \implies x - 3 = 0 \implies x = 3$  
+Unique solution.  
+**Sufficient.**
+
+---
+
+### Statement (2): $x + y = 3$  
+Substitute $y = (x-3)^2$:  
+$x + (x-3)^2 = 3$  
+Expand:  
+$x + (x^2 - 6x + 9) = 3 \implies x^2 - 5x + 9 = 3 \implies x^2 - 5x + 6 = 0$  
+Factor:  
+$(x-2)(x-3) = 0 \implies x = 2 \text{ or } x = 3$  
+Two possible values.  
+**Insufficient.**
+
+---
+
+### Combining  
+Statement (1) alone already gives $x = 3$.  
+Statement (2) alone does not.  
+So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+## Q34
+
+To determine if  for positive  and , we can rearrange the inequality to make it easier to analyze:
+
+By adding  to both sides, we can factor the expression:
+
+
+Now we can evaluate the statements based on this simplified inequality.
+
+---
+
+### Statement (1): $ x < y $
+
+This tells us the relationship between  and , but nothing about their **actual values**.
+
+* **Case A:** If $x=0.5$ and $y=1$, then $(0.5−1)(1−1)=0$, which is which is **not** $>1$.
+* **Case B:** If $x=3$ and $y=4$, then $(3−1)(4−1)=6$, which **is** $>1$.
+
+Since we can get both a "yes" and a "no," Statement (1) is **Insufficient**.
+
+---
+
+### Statement (2): $2<x$
+
+We know $x>2$. Since the original prompt states $x$ and $y$ are positive, let's look at the factored form $(x−1)(y−1)>1$ again.
+
+    If $x=3$, the inequality becomes $2(y−1)>1$, or $y−1>0.5$, which means $y>1.5$.
+
+    However, we don't know the value of $y$. If $y=0.1$, the inequality fails. If $y=5$, it holds.
+
+Since we still don't know $y$, Statement (2) is **Insufficient**.
+
+---
+
+### Combining (1) and (2)
+
+From (2), we know $x>2$. From (1), we know $y>x$, which implies $y>2$ as well.
+
+If both $x>2$ and $y>2$:
+
+    The term $(x−1)$ must be greater than 1.
+
+    The term $(y−1)$ must be greater than 1.
+
+
+The product of two numbers that are both greater than  will **always** be greater than 1. Therefore,  $(x−1)(y−1)>1$ is guaranteed to be true.
+
+**Both statements together are Sufficient.**
+
+---
+
+**Correct Answer: C**
+
+---
+
+## Q35
+
+We’re asked: **At what rate, in gallons per minute, is the amount of water in the tank increasing?**
+
+---
+
+### Statement (1):  
+- The amount of water initially in the tank is 200 gallons.  
+- This tells us the starting volume, but not the rates of inflow or outflow.  
+- Without rates, we cannot determine the net change per minute.  
+- **Insufficient.**
+
+---
+
+### Statement (2):  
+- Inflow rate = 10 gallons/minute.  
+- Outflow rate = 10 gallons every 2.5 minutes = $ \tfrac{10}{2.5} = 4 $ gallons/minute.  
+- Net rate = $10 - 4 = 6$ gallons/minute (increasing).  
+- This directly answers the question.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Statement (2) alone already gives the net rate.  
+- Statement (1) is irrelevant for the rate question.  
+
+---
+
+### Correct Answer Choice:  
+**(B)** — Statement (2) alone is sufficient, but statement (1) alone is not.  
+
+---
 
 
 

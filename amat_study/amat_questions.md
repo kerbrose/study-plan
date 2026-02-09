@@ -200,9 +200,9 @@ attended the dinner, each of the k +1 employees would have paid $18.
 ----
 
 <h3>6- If x and y are integers, what is the value of y ?</h3>
-(1) xy = 27
+(1) $xy = 27$
 
-(2) x = y^2
+(2) $x = y^2$
 
 [explanation](./amat_answer_explanation.md#Q6)
 
@@ -239,9 +239,9 @@ attended the dinner, each of the k +1 employees would have paid $18.
 
 <h3>7- What is the average (arithmetic mean) of x and y?</h3>
 
-(1) The average of x and 2y is 10.
+(1) The average of $x$ and $2y$ is 10.
 
-(2) The average of 2x and 7y is 32.
+(2) The average of $2x$ and $7y$ is 32.
 
 [explanation](./amat_answer_explanation.md#Q7)
 
@@ -277,6 +277,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
 ----
 
 <h3>8- What was the amount of money donated to a certain charity?</h3>
+
 (1) Of the amount donated, 40 percent came from corporate donations.
 
 (2) Of the amount donated, $1.5 million came from noncorporate donations.
@@ -309,9 +310,10 @@ attended the dinner, each of the k +1 employees would have paid $18.
   
 </fieldset>
 
-
+----
 
 <h3>9- What is the sum of the first four terms of sequence S?</h3>
+
 (1) After the first two terms of S,the value of each term of S is equal to the average (arithmetic
 mean) of the last two preceding terms.
 
@@ -345,6 +347,7 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
 
 <h3>10- What is the value of the integer N?</h3>
 
@@ -379,6 +382,7 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
 
 <h3>11-Is the median of the five numbers a, b, c, d and e equal to d?</h3>
 
@@ -414,6 +418,8 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
+
 <h3>12- If n is an integer, then n is divisible by how many positive integers?</h3>
 
 (1) $n$ is the product of two different prime numbers.
@@ -448,6 +454,7 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
 
 <h3>13- If x, y, and z are numbers, is z = 18 ?</h3>
 
@@ -483,6 +490,7 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
 
 <h3>14- Elena receives a salary plus a commission that is equal to a fixed percentage of her sales
 revenue. What was the total of Elena's salary and commission last month?</h3>
@@ -519,6 +527,8 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
+
 <h3>15- If the set S consists of five consecutive positive integers, what is the sum of these five integers?</h3>
 
 (1) The integer 11 is in $S$, but 10 is not in $S$
@@ -552,10 +562,12 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>16- Is the volume of cube A greater than the volume of cube B?</h3>
 
 1) The volume of cube $A$ is 160 percent of the volume of cube $B$.
+
 2) The volume of cube $B$ is 62.5 percent of the volume of cube $A$.
 
 
@@ -587,10 +599,12 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>17- What is the value of m if m = 4c / 5d and d is not equal to zero?</h3>
 
 1) $c = 10d$
+
 2) $c = 2$
 
 [explanation](./amat_answer_explanation.md#Q17)
@@ -620,6 +634,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>18- What is the value of 2x - y?</h3>
 
@@ -654,6 +669,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>19- What is the ratio of c to d?</h3>
 
@@ -689,9 +705,10 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
-
+----
 
 <h3>20- What is the value of x?</h3>
+
 (1) $x + 1 = 2 - 3x$
 
 (2) $1/(2x) = 2$
@@ -724,6 +741,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>21- Which of the positive numbers x or y is greater?</h3>
 
@@ -759,6 +777,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>22- For all x, the expression x* is defined to be ax+ a, where a is a constant. What is the value
 of 2*?</h3>
@@ -796,16 +815,23 @@ of 2*?</h3>
   
 </fieldset>
 
+----
 
-<h3>23- If x^2 + y^2 = 29, what is the value of (x - y) ^2?</h3>
-(1) xy = 10
-(2) x = 5
--
-Answer is A
+<h3>23- If x² + y² = 29, what is the value of (x - y)²?</h3>
+
+(1) $xy = 10$
+
+(2) $x = 5$
+
+
+[explanation](./amat_answer_explanation.md#Q23)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -821,18 +847,22 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
 
 <h3>24- Is 2x > 2y?</h3>
-(1) x > y
-(2) 3x > 3y
--
-Answer is D
+
+(1) $x > y$
+
+(2) $3x > 3y$
+
+
+[explanation](./amat_answer_explanation.md#Q24)
+
 <fieldset> 
 
   <div>
@@ -848,27 +878,33 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>25- Rita's monthly salary is 2/3 Juanita's monthly salary. What is their combined monthly salary?</h3>
+
 (1) Rita's monthly salary is $ 4,000.
+
 (2) Either Rita's monthly salary or Juanita's monthly salary is $ 6,000.
--
-Answer is A
+
+[explanation](./amat_answer_explanation.md#Q25)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -884,19 +920,22 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
 
 <h3>26- A certain dealership has a number of cars to be sold by its salespeople. How many cars are to
 be sold?</h3>
+
 (1) If each of the salespeople sells 4 of the cars, 23 cars will remain unsold.
+
 (2) If each of the salespeople sells 6 of the cars, 5 cars will remain unsold.
--
-Answer is C
+
+[explanation](./amat_answer_explanation.md#Q26)
+
 <fieldset> 
 
   <div>
@@ -908,7 +947,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -916,19 +957,22 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
 
 
 <h3>27- If x is a positive integer, what is the value of x ?</h3>
-(1) x^2=√x
-(2) n/x = n and n ≠ 0
--
-Answer is D
+
+  (1) $x^2=√x$
+
+  (2) $n/x = n$ and $n ≠ 0$
+
+[explanation](./amat_answer_explanation.md#Q27)
+
 <fieldset> 
 
   <div>
@@ -944,24 +988,29 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
 
 
 <h3>28-How many hours would it take Pump A and Pump B working together, each at its own constant
 rate, to empty a tank that was initially full?</h3>
-(1) Working alone at its constant rate,Pump A would empty the full tank in 4 hours 20 minutes.
+
+(1) Working alone at its constant rate, Pump A would empty the full tank in 4 hours 20 minutes.
+
 (2) Working alone, Pump B would empty the full tank at its constant rate of 72 liters per minute.
--
-Answer is E
+
+[explanation](./amat_answer_explanation.md#Q28)
+
 <fieldset> 
 
   <div>
@@ -988,12 +1037,16 @@ Answer is E
   
 </fieldset>
 
+----
 
 <h3>29- What is the area of rectangular region R?</h3>
-(1) Each diagonal of R has length 5.
-(2) The perimeter of R is 14.
--
-Answer is C
+
+(1) Each diagonal of $R$ has length 5.
+
+(2) The perimeter of $R$ is 14.
+
+[explanation](./amat_answer_explanation.md#Q29)
+
 <fieldset> 
 
   <div>
@@ -1005,7 +1058,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1013,20 +1068,22 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>30- A tank containing water started to leak. Did the tank contain more than 30 gallons of water
 when it started to leak? (Note: 1 gallon = 128 ounces)</h3>
+
 (1) The water leaked from the tank at a constant rate of 6.4 ounces per minute.
+
 (2) The tank became empty less than 12 hours after it started to leak.
--
-Answer is E
+
+[explanation](./amat_answer_explanation.md#Q30)
+
 <fieldset> 
 
   <div>
@@ -1053,17 +1110,24 @@ Answer is E
   
 </fieldset>
 
+
+----
 
 <h3>31-During a certain bicycle ride, was Sherry's average speed faster than 24 kilometers per hour? (1
 kilometer = 1000 meter)</h3>
+
 (1) Sherry's average speed during the bicycle ride was faster than 7 meters per second.
+
 (2) Sherry's average speed during the bicycle ride was slower than 8 meters per second.
--
-Answer is A
+
+[explanation](./amat_answer_explanation.md#Q31)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1079,22 +1143,27 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
 
 <h3>32- Is the integer n a prime number?</h3>
-(1) 24 ≤ n ≤ 28
-(2) n is not divisible by 2 or 3
--
-Answer is A
+
+(1) $24 ≤ n ≤ 28$
+
+(2) $n$ is not divisible by 2 or 3
+
+[explanation](./amat_answer_explanation.md#Q32)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1110,23 +1179,28 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
 
 
 <h3>33- If y = x^2 - 6x + 9, what is the value of x?</h3>
-(1) y = 0
-(2) x + y = 3
--
-Answer is A
+
+(1) $y = 0$
+
+(2) $x + y = 3$
+
+[explanation](./amat_answer_explanation.md#Q33)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1142,18 +1216,22 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
+
 
 <h3>34- If x and y are positive, is xy > x + y?</h3>
-(1) x < y
-(2) 2 < x
--
-Answer is C
+
+(1) $x < y$
+
+(2) $2 < x$
+
+[explanation](./amat_answer_explanation.md#Q34)
+
 <fieldset> 
 
   <div>
@@ -1165,7 +1243,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1173,22 +1253,23 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
 
-<h3>35 Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the
+<h3>35- Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the
 same time, water is pumped out of the tank at a constant rate through an outlet pipe. At what
 rate, in gallons per minute, is the amount of water in the tank increasing?</h3>
+
 1) The amount of water initially in the tank is 200 gallons.
-2)Water is pumped into the tank at a rate of 10 gallons per minute and out of the tank at a rate
+
+2) Water is pumped into the tank at a rate of 10 gallons per minute and out of the tank at a rate
 of 10 gallons every 2 and half minutes.
--
-Answer is B
+
+[explanation](./amat_answer_explanation.md#Q35)
+
 <fieldset> 
 
   <div>
@@ -1196,7 +1277,9 @@ Answer is B
   </div>
 
   <div>
+    <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1208,9 +1291,7 @@ Answer is B
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
