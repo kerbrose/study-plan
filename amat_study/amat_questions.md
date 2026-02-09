@@ -277,6 +277,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
 ----
 
 <h3>8- What was the amount of money donated to a certain charity?</h3>
+
 (1) Of the amount donated, 40 percent came from corporate donations.
 
 (2) Of the amount donated, $1.5 million came from noncorporate donations.
@@ -309,9 +310,10 @@ attended the dinner, each of the k +1 employees would have paid $18.
   
 </fieldset>
 
-
+----
 
 <h3>9- What is the sum of the first four terms of sequence S?</h3>
+
 (1) After the first two terms of S,the value of each term of S is equal to the average (arithmetic
 mean) of the last two preceding terms.
 
@@ -345,6 +347,7 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
 
 <h3>10- What is the value of the integer N?</h3>
 
@@ -379,6 +382,7 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
 
 <h3>11-Is the median of the five numbers a, b, c, d and e equal to d?</h3>
 
@@ -414,6 +418,8 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
+
 <h3>12- If n is an integer, then n is divisible by how many positive integers?</h3>
 
 (1) $n$ is the product of two different prime numbers.
@@ -448,6 +454,7 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
 
 <h3>13- If x, y, and z are numbers, is z = 18 ?</h3>
 
@@ -483,6 +490,7 @@ mean) of the last two preceding terms.
   
 </fieldset>
 
+----
 
 <h3>14- Elena receives a salary plus a commission that is equal to a fixed percentage of her sales
 revenue. What was the total of Elena's salary and commission last month?</h3>
@@ -519,6 +527,8 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
+
 <h3>15- If the set S consists of five consecutive positive integers, what is the sum of these five integers?</h3>
 
 (1) The integer 11 is in $S$, but 10 is not in $S$
@@ -552,10 +562,12 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>16- Is the volume of cube A greater than the volume of cube B?</h3>
 
 1) The volume of cube $A$ is 160 percent of the volume of cube $B$.
+
 2) The volume of cube $B$ is 62.5 percent of the volume of cube $A$.
 
 
@@ -587,10 +599,12 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>17- What is the value of m if m = 4c / 5d and d is not equal to zero?</h3>
 
 1) $c = 10d$
+
 2) $c = 2$
 
 [explanation](./amat_answer_explanation.md#Q17)
@@ -620,6 +634,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>18- What is the value of 2x - y?</h3>
 
@@ -654,6 +669,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>19- What is the ratio of c to d?</h3>
 
@@ -689,7 +705,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
-
+----
 
 <h3>20- What is the value of x?</h3>
 
@@ -725,6 +741,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>21- Which of the positive numbers x or y is greater?</h3>
 
@@ -760,6 +777,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   
 </fieldset>
 
+----
 
 <h3>22- For all x, the expression x* is defined to be ax+ a, where a is a constant. What is the value
 of 2*?</h3>
@@ -797,6 +815,7 @@ of 2*?</h3>
   
 </fieldset>
 
+----
 
 <h3>23- If x² + y² = 29, what is the value of (x - y)²?</h3>
 
@@ -833,6 +852,7 @@ of 2*?</h3>
   
 </fieldset>
 
+----
 
 <h3>24- Is 2x > 2y?</h3>
 
@@ -869,6 +889,7 @@ of 2*?</h3>
   
 </fieldset>
 
+----
 
 <h3>25- Rita's monthly salary is 2/3 Juanita's monthly salary. What is their combined monthly salary?</h3>
 
@@ -904,6 +925,7 @@ of 2*?</h3>
   
 </fieldset>
 
+----
 
 <h3>26- A certain dealership has a number of cars to be sold by its salespeople. How many cars are to
 be sold?</h3>
@@ -940,14 +962,17 @@ be sold?</h3>
   
 </fieldset>
 
+----
 
-  <h3>27- If x is a positive integer, what is the value of x ?</h3>
+
+<h3>27- If x is a positive integer, what is the value of x ?</h3>
 
   (1) $x^2=√x$
 
   (2) $n/x = n$ and $n ≠ 0$
 
 [explanation](./amat_answer_explanation.md#Q27)
+
 <fieldset> 
 
   <div>
@@ -974,13 +999,18 @@ be sold?</h3>
   
 </fieldset>
 
+----
+
 
 <h3>28-How many hours would it take Pump A and Pump B working together, each at its own constant
 rate, to empty a tank that was initially full?</h3>
-(1) Working alone at its constant rate,Pump A would empty the full tank in 4 hours 20 minutes.
+
+(1) Working alone at its constant rate, Pump A would empty the full tank in 4 hours 20 minutes.
+
 (2) Working alone, Pump B would empty the full tank at its constant rate of 72 liters per minute.
--
-Answer is E
+
+[explanation](./amat_answer_explanation.md#Q28)
+
 <fieldset> 
 
   <div>
