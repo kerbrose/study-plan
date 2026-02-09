@@ -25,4 +25,6 @@ real vs perceived differences
 
 - characteristics of univariate data: *Measurement*, *Center*, *Variability*, *Shape*
 
+- centeral tendency
+
 

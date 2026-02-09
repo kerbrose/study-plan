@@ -1,6 +1,6 @@
 # Data Sufficiency
 
-<h3>1- Is zw positive?</h3>
+<h3>1- Is zw positive?</h3> [explanation](amat_answer_explanations.md.md#Q1)
 
 (1) z + w^3 = 20
 
@@ -34,6 +34,8 @@
 
 </fieldset>
 
+----
+
 <h3>2- Some computers at a certain company are Brand X and the rest are Brand Y. If the ratio of the
 number of Brand Y computers to the number of Brand X computers at the company is 5 to 6,
 how many of the computers are Brand Y?</h3>
@@ -42,6 +44,7 @@ how many of the computers are Brand Y?</h3>
 
 (2) There is a total of 880 computers at the company.
 
+----
 
 <fieldset> 
 
@@ -69,12 +72,20 @@ how many of the computers are Brand Y?</h3>
   
 </fieldset>
 
+
+----
+
+
 <h3>3- If Ann saves x dollars each week and Beth saves y dollars each week, what is the total amount
 that they save per week?</h3>
+
 (1) Beth saves $5 more per week than Ann saves per week.
+
 (2) It takes Ann 6 weeks to save the same amount that Beth saves in 5 weeks
--
-Answer is C
+
+
+----
+
 <fieldset> 
 
   <div>
@@ -86,7 +97,9 @@ Answer is C
   </div>
 
   <div>
+  <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </mark>
   </div>
 
   <div>
@@ -94,13 +107,12 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>4- If the total price of n equally priced shares of a certain stock was $12,000, what was the price
 per share of the stock?</h3>
