@@ -1184,16 +1184,23 @@ kilometer = 1000 meter)</h3>
   
 </fieldset>
 
+----
+
 
 <h3>33- If y = x^2 - 6x + 9, what is the value of x?</h3>
-(1) y = 0
-(2) x + y = 3
--
-Answer is A
+
+(1) $y = 0$
+
+(2) $x + y = 3$
+
+[explanation](./amat_answer_explanation.md#Q33)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1209,12 +1216,13 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
+
 
 <h3>34- If x and y are positive, is xy > x + y?</h3>
 (1) x < y

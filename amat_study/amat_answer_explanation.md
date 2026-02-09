@@ -1361,6 +1361,50 @@ So the threshold is about **6.67 m/s**.
 
 ---
 
+## Q33
+
+We’re asked: **If $y = x^2 - 6x + 9$, what is the value of $x$?**
+
+---
+
+### Step 1: Simplify the expression  
+Notice:  
+$y = x^2 - 6x + 9 = (x - 3)^2$  
+
+So $y = (x-3)^2$.
+
+---
+
+### Statement (1): $y = 0$  
+$(x-3)^2 = 0 \implies x - 3 = 0 \implies x = 3$  
+Unique solution.  
+**Sufficient.**
+
+---
+
+### Statement (2): $x + y = 3$  
+Substitute $y = (x-3)^2$:  
+$x + (x-3)^2 = 3$  
+Expand:  
+$x + (x^2 - 6x + 9) = 3 \implies x^2 - 5x + 9 = 3 \implies x^2 - 5x + 6 = 0$  
+Factor:  
+$(x-2)(x-3) = 0 \implies x = 2 \text{ or } x = 3$  
+Two possible values.  
+**Insufficient.**
+
+---
+
+### Combining  
+Statement (1) alone already gives $x = 3$.  
+Statement (2) alone does not.  
+So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
 
 
 
