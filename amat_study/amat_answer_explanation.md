@@ -1013,6 +1013,39 @@ So combining is unnecessary.
 ---
 
 
+## Q24
+
+We’re asked: **Is $2x > 2y$?**
+
+---
+
+### Statement (1): $x > y$  
+- If $x > y$, then multiplying both sides by 2 (positive constant) gives $2x > 2y$.  
+- So the answer is **Yes**.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $3x > 3y$  
+- Divide both sides by 3 (positive constant): $x > y$.  
+- Same reasoning as above: $2x > 2y$.  
+- So the answer is **Yes**.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines the answer.  
+- Combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+
 
 
 

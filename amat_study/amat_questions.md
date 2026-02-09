@@ -835,10 +835,14 @@ of 2*?</h3>
 
 
 <h3>24- Is 2x > 2y?</h3>
-(1) x > y
-(2) 3x > 3y
--
-Answer is D
+
+(1) $x > y$
+
+(2) $3x > 3y$
+
+
+[explanation](./amat_answer_explanation.md#Q24)
+
 <fieldset> 
 
   <div>
@@ -854,13 +858,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
