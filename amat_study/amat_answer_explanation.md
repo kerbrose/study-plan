@@ -292,7 +292,7 @@ $[
 \text{Total cost} = 19k
 ]$
 
-But we don’t know \(k\).  
+But we don’t know $k$.  
 ❌ Statement (1) alone is **insufficient**.
 
 ---
@@ -305,7 +305,7 @@ $[
 \text{Total cost} = 18(k+1)
 ]$
 
-But we don’t know \(k\).  
+But we don’t know $k$.  
 ❌ Statement (2) alone is **insufficient**.
 
 ---
@@ -531,3 +531,498 @@ Even together, the statements are **not sufficient** to determine the sum of the
 
 ---
 
+## Q10
+
+### Statement (1)
+- $(101 < N < 103)$.  
+- Since $(N)$ is an integer, the only possible value is $(N = 102)$.  
+- **Sufficient.**
+
+### Statement (2)
+- $(202 < 2N < 206)$.  
+- Divide through by 2: $(101 < N < 103)$.  
+- Again, the only integer value is $(N = 102)$.  
+- **Sufficient.**
+
+### Combining
+- Each statement alone already determines $(N = 102)$.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+## Q11
+
+### Statement (1): $(a < c < e)$  
+- This only gives us a partial ordering among three of the numbers.  
+- We don’t know where $(b)$ and $(d)$ fit relative to them.  
+- So we cannot determine whether $(d)$ is the median.  
+- **Insufficient.**
+
+### Statement (2): $(b < d < c)$  
+- This gives us a partial ordering among three numbers.  
+- But again, we don’t know where $(a)$ and $(e)$ fit.  
+- So we cannot determine whether $(d)$ is the median.  
+- **Insufficient.**
+
+### Combining (1) and (2)  
+- From (1): $(a < c < e)$.  
+- From (2): $(b < d < c)$.  
+- Together we know: $(a < c < e)$ and $(b < d < c)$.  
+- So the combined order is: $(a, b, d, c, e)$ (with some flexibility between $(a)$ and $(b)$, since we don’t know which is smaller).  
+
+Now, the median of five numbers is the third number when arranged in ascending order.  
+- If $(a < b)$, the order is $(a, b, d, c, e)$. Median = $(d)$.  
+- If $(b < a)$, the order is $(b, a, d, c, e)$. Median = $(d)$.  
+
+In both cases, the median is indeed $(d)$.  
+- **Together, sufficient.**
+
+---
+
+### Correct Answer Choice:
+**(C)** — Both statements together are sufficient, but neither alone is sufficient.  
+
+---
+
+## Q12
+
+
+
+### Statement (1)  
+- $(n)$ is the product of two different prime numbers.  
+- So $(n = p \cdot q)$, where $(p)$ and $(q)$ are distinct primes.  
+- The number of positive divisors of $(n)$ is $((1+1)(1+1) = 4)$.  
+- Divisors are: $(1, p, q, pq)$.  
+- **Sufficient.**
+
+---
+
+### Statement (2)  
+- $(n)$ and $(2^3 = 8)$ are each divisible by the same number of positive integers.  
+- The number of divisors of 8 is 4 (since $(8 = 2^3)$, divisors count = $(3+1 = 4)$).  
+- So $(n)$ also has 4 divisors.  
+- The only integers with exactly 4 divisors are:  
+  - The cube of a prime $(p^3)$, divisors: $(1, p, p^2, p^3)$.  
+  - The product of two distinct primes $(p \cdot q)$, divisors: $(1, p, q, pq)$.  
+- In both cases, the number of divisors is 4.  
+- The question asks: “How many positive integers divide $(n)$?” → Answer is 4.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines the answer (4 divisors).  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+## Q13
+
+### Statement (1)  
+- The average of $(x, y, z)$ is 6.  
+- So $(\frac{x+y+z}{3} = 6 \implies x+y+z = 18)$.  
+- This relates the three variables but does not fix $(z)$.  
+- **Insufficient.**
+
+### Statement (2)  
+- $(x = -y)$.  
+- This gives a relationship between $(x)$ and $(y)$, but says nothing about $(z)$.  
+- **Insufficient.**
+
+### Combining (1) and (2)  
+- From (2): $(x = -y)$.  
+- Substitute into (1): $(x + y + z = 18 \implies (-y) + y + z = 18 \implies z = 18)$.  
+- So yes, $(z = 18)$.  
+- **Together, sufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(C)** — Both statements together are sufficient, but neither alone is sufficient.  
+
+---
+
+## Q14
+
+### Statement (1)  
+- Elena’s monthly salary = \$1,000.  
+- But we don’t know her commission (depends on sales revenue).  
+- **Insufficient.**
+
+### Statement (2)  
+- Commission = 5% of sales revenue.  
+- But we don’t know her salary or her sales revenue.  
+- **Insufficient.**
+
+### Combining (1) and (2)  
+- Salary = \$1,000.  
+- Commission = 5% of sales revenue.  
+- $Total = (1000 + 0.05 \times \text{sales revenue})$.  
+- Without knowing sales revenue, we cannot calculate the total.  
+- **Still insufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(E)** — Statements (1) and (2) together are not sufficient.  
+
+---
+
+
+## Q15
+
+---
+
+### Statement (1)  
+- $(S)$ consists of five consecutive integers.  
+- We’re told 11 is in $(S)$, but 10 is not.  
+- That means the set must be $(11, 12, 13, 14, 15)$.  
+- Sum = $(11 + 12 + 13 + 14 + 15 = 65)$.  
+- **Sufficient.**
+
+---
+
+### Statement (2)  
+- The sum of the even integers in $(S)$ is 26.  
+- In any set of five consecutive integers, there are either 2 or 3 even numbers.  
+- Let’s test:  
+  - If the set is $(9, 10, 11, 12, 13)$, evens = $(10 + 12 = 22)$. Not 26.  
+  - If the set is $(10, 11, 12, 13, 14)$, evens = $(10 + 12 + 14 = 36)$. Not 26.  
+  - If the set is $(11, 12, 13, 14, 15)$, evens = $(12 + 14 = 26)$. Matches.  
+- So the set must be $(11, 12, 13, 14, 15)$.  
+- Sum = 65.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines the sum.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+## Q16
+
+
+### Statement (1)  
+- The volume of cube $(A)$ is 160% of the volume of cube $(B)$.  
+- That means $(V_A = 1.6 \cdot V_B)$.  
+- Clearly, $(V_A > V_B)$.  
+- **Sufficient.**
+
+---
+
+### Statement (2)  
+- The volume of cube $(B)$ is 62.5% of the volume of cube $(A)$.  
+- That means $(V_B = 0.625 \cdot V_A)$.  
+- Equivalently, $(V_A = 1.6 \cdot V_B)$.  
+- Again, $(V_A > V_B)$.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines that cube $(A)$’s volume is greater.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+## Q17
+
+
+We’re asked: **What is the value of $(m)$ if $(m = \frac{4c}{5d})$ and $(d \neq 0)$?**
+
+---
+
+### Statement (1): $c = 10d$  
+- Substitute into $(m = \frac{4c}{5d})$:  
+  $[m = \frac{4(10d)}{5d} = \frac{40d}{5d} = 8]$  
+- This gives a unique value for $(m)$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $(c = 2)$  
+- Substitute into $(m = \frac{4c}{5d})$:  
+$[m = \frac{4(2)}{5d} = \frac{8}{5d}]$  
+- Since $(d)$ is not specified (only that $(d \neq 0)$), $(m)$ cannot be uniquely determined.  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+- From (2): $(c = 2)$.  
+- From (1): $(c = 10d)$.  
+- So $(10d = 2 \implies d = 0.2)$.  
+- But the problem specifies $(d)$ is an integer (since $(n)$ and divisibility context earlier implied integer treatment). If we assume $(d)$ must be an integer, this is a contradiction.  
+- If $(d)$ is allowed to be non-integer, then $(d = 0.2)$ works, and $(m = \frac{4(2)}{5(0.2)} = \frac{8}{1} = 8)$.  
+- Either way, the two statements together force $(m = 8)$.  
+- **Sufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+
+## Q18
+
+We want: **the value of $(2x - y)$.**
+
+---
+
+### Statement (1): $(x + y = 12)$  
+- This gives a relationship between $(x)$ and $(y)$.  
+- But we cannot directly determine $(2x - y)$.  
+- **Insufficient.**
+
+---
+
+### Statement (2): $(x - y = 4)$  
+- This gives another relationship between $(x)$ and $(y)$.  
+- But again, not enough to determine $(2x - y)$.  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+We have the system:  
+$[x + y = 12 \quad (1)]$  
+$[x - y = 4 \quad (2)]$
+
+Add them:  
+$[2x = 16 \implies x = 8]$  
+Substitute into (1):  
+$[8 + y = 12 \implies y = 4]$
+
+Now compute:  
+$[2x - y = 2(8) - 4 = 16 - 4 = 12]$
+
+So the value is uniquely determined: $(2x - y = 12)$.  
+- **Together, sufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(C)** — Both statements together are sufficient, but neither alone is sufficient.  
+
+---
+
+
+## Q19
+
+
+We want: **the ratio of $(c)$ to $(d)$.**
+
+---
+
+### Statement (1)  
+- The ratio of $(3c)$ to $(3d)$ is $(3:4)$.  
+- That means $(\frac{3c}{3d} = \frac{3}{4} \implies \frac{c}{d} = \frac{3}{4})$.  
+- So the ratio of $(c)$ to $(d)$ is uniquely determined.  
+- **Sufficient.**
+
+---
+
+### Statement (2)  
+- The ratio of $(c+3)$ to $(d+3)$ is $(4:5)$.  
+- So $(\frac{c+3}{d+3} = \frac{4}{5})$.  
+- Cross multiply: $(5(c+3) = 4(d+3))$.  
+- Simplify: $(5c + 15 = 4d + 12 \implies 5c = 4d - 3)$.  
+- This gives a linear relationship between $(c)$ and $(d)$, but not a fixed ratio.  
+- For example, if $(d=3)$, then $(c=1)$ → ratio $(1:3)$. If $(d=7)$, then $(c=5)$ → ratio $(5:7)$.  
+- Different possible ratios.  
+- **Insufficient.**
+
+---
+
+### Combining  
+- Statement (1) alone already determines the ratio uniquely $(3:4)$.  
+- Statement (2) is not needed.  
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+## Q20
+
+We want the value of $x$.
+
+---
+
+### Statement (1): $x + 1 = 2 - 3x$  
+$x + 1 = 2 - 3x \implies 4x = 1 \implies x = \tfrac{1}{4}$  
+This gives a unique value for $x$.  
+**Sufficient.**
+
+---
+
+### Statement (2): $\frac{1}{2x} = 2$  
+$\frac{1}{2x} = 2 \implies 1 = 4x \implies x = \tfrac{1}{4}$  
+Again, this gives a unique value for $x$.  
+**Sufficient.**
+
+---
+
+### Combining  
+Each statement alone already determines $x = \tfrac{1}{4}$.  
+So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+## Q21
+We’re asked: **Which of the positive numbers $x$ or $y$ is greater?**
+
+---
+
+### Statement (1): $y = 2x$  
+- Since both are positive, $y$ is always twice $x$.  
+- That means $y > x$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $2x + 5y = 12$  
+- This is one equation with two unknowns.  
+- For example:  
+  - If $x=1, y=2$, then $2(1)+5(2)=12$. Here $y > x$.  
+  - If $x=2.5, y=1.5$, then $2(2.5)+5(1.5)=12$. Here $x > y$.  
+- So depending on the values, either $x$ or $y$ could be greater.  
+- **Insufficient.**
+
+---
+
+### Combining  
+- Statement (1) alone already determines that $y > x$.  
+- Statement (2) is not needed.
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+
+## Q22
+
+We’re asked: **What is the value of $2^*$ if $x^* = ax + a$, where $a$ is a constant?**
+
+---
+
+### Statement (1): $3^* = 2$  
+By definition:  
+$3^* = a(3) + a = 3a + a = 4a$  
+So $4a = 2 \implies a = \tfrac{1}{2}$.  
+Now compute:  
+$2^* = a(2) + a = 2a + a = 3a = 3 \cdot \tfrac{1}{2} = \tfrac{3}{2}$  
+Unique value found.  
+**Sufficient.**
+
+---
+
+### Statement (2): $5^* = 3$  
+By definition:  
+$5^* = a(5) + a = 5a + a = 6a$  
+So $6a = 3 \implies a = \tfrac{1}{2}$.  
+Now compute:  
+$2^* = 2a + a = 3a = 3 \cdot \tfrac{1}{2} = \tfrac{3}{2}$  
+Unique value found.  
+**Sufficient.**
+
+---
+
+### Combining  
+Each statement alone already determines $2^* = \tfrac{3}{2}$.  
+So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+## Q52
+
+We want: **the amount Elena spent on newspapers** given her total spending was \$720.
+
+---
+
+### Statement (1)  
+- Magazines = 80% of books.  
+- So if books = $(B)$, magazines = $(0.8B)$.  
+- Newspapers = $(N)$.  
+- Total: $(N + B + 0.8B = 720 \implies N + 1.8B = 720)$.  
+- Two unknowns, one equation. Cannot solve for $(N)$.  
+- **Insufficient.**
+
+---
+
+### Statement (2)  
+- Newspapers = 60% of (magazines + books).  
+- So $N = 0.6(M + B)$.  
+- Total: $N + M + B = 720$.  
+- Substitute: $0.6(M+B) + (M+B) = 720 \implies 1.6(M+B) = 720$.  
+- So $M+B = 450$.  
+- Then $N = 0.6(450) = 270$.  
+- Unique value for newspapers.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Statement (2) alone already gives the answer.  
+- Statement (1) is not needed.
+
+---
+
+### Correct Answer Choice:  
+**(B)** — Statement (2) alone is sufficient, but statement (1) alone is not.  
+
+---

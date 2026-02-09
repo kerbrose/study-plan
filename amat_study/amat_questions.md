@@ -2,9 +2,9 @@
 
 <h3>1- Is zw positive?</h3>
 
-(1) z + w^3 = 20
+(1) $z + w^3 = 20$
 
-(2) z is positive
+(2) $z$ is positive
 
 [explanation](./amat_answer_explanation.md#Q1)
 
@@ -29,9 +29,7 @@
   </div>
 
   <div>
-    <mark>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient.</mark>
   </div>
 
 </fieldset>
@@ -319,6 +317,8 @@ mean) of the last two preceding terms.
 
 (2) The average (arithmetic mean) of the first three terms of S is 10.
 
+[explanation](./amat_answer_explanation.md#Q9)
+
 <fieldset> 
 
   <div>
@@ -347,10 +347,47 @@ mean) of the last two preceding terms.
 
 
 <h3>10- What is the value of the integer N?</h3>
-(1) 101<N<103
-(2) 202<2N<206
--
-Answer is D
+
+(1) $101 < N < 103$
+
+(2) $202 < 2N < 206$
+
+[explanation](./amat_answer_explanation.md#Q10)
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (D) EACH statement ALONE is sufficient.
+    </mark>
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+
+<h3>11-Is the median of the five numbers a, b, c, d and e equal to d?</h3>
+
+(1) $a < c < e$
+
+(2) $b < d < c$
+
+[explanation](./amat_answer_explanation.md#Q11)
+
 <fieldset> 
 
   <div>
@@ -377,12 +414,14 @@ Answer is D
   
 </fieldset>
 
+<h3>12- If n is an integer, then n is divisible by how many positive integers?</h3>
 
-<h3>11-Is the median of the five numbers a,b,c,d and e equal to d?</h3>
-(1) a<c<e
-(2) b<d<c
--
-Answer is E
+(1) $n$ is the product of two different prime numbers.
+
+(2) $n$ and $2^3$ are each divisible by the same number of positive integers.
+
+[explanation](./amat_answer_explanation.md#Q12)
+
 <fieldset> 
 
   <div>
@@ -398,22 +437,26 @@ Answer is E
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
-<h3>12-If n is an integer, then n is divisible by how many positive integers?</h3>
-(1) n is the product of two different prime numbers.
-(2) n and 2^3 are each divisible by the same number of positive integers.
--
-Answer is D
+
+<h3>13- If x, y, and z are numbers, is z = 18 ?</h3>
+
+(1) The average (arithmetic mean) of $x$, $y$, and $z$ is 6.
+
+(2) $x = -y$
+
+[explanation](./amat_answer_explanation.md#Q13)
+
 <fieldset> 
 
   <div>
@@ -425,7 +468,9 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -433,52 +478,21 @@ Answer is D
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
 
-<h3>13-If x, y, and z are numbers, is z = 18 ?</h3>
-(1) The average (arithmetic mean) of x, y, and z is 6.
-(2) x = -y
--
-Answer is C
-<fieldset> 
-
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
-
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
-
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
-
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
-
-  <div>
-    <mark>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
-  </div>
-  
-</fieldset>
-
-
-<h3>14-Elena receives a salary plus a commission that is equal to a fixed percentage of her sales
+<h3>14- Elena receives a salary plus a commission that is equal to a fixed percentage of her sales
 revenue. What was the total of Elena's salary and commission last month?</h3>
+
 (1) Elena's monthly salary is $1 ,000.
+
 (2) Elena's commission is 5 percent of her sales revenue.
--
-Answer is E
+
+[explanation](./amat_answer_explanation.md#Q14)
+
 <fieldset> 
 
   <div>
@@ -505,13 +519,13 @@ Answer is E
   
 </fieldset>
 
-<h3>15-
-.
-If the set S consists of five consecutive positive integers, what is the sum of these five integers?</h3>
-(1) The integer 11 is in S, but 10 is not in S
-(2) The sum of the even integers in S is 26
--
-Answer is D
+<h3>15- If the set S consists of five consecutive positive integers, what is the sum of these five integers?</h3>
+
+(1) The integer 11 is in $S$, but 10 is not in $S$
+
+(2) The sum of the even integers in $S$ is 26
+
+[explanation](./amat_answer_explanation.md#Q15)
 <fieldset> 
 
   <div>
@@ -527,23 +541,26 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
 
-<h3>16 Is the volume of cube A greater than the volume of cube B?</h3>
-1) The volume of cube A is 160 percent of the volume of cube B.
-2) The volume of cube B is 62.5 percent of the volume of cube A.
--
-Answer is D
+<h3>16- Is the volume of cube A greater than the volume of cube B?</h3>
+
+1) The volume of cube $A$ is 160 percent of the volume of cube $B$.
+2) The volume of cube $B$ is 62.5 percent of the volume of cube $A$.
+
+
+[explanation](./amat_answer_explanation.md#Q16)
+
 <fieldset> 
 
   <div>
@@ -559,27 +576,30 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
 
-<h3>17- What is the value of m if m = 4c 5d and d is not equal to zero?</h3>
-1) c = 10d
-2) c = 2
--
-Answer is A
-<fieldset> 
+<h3>17- What is the value of m if m = 4c / 5d and d is not equal to zero?</h3>
 
+1) $c = 10d$
+2) $c = 2$
+
+[explanation](./amat_answer_explanation.md#Q17)
+
+<fieldset> 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -595,23 +615,60 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
 
 <h3>18- What is the value of 2x - y?</h3>
-1) x + y = 12
-2) x - y = 4
--
-Answer is C
+
+1) $x + y = 12$
+2) $x - y = 4$
+
+[explanation](./amat_answer_explanation.md#Q18)
+
 <fieldset> 
 
   <div>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+
+<h3>19- What is the ratio of c to d?</h3>
+
+(1) The ratio of $3c$ to $3d$ is 3 to 4.
+
+(2) The ratio of $c + 3$ to $d +3$ is 4 to 5.
+
+[explanation](./amat_answer_explanation.md#Q19)
+
+<fieldset> 
+
+  <div>
+    <mark>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -627,85 +684,20 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
-
-<h3>19-What is the ratio of c to d?</h3>
-(1) The ratio of 3c to 3d is 3 to 4.
-(2) The ratio of c + 3 to d +3 is 4 to 5.
--
-Answer is A
-<fieldset> 
-
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
-
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
-
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
-
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
-
-  <div>
-    <mark>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
-  </div>
-  
-</fieldset>
-
-<h3>52 Last year, if Elena spent a total of $720 on newspapers, magazines, and books, what amount
-did she spend on newspapers?</h3>
-(1)Last year, the amount that Elena spent on magazines was 80 percent of the amount that she
-spent on books.
-(2)Last year, the amount that Elena spent on newspapers was 60 percent of the total amount
-that she spent on magazines and books.
--
-Answer is B
-<fieldset> 
-
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
-
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
-
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
-
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
-
-  <div>
-    <mark>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
-  </div>
-  
-</fieldset>
 
 
 <h3>20- What is the value of x?</h3>
-(1) x + 1 = 2 - 3x
-(2) 1/(2x) = 2
--
-Answer is D
+(1) $x + 1 = 2 - 3x$
+
+(2) $1/(2x) = 2$
+
+[explanation](./amat_answer_explanation.md#Q20)
+
 <fieldset> 
 
   <div>
@@ -721,27 +713,32 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
 
 <h3>21- Which of the positive numbers x or y is greater?</h3>
-(1) y = 2x
-(2) 2x + 5y = 12
--
-Answer is A
+
+(1) $y = 2x$
+
+(2) $2x + 5y = 12$
+
+[explanation](./amat_answer_explanation.md#Q21)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -757,9 +754,7 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
@@ -767,10 +762,14 @@ Answer is A
 
 <h3>22- For all x, the expression x* is defined to be ax+ a, where a is a constant. What is the value
 of 2*?</h3>
-(1) 3*=2
-(2) 5*=3
--
-Answer is D
+
+(1) $3*=2$
+
+(2) $5*=3$
+
+[explanation](./amat_answer_explanation.md#Q22)
+
+
 <fieldset> 
 
   <div>
@@ -786,13 +785,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
@@ -1736,6 +1735,44 @@ Answer is E
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
     </mark>
+  </div>
+  
+</fieldset>
+
+
+<h3>52- Last year, if Elena spent a total of $720 on newspapers, magazines, and books, what amount
+did she spend on newspapers?</h3>
+
+(1)Last year, the amount that Elena spent on magazines was 80 percent of the amount that she
+spent on books.
+
+(2)Last year, the amount that Elena spent on newspapers was 60 percent of the total amount
+that she spent on magazines and books.
+
+[explanation](./amat_answer_explanation.md#Q52)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+    </mark>
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
   </div>
   
 </fieldset>
