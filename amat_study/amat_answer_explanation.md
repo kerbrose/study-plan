@@ -1127,6 +1127,42 @@ So the dealership has **59 cars**.
 
 ---
 
+## Q27
+
+We’re asked: **If $x$ is a positive integer, what is the value of $x$?**
+
+---
+
+### Statement (1): $x^2 = \sqrt{x}$  
+- Rewrite: $x^2 = x^{1/2}$.  
+- So $x^{3/2} = 1 \implies x^{3} = 1$.  
+- Thus $x = 1$.  
+- Since $x$ is a positive integer, the only solution is $x=1$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $\frac{n}{x} = n$ and $n \neq 0$  
+- Divide both sides by $n$: $\frac{1}{x} = 1$.  
+- So $x = 1$.  
+- Unique value.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Each statement alone already determines $x = 1$.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(D)** — Each statement alone is sufficient.  
+
+---
+
+
+
 
 
 

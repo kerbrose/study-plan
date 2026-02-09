@@ -941,11 +941,13 @@ be sold?</h3>
 </fieldset>
 
 
-<h3>27- If x is a positive integer, what is the value of x ?</h3>
-(1) x^2=√x
-(2) n/x = n and n ≠ 0
--
-Answer is D
+  <h3>27- If x is a positive integer, what is the value of x ?</h3>
+
+  (1) $x^2=√x$
+
+  (2) $n/x = n$ and $n ≠ 0$
+
+[explanation](./amat_answer_explanation.md#Q27)
 <fieldset> 
 
   <div>
@@ -961,13 +963,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
