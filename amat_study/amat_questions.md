@@ -280,9 +280,11 @@ attended the dinner, each of the k +1 employees would have paid $18.
 
 <h3>8- What was the amount of money donated to a certain charity?</h3>
 (1) Of the amount donated, 40 percent came from corporate donations.
+
 (2) Of the amount donated, $1.5 million came from noncorporate donations.
--
-Answer is C
+
+[explanation](./amat_answer_explanation.md#Q8)
+
 <fieldset> 
 
   <div>
@@ -294,7 +296,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -302,9 +306,7 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>

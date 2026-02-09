@@ -474,4 +474,27 @@ Correct choice: **C** (Both statements together are sufficient, but neither alon
 
 ---
 
-Would you like me to show you a **matrix shortcut** for solving these paired linear equations quickly, so you can avoid substitution in DS problems?
+
+## Q8
+
+This is a **Data Sufficiency problem**. Let’s carefully analyze:
+
+### Statement (1)
+- 40% of the total donations came from corporate sources.
+- This tells us the proportion but not the actual amount.  
+- Alone, it’s insufficient.
+
+### Statement (2)
+- $1.5 million came from noncorporate donations.
+- This gives us a dollar amount, but not the total.  
+- Alone, it’s insufficient.
+
+### Combining (1) and (2)
+- If 40% came from corporate donations, then 60% came from noncorporate donations.
+- Statement (2) says noncorporate donations = $1.5 million.
+- So, 60% of the total = $1.5 million.
+- Total donations = $(\frac{1.5}{0.6} = 2.5)$ million.
+
+✅ Together, the statements are sufficient to determine the total amount donated: **$2.5 million**.
+
+---
