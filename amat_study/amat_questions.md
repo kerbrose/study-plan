@@ -319,6 +319,8 @@ mean) of the last two preceding terms.
 
 (2) The average (arithmetic mean) of the first three terms of S is 10.
 
+[explanation](./amat_answer_explanation.md#Q9)
+
 <fieldset> 
 
   <div>
@@ -347,10 +349,12 @@ mean) of the last two preceding terms.
 
 
 <h3>10- What is the value of the integer N?</h3>
-(1) 101<N<103
-(2) 202<2N<206
--
-Answer is D
+
+(1) $101 < N < 103$
+
+(2) $202 < 2N < 206$
+
+[explanation](./amat_answer_explanation.md#Q10)
 <fieldset> 
 
   <div>
@@ -366,13 +370,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>

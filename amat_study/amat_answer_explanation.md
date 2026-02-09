@@ -531,3 +531,26 @@ Even together, the statements are **not sufficient** to determine the sum of the
 
 ---
 
+## Q 10
+
+### Statement (1)
+- $(101 < N < 103)$.  
+- Since $(N)$ is an integer, the only possible value is $(N = 102)$.  
+- **Sufficient.**
+
+### Statement (2)
+- $(202 < 2N < 206)$.  
+- Divide through by 2: $(101 < N < 103)$.  
+- Again, the only integer value is $(N = 102)$.  
+- **Sufficient.**
+
+### Combining
+- Each statement alone already determines $(N = 102)$.  
+- So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:
+**(D)** — Each statement alone is sufficient.  
+
+---
