@@ -726,14 +726,19 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 
 
 <h3>21- Which of the positive numbers x or y is greater?</h3>
-(1) y = 2x
-(2) 2x + 5y = 12
--
-Answer is A
+
+(1) $y = 2x$
+
+(2) $2x + 5y = 12$
+
+[explanation](./amat_answer_explanation.md#Q21)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -749,9 +754,7 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
