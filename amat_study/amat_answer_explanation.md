@@ -746,3 +746,43 @@ In both cases, the median is indeed $(d)$.
 **(D)** — Each statement alone is sufficient.  
 
 ---
+
+## Q17
+
+
+We’re asked: **What is the value of $(m)$ if $(m = \frac{4c}{5d})$ and $(d \neq 0)$?**
+
+---
+
+### Statement (1): \(c = 10d\)  
+- Substitute into $(m = \frac{4c}{5d})$:  
+  $[m = \frac{4(10d)}{5d} = \frac{40d}{5d} = 8]$  
+- This gives a unique value for $(m)$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $(c = 2)$  
+- Substitute into $(m = \frac{4c}{5d})$:  
+$[m = \frac{4(2)}{5d} = \frac{8}{5d}]$  
+- Since $(d)$ is not specified (only that $(d \neq 0)$), $(m)$ cannot be uniquely determined.  
+- **Insufficient.**
+
+---
+
+### Combining (1) and (2)  
+- From (2): $(c = 2)$.  
+- From (1): $(c = 10d)$.  
+- So $(10d = 2 \implies d = 0.2)$.  
+- But the problem specifies $(d)$ is an integer (since $(n)$ and divisibility context earlier implied integer treatment). If we assume $(d)$ must be an integer, this is a contradiction.  
+- If $(d)$ is allowed to be non-integer, then $(d = 0.2)$ works, and $(m = \frac{4(2)}{5(0.2)} = \frac{8}{1} = 8)$.  
+- Either way, the two statements together force $(m = 8)$.  
+- **Sufficient.**
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+

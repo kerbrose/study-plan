@@ -2,9 +2,9 @@
 
 <h3>1- Is zw positive?</h3>
 
-(1) z + w^3 = 20
+(1) $z + w^3 = 20$
 
-(2) z is positive
+(2) $z$ is positive
 
 [explanation](./amat_answer_explanation.md#Q1)
 
@@ -29,9 +29,7 @@
   </div>
 
   <div>
-    <mark>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient.</mark>
   </div>
 
 </fieldset>
@@ -562,6 +560,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 
 
 [explanation](./amat_answer_explanation.md#Q16)
+
 <fieldset> 
 
   <div>
@@ -589,15 +588,18 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
 </fieldset>
 
 
-<h3>17- What is the value of m if m = 4c 5d and d is not equal to zero?</h3>
-1) c = 10d
-2) c = 2
--
-Answer is A
-<fieldset> 
+<h3>17- What is the value of m if m = 4c / 5d and d is not equal to zero?</h3>
 
+1) $c = 10d$
+2) $c = 2$
+
+[explanation](./amat_answer_explanation.md#Q17)
+
+<fieldset> 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -613,9 +615,7 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
