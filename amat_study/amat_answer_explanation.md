@@ -106,3 +106,169 @@ Each statement alone is sufficient.
 Correct choice: **D** (Each statement alone is sufficient).
 
 ---
+
+
+## Q3
+
+
+### Problem Restatement
+Ann saves $(x)$ dollars per week, Beth saves $(y)$ dollars per week.  
+We want the **total amount saved per week**:  
+$[
+x + y
+]$
+
+---
+
+### Step 1: Analyze Statement (1)
+Beth saves $5 more than Ann:  
+$[
+y = x + 5
+]$
+
+So total savings:  
+$[
+x + y = x + (x+5) = 2x + 5
+]$
+
+We don’t know $(x)$.  
+❌ Statement (1) alone is **insufficient**.
+
+---
+
+### Step 2: Analyze Statement (2)
+Ann saves in 6 weeks what Beth saves in 5 weeks:  
+$[
+6x = 5y \quad \Rightarrow \quad y = \tfrac{6}{5}x
+]$
+
+So total savings:  
+$[
+x + y = x + \tfrac{6}{5}x = \tfrac{11}{5}x
+]$
+
+We don’t know $(x)$.  
+❌ Statement (2) alone is **insufficient**.
+
+---
+
+### Step 3: Combine Statements (1) and (2)
+From (1): $(y = x + 5)$.  
+From (2): $(y = \tfrac{6}{5}x)$.  
+
+Set equal:  
+$[
+x + 5 = \tfrac{6}{5}x
+]$
+
+Multiply through:  
+$[
+5x + 25 = 6x \quad \Rightarrow \quad x = 25
+]$
+
+Then:  
+$[
+y = x + 5 = 30
+]$
+
+So total savings:  
+$[
+x + y = 25 + 30 = 55
+]$
+
+✅ Together, the statements are **sufficient**.
+
+---
+
+### Final Answer
+Correct choice: **C** (Both statements together are sufficient, but neither alone is sufficient).
+
+---
+
+
+
+Q4
+
+### Problem Restatement
+We know:
+$[
+\text{Total price of } n \text{ shares} = 12{,}000
+]$
+So:
+$[
+\text{Price per share} = \frac{12{,}000}{n}
+]$
+
+We want the price per share.
+
+---
+
+### Step 1: Analyze Statement (1)
+If the price per share had been $1 more, the total price would have been $300 more.
+
+Let price per share = $(p)$.  
+So:
+$[
+n \cdot (p+1) = 12{,}000 + 300 = 12{,}300
+]$
+
+But we also know:
+$[
+n \cdot p = 12{,}000
+]$
+
+Subtract:
+$[
+n(p+1) - np = 12{,}300 - 12{,}000
+]$
+$[
+n = 300
+]$
+
+So:
+$[
+p = \frac{12{,}000}{300} = 40
+]$
+
+✅ Statement (1) alone is **sufficient**.
+
+---
+
+### Step 2: Analyze Statement (2)
+If the price per share had been $2 less, the total price would have been 5% less.
+
+So:
+$[
+n(p-2) = 0.95 \cdot 12{,}000 = 11{,}400
+]$
+
+But we also know:
+$[
+np = 12{,}000
+]$
+
+Subtract:
+$[
+np - n(p-2) = 12{,}000 - 11{,}400
+]$
+$[
+2n = 600 \quad \Rightarrow \quad n = 300
+]$
+
+So:
+$[
+p = \frac{12{,}000}{300} = 40
+]$
+
+✅ Statement (2) alone is **sufficient**.
+
+---
+
+### Step 3: Combine Statements
+Each statement alone already gives the answer, so combining is unnecessary.
+
+---
+
+### Final Answer
+Correct choice: **D** (Each statement alone is sufficient).
+

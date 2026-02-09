@@ -6,7 +6,7 @@
 
 (2) z is positive
 
-[explanation](./amat_answer_explanations.md#Q1)
+[explanation](./amat_answer_explanation.md#Q1)
 
 ----
 
@@ -45,6 +45,8 @@ how many of the computers are Brand Y?</h3>
 (1) There are 80 more Brand X computers than Brand Y computers at the company.
 
 (2) There is a total of 880 computers at the company.
+
+[explanation](./amat_answer_explanation.md#Q2)
 
 ----
 
@@ -86,6 +88,8 @@ that they save per week?</h3>
 (2) It takes Ann 6 weeks to save the same amount that Beth saves in 5 weeks
 
 
+[explanation](./amat_answer_explanation.md#Q3)
+
 ----
 
 <fieldset> 
@@ -118,12 +122,15 @@ that they save per week?</h3>
 
 <h3>4- If the total price of n equally priced shares of a certain stock was $12,000, what was the price
 per share of the stock?</h3>
+
 (1) If the price per share of the stock had been $1 more, the total price of the n shares would
 have been $300 more.
+
 (2) If the price per share of the stock had been $2 less, the total price of the n shares would have
 been 5 percent less.
--
-Answer is D
+
+[explanation](./amat_answer_explanation.md#Q4)
+
 <fieldset> 
 
   <div>
@@ -139,13 +146,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
