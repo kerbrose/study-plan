@@ -1459,7 +1459,41 @@ The product of two numbers that are both greater than  will **always** be greate
 
 **Correct Answer: C**
 
-Would you like me to walk through another Data Sufficiency problem involving inequalities?
+---
+
+## Q35
+
+We’re asked: **At what rate, in gallons per minute, is the amount of water in the tank increasing?**
+
+---
+
+### Statement (1):  
+- The amount of water initially in the tank is 200 gallons.  
+- This tells us the starting volume, but not the rates of inflow or outflow.  
+- Without rates, we cannot determine the net change per minute.  
+- **Insufficient.**
+
+---
+
+### Statement (2):  
+- Inflow rate = 10 gallons/minute.  
+- Outflow rate = 10 gallons every 2.5 minutes = $ \tfrac{10}{2.5} = 4 $ gallons/minute.  
+- Net rate = $10 - 4 = 6$ gallons/minute (increasing).  
+- This directly answers the question.  
+- **Sufficient.**
+
+---
+
+### Combining  
+- Statement (2) alone already gives the net rate.  
+- Statement (1) is irrelevant for the rate question.  
+
+---
+
+### Correct Answer Choice:  
+**(B)** — Statement (2) alone is sufficient, but statement (1) alone is not.  
+
+---
 
 
 

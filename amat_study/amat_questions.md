@@ -1259,14 +1259,17 @@ kilometer = 1000 meter)</h3>
 </fieldset>
 
 
-<h3>35 Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the
+<h3>35- Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the
 same time, water is pumped out of the tank at a constant rate through an outlet pipe. At what
 rate, in gallons per minute, is the amount of water in the tank increasing?</h3>
+
 1) The amount of water initially in the tank is 200 gallons.
-2)Water is pumped into the tank at a rate of 10 gallons per minute and out of the tank at a rate
+
+2) Water is pumped into the tank at a rate of 10 gallons per minute and out of the tank at a rate
 of 10 gallons every 2 and half minutes.
--
-Answer is B
+
+[explanation](./amat_answer_explanation.md#Q35)
+
 <fieldset> 
 
   <div>
@@ -1274,7 +1277,9 @@ Answer is B
   </div>
 
   <div>
+    <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1286,9 +1291,7 @@ Answer is B
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
