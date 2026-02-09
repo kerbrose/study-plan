@@ -345,3 +345,55 @@ $[
 Correct choice: **C** (Both statements together are sufficient, but neither alone is sufficient).
 
 ---
+
+
+Q6
+
+### Problem Restatement
+We want the value of $(y)$, given that $(x)$ and $(y)$ are integers.
+
+---
+
+### Step 1: Statement (1) Alone
+$[
+xy = 27
+]$
+
+Possible integer factor pairs of 27:  
+$((x,y) = (1,27), (27,1), (3,9), (9,3), (-1,-27), (-27,-1), (-3,-9), (-9,-3))$.
+
+So $(y)$ could be many values.  
+❌ Statement (1) alone is **insufficient**.
+
+---
+
+### Step 2: Statement (2) Alone
+$[
+x = y^2
+]$
+
+This only relates $(x)$ and $(y)$. But without more information, $(y)$ could be many integers (positive or negative).  
+❌ Statement (2) alone is **insufficient**.
+
+---
+
+### Step 3: Combine Statements (1) and (2)
+From (2): $(x = y^2)$.  
+Plug into (1):  
+$[
+y^2 \cdot y = 27 \quad \Rightarrow \quad y^3 = 27
+]$
+
+So:  
+$[
+y = 3
+]$
+
+✅ Together, the statements are **sufficient**.
+
+---
+
+### Final Answer
+Correct choice: **C** (Both statements together are sufficient, but neither alone is sufficient).
+
+---

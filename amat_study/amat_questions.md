@@ -203,9 +203,13 @@ attended the dinner, each of the k +1 employees would have paid $18.
 
 <h3>6- If x and y are integers, what is the value of y ?</h3>
 (1) xy = 27
+
 (2) x = y^2
--
-Answer is C
+
+[explanation](./amat_answer_explanation.md#Q6)
+
+----
+
 <fieldset> 
 
   <div>
@@ -217,7 +221,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -225,13 +231,12 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>7- What is the average (arithmetic mean) of x and y?</h3>
 (1) The average of x and 2y is 10.
