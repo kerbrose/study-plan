@@ -1148,15 +1148,22 @@ kilometer = 1000 meter)</h3>
   
 </fieldset>
 
+----
+
 <h3>32- Is the integer n a prime number?</h3>
-(1) 24 ≤ n ≤ 28
-(2) n is not divisible by 2 or 3
--
-Answer is A
+
+(1) $24 ≤ n ≤ 28$
+
+(2) $n$ is not divisible by 2 or 3
+
+[explanation](./amat_answer_explanation.md#Q32)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1172,9 +1179,7 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
