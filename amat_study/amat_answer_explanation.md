@@ -2206,7 +2206,55 @@ The correct answer is **B**.
 
 
 ---
+
 ## Q51
+
+We want: **Gross revenues from ticket sales during the second week.**
+
+---
+
+### Step 1: Define variables  
+- Let $W_1$ = revenues in week 1.  
+- Let $W_2$ = revenues in week 2.  
+- Let $W_3$ = revenues in week 3.  
+- We want $W_2$.
+
+---
+
+### Statement (1):  
+*Gross revenues during the second week were $1.5 million less than during the first week.*  
+
+$W_2 = W_1 - 1.5$
+
+This gives a relationship, but not the actual value of $W_2$, since $W_1$ is unknown.  
+**Insufficient.**
+
+---
+
+### Statement (2):  
+*Gross revenues during the third week were $2.0 million less than during the first week.*  
+
+$W_3 = W_1 - 2.0$
+
+This gives a relationship between $W_3$ and $W_1$, but nothing about $W_2$.  
+**Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (1): $W_2 = W_1 - 1.5$.  
+- From (2): $W_3 = W_1 - 2.0$.  
+- We now know both $W_2$ and $W_3$ in terms of $W_1$.  
+- But we still don’t know the actual value of $W_1$.  
+- Without a numerical value for $W_1$, we cannot determine $W_2$.  
+**Still insufficient.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are not sufficient.**  
+That corresponds to **Answer Choice E** in GMAT-style Data Sufficiency.
+
 
 
 ---
