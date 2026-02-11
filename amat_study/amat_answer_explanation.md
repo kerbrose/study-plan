@@ -765,7 +765,7 @@ We’re asked: **What is the value of $(m)$ if $(m = \frac{4c}{5d})$ and $(d \ne
 ### Statement (2): $(c = 2)$  
 - Substitute into $(m = \frac{4c}{5d})$:  
 $[m = \frac{4(2)}{5d} = \frac{8}{5d}]$  
-- Since $(d)$ is not specified (only that $(d \neq 0)$), $(m)$ cannot be uniquely determined.  
+- Since $(d)$ is not specified (only that $d \neq 0$), $(m)$ cannot be uniquely determined.  
 - **Insufficient.**
 
 ---
@@ -1494,6 +1494,766 @@ We’re asked: **At what rate, in gallons per minute, is the amount of water in 
 **(B)** — Statement (2) alone is sufficient, but statement (1) alone is not.  
 
 ---
+
+## Q36
+
+We’re asked: **Is $x$ a negative number?**
+
+---
+
+### Statement (1): $9x > 10x$  
+$9x > 10x \implies -x > 0 \implies x < 0$  
+So $x$ is definitely negative.  
+**Sufficient.**
+
+---
+
+### Statement (2): $x + 3$ is positive  
+$x + 3 > 0 \implies x > -3$  
+Since $x$ could be positive (e.g., $x=5$) or negative (e.g., $x=-2$), we cannot determine whether $x$ is negative.  
+**Insufficient.**
+
+---
+
+### Combining  
+Statement (1) alone already answers the question.  
+Statement (2) alone does not.  
+So combining is unnecessary.
+
+---
+
+### Correct Answer Choice:  
+**(A)** — Statement (1) alone is sufficient, but statement (2) alone is not.  
+
+---
+
+## Q37
+
+We want to determine if $i + j$ is an even integer.
+
+---
+
+### Step 1: Recall the rule
+- The sum of two integers is **even** if both are even or both are odd.
+- The sum is **odd** if one is even and the other is odd.
+
+So, we need to know whether $i$ and $j$ have the same parity (both even or both odd).
+
+---
+
+### Step 2: Analyze Statement (1) $i < 10$
+- This only tells us that $i$ is less than 10.  
+- It gives no information about whether $i$ is even or odd, nor about $j$.  
+- Therefore, **insufficient**.
+
+---
+
+### Step 3: Analyze Statement (2) $i = j$
+- If $i = j$, then $i + j = 2i$.  
+- $2i$ is always even, regardless of whether $i$ is odd or even.  
+- Therefore, this statement **alone is sufficient**.
+
+---
+
+### Step 4: Combine Statements (1) and (2)
+- Statement (2) already guarantees sufficiency. Adding (1) doesn’t change that.  
+- So, together they are also sufficient, but (2) alone is enough.
+
+---
+
+### ✅ Final Answer:
+**Statement (2) alone is sufficient, but statement (1) alone is not.**  
+That corresponds to **Answer Choice B** in GMAT-style Data Sufficiency.
+
+---
+
+
+## Q38
+Let’s break this one down carefully:
+
+We’re asked: **How many minutes long was the call?**
+
+- Cost structure:  
+  - First 3 minutes: $0.42$ each → total $3 \times 0.42 = 1.26$.  
+  - Each additional minute: $0.18$.  
+  - Total cost = $1.26 + 0.18(x - 3)$, for $x \geq 3$.
+
+---
+
+### Statement (1):  
+*The charge for the first 3 minutes was $0.36 less than the charge for the remainder of the call.*
+
+- First 3 minutes = $1.26$.  
+- Remainder = $0.18(x - 3)$.  
+- Condition: $1.26 = 0.18(x - 3) - 0.36$.  
+
+Solve:  
+$1.26 + 0.36 = 0.18(x - 3) \quad \Rightarrow \quad 1.62 = 0.18(x - 3)$  
+$x - 3 = \frac{1.62}{0.18} = 9 \quad \Rightarrow \quad x = 12$
+
+So the call lasted **12 minutes**.  
+Statement (1) is **sufficient**.
+
+---
+
+### Statement (2):  
+*The total charge for the call was $2.88.*
+
+Equation:  
+$1.26 + 0.18(x - 3) = 2.88$  
+$0.18(x - 3) = 1.62 \quad \Rightarrow \quad x - 3 = 9 \quad \Rightarrow \quad x = 12$
+
+So again, the call lasted **12 minutes**.  
+Statement (2) is **sufficient**.
+
+---
+
+### Combining (1) and (2):  
+Each statement alone already gives the unique answer $x = 12$.  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+---
+
+## Q39
+
+
+We want: **How many seconds did Car X take to cross the ½‑mile bridge?**
+
+---
+
+### Step 1: Express the relationship
+- Time to cross = $\dfrac{\text{distance}}{\text{speed}}$.  
+- Distance = 0.5 miles.  
+- We need Car X’s speed to compute its crossing time.
+
+---
+
+### Statement (1):  
+*Car X drove onto the bridge exactly 3 seconds after Car Y, and drove off exactly 2 seconds after Car Y.*
+
+- This tells us Car X took **1 second less** than Car Y to cross the bridge.  
+- But we don’t know Car Y’s crossing time (or speed).  
+- Without Car Y’s time, we cannot determine Car X’s time.  
+- **Insufficient.**
+
+---
+
+### Statement (2):  
+*Car Y traveled across the bridge at a constant speed of 30 mph.*
+
+- Car Y’s time = $\dfrac{0.5}{30} \text{ hours} = \dfrac{1}{60} \text{ hours} = 60 \text{ seconds}$.  
+- So Car Y took 60 seconds.  
+- But this gives no information about Car X’s speed or time.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (2): Car Y’s time = 60 seconds.  
+- From (1): Car X’s time = Car Y’s time – 1 second = 59 seconds.  
+- Now we know Car X’s crossing time exactly.  
+- **Sufficient together.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+---
+
+
+## Q40
+
+We want to know: **Is $ \frac{p}{q} < 1$?**  
+Equivalently: Is $p < q$? (since both are positive).
+
+---
+
+### Statement (1): $p < 4$  
+- This only tells us that $p$ is less than 4.  
+- But we don’t know anything about $q$.  
+- Example: If $p = 3$ and $q = 10$, then $p/q < 1$.  
+- If $p = 3$ and $q = 2$, then $p/q > 1$.  
+- So **insufficient**.
+
+---
+
+### Statement (2): $q < 4$  
+- This only tells us that $q$ is less than 4.  
+- But we don’t know anything about $p$.  
+- Example: If $p = 2$ and $q = 3$, then $p/q < 1$.  
+- If $p = 5$ and $q = 3$, then $p/q > 1$.  
+- So **insufficient**.
+
+---
+
+### Combine (1) and (2):  
+- Now we know $p < 4$ and $q < 4$.  
+- But this still doesn’t guarantee whether $p < q$.  
+- Example: $p = 2, q = 3 \Rightarrow p/q < 1$.  
+- Example: $p = 3, q = 2 \Rightarrow p/q > 1$.  
+- So **still insufficient**.
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are not sufficient.**  
+That corresponds to **Answer Choice E** in GMAT-style Data Sufficiency.
+
+---
+
+
+
+## Q41
+
+We want: **How many machines (A, B, C) are working in that minute?**
+
+---
+
+### Step 1: Recall machine rates
+- Type A: 400 cans/minute  
+- Type B: 600 cans/minute  
+- Type C: 2,400 lids/minute  
+- Each filled can must get a lid → total cans filled = total lids installed.
+
+Let $a, b, c$ = number of machines of type A, B, C.  
+Then:  
+$400a + 600b = 2400c$
+
+---
+
+### Statement (1): A total of 4,800 cans are filled that minute
+$400a + 600b = 4800$
+
+So the total cans filled = 4,800.  
+But we don’t know how many lids were installed (how many C machines).  
+Example: If $a=12, b=0$, then 12 A machines. If $a=0, b=8$, then 8 B machines.  
+Both satisfy 4,800 cans, but the number of machines differs.  
+So **insufficient**.
+
+---
+
+### Statement (2): For that minute, there are 2 Type B machines for every Type C machine
+$b = 2c$
+
+But without knowing the total cans filled, we can’t determine $a$.  
+Example: If $c=1, b=2$, then lids installed = 2,400. Cans filled must equal 2,400, but we don’t know how many A machines are involved.  
+So **insufficient**.
+
+---
+
+### Combine (1) and (2):
+From (1): $400a + 600b = 4800$.  
+From (2): $b = 2c$.  
+Also, cans filled = lids installed → $400a + 600b = 2400c$.
+
+Now substitute:  
+$4800 = 2400c \quad \Rightarrow \quad c = 2$  
+$b = 2c = 4$  
+$400a + 600(4) = 4800 \quad \Rightarrow \quad 400a + 2400 = 4800 \quad \Rightarrow \quad 400a = 2400 \quad \Rightarrow \quad a = 6$
+
+So:  
+- $a = 6$ (Type A)  
+- $b = 4$ (Type B)  
+- $c = 2$ (Type C)  
+
+Total machines = $6 + 4 + 2 = 12$.
+
+Thus, together the statements are **sufficient**.
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+
+---
+## Q42
+
+
+
+We want: **Coordinates of point R** given that triangles $ \triangle OPQ $ and $ \triangle QRS $ have equal area.
+
+---
+
+### Step 1: Interpret the setup
+- $O$ is the origin $(0,0)$.  
+- $P, Q, R, S$ are points in the coordinate plane.  
+- We’re told the two triangles have equal area.  
+- To solve, we need enough information to pin down $R$.
+
+---
+
+### Statement (1): $P = (0,12)$  
+- This fixes point $P$.  
+- But we still don’t know where $Q, R, S$ are.  
+- Equal area condition alone isn’t enough to determine $R$.  
+- **Insufficient.**
+
+---
+
+### Statement (2): $OP = OQ$ and $QS = RS$  
+- $OP = OQ$ means $P$ and $Q$ are equidistant from the origin.  
+- $QS = RS$ means $R$ and $S$ are symmetric with respect to $Q$.  
+- This gives geometric relationships, but without coordinates for $P$, we can’t calculate exact positions.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (1), $P = (0,12)$.  
+- From (2), $OP = OQ$. Since $OP = 12$, $OQ = 12$.  
+  → So $Q$ lies on the circle centered at origin with radius 12.  
+- Equal area condition ties $\triangle OPQ$ and $\triangle QRS$.  
+- With $QS = RS$, symmetry fixes $R$ relative to $Q$ and $S$.  
+- Together, these constraints are enough to uniquely determine $R$.  
+- **Sufficient.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+
+
+---
+## Q43
+
+
+We want: **Total number of games Team A won.**
+
+---
+
+### Step 1: Break down the situation
+- Team A played 20 games initially.  
+- It won 50% of those → $20 \times 0.5 = 10$ wins.  
+- After that, it won **all remaining games**.  
+- So total wins = $10 + \text{(remaining games)}$.  
+- To solve, we need to know how many games were played in total.
+
+---
+
+### Statement (1): Team A played 25 games altogether
+- Total games = 25.  
+- Remaining games = $25 - 20 = 5$.  
+- Team A won all 5 of those.  
+- Total wins = $10 + 5 = 15$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): Team A won 60% of all the games it played
+- Let total games = $N$.  
+- Wins = $0.6N$.  
+- But we also know wins = $10 + (N - 20)$.  
+  $  0.6N = 10 + (N - 20) = N - 10$  
+  $0.6N = N - 10 \quad \Rightarrow \quad 0.4N = 10 \quad \Rightarrow \quad N = 25$  
+- So total wins = $0.6 \times 25 = 15$.  
+- **Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+Each statement alone already gives the unique answer (15 wins).  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+---
+
+## Q44
+
+This is a classic number theory puzzle. To determine if the product  is a multiple of 8, we need to look at the "evenness" of these three consecutive integers.
+
+### The Core Principle
+
+In any set of three consecutive integers , there are only two possible patterns for even (E) and odd (O) numbers:
+
+1. **Odd, Even, Odd** (e.g., 1, 2, 3)
+2. **Even, Odd, Even** (e.g., 2, 3, 4)
+
+For the product  to be a multiple of 8, the total "count" of factors of 2 across all three numbers must be at least three (since ).
+
+---
+
+### Evaluating Statement (1): The product  is even.
+
+If the product of  and  is even, at least one of them must be even.
+
+* In the **Odd, Even, Odd** pattern, both  and  are odd, so  would be odd. This pattern is ruled out.
+* In the **Even, Odd, Even** pattern, both  and  are even, so  is even. This matches the statement.
+
+In the **Even, Odd, Even** pattern:
+
+* Since  and  are consecutive even numbers (like 2 and 4, or 4 and 6), one of them **must** be a multiple of 4.
+* The other even number provides at least one factor of 2.
+* Combined (), the product  will always be a multiple of 8.
+
+**Statement (1) is SUFFICIENT.**
+
+---
+
+### Evaluating Statement (2): The product  is a multiple of 4.
+
+Let’s test our two possible patterns:
+
+* **Pattern 1 (Odd, Even, Odd):** Let $a=1,b=2,c=3$. Here $bc=6$, which is **not** a multiple of 4. This pattern is ruled out.
+* **Pattern 2 (Even, Odd, Even):** Let $a=2,b=3,c=4$. Here $bc=12$, which **is** a multiple of 4. In this case, $abc=24$, which is a multiple of 8.
+
+Wait, let's check if Pattern 1 could ever work. If $b$ is even and $c$ is odd, for $bc$ to be a multiple of 4, $b$ itself must be a multiple of 4 (since  contributes no factors of 2).
+
+* If $b=4$, then $a=3$ and $c=5$.
+* Product $abc=3×4×5=60$. Is 60 a multiple of 8? **No.**
+
+Now we have a conflict:
+
+* If $a=2$, $b=3$, $c=4$, the answer is **Yes**.
+* If $a=3$, $b=4$, $c=5$, the answer is **No**.
+
+**Statement (2) is NOT SUFFICIENT.**
+
+---
+
+### Conclusion
+
+Since Statement (1) guarantees the **Even, Odd, Even** pattern (which always results in a multiple of 8), but Statement (2) allows for both "Yes" and "No" scenarios, the answer is **A**.
+
+
+
+---
+## Q45
+
+
+We want: **How many businesses did not report a net profit nor invest in foreign markets?**
+
+---
+
+### Step 1: Define sets
+- Total businesses = 30.  
+- Profit group = 21.  
+- Foreign investment group = 15.  
+- We want the number outside both groups (neither profit nor foreign).  
+- Formula:  
+  $ \text{Neither} = 30 - (\text{Profit} + \text{Foreign} - \text{Both})$  
+So we need the intersection (“Both”).
+
+---
+
+### Statement (1): 12 businesses reported both profit and foreign investment
+- Profit + Foreign – Both = $21 + 15 - 12 = 24$.  
+- Neither = $30 - 24 = 6$.  
+- We can determine the exact number.  
+- **Sufficient.**
+
+---
+
+### Statement (2): 24 businesses reported profit or foreign investment (or both)
+- Profit ∪ Foreign = 24.  
+- So Neither = $30 - 24 = 6$.  
+- We can determine the exact number.  
+- **Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+Each statement alone already gives the answer (6).  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+
+
+---
+## Q46
+
+
+We want: **Is $n$ closer to 50 than to 75?**
+
+---
+
+### Step 1: Translate the question  
+- “Closer to 50 than to 75” means:  
+  $|n - 50| < |n - 75|$.  
+- Equivalently: $n < 62.5$.  
+So the question is: **Is $n < 62.5$?**
+
+---
+
+### Statement (1): $75 - n > n - 50$  
+$75 - n > n - 50 \quad \Rightarrow \quad 125 > 2n \quad \Rightarrow \quad n < 62.5$  
+This directly tells us that $n$ is less than 62.5, i.e., closer to 50.  
+**Sufficient.**
+
+---
+
+### Statement (2): $n > 60$  
+- If $n = 61$, then it’s closer to 50 (distance 11 vs. 14).  
+- If $n = 70$, then it’s closer to 75 (distance 20 vs. 5).  
+- So depending on the value, $n$ could be closer to 50 or to 75.  
+**Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- Statement (1) alone already gives sufficiency.  
+- Adding (2) doesn’t change that.  
+- Still **sufficient**.
+
+---
+
+### ✅ Final Answer:  
+**Statement (1) alone is sufficient, but statement (2) alone is not.**  
+That corresponds to **Answer Choice A** in GMAT-style Data Sufficiency.
+
+
+---
+## Q47
+
+
+We want: **What is the value of $t$, given $t = 2x(5n)$?**
+
+---
+
+### Step 1: Simplify the expression  
+$t = 2x \cdot 5n = 10xn$  
+So to find $t$, we need both $x$ and $n$.
+
+---
+
+### Statement (1): $x = n + 3$  
+- Substituting:  
+  $  t = 10x n = 10(n+3)n = 10(n^2 + 3n)$  
+- This gives a formula for $t$, but without knowing $n$, we cannot get a single numeric value.  
+- **Insufficient.**
+
+---
+
+### Statement (2): $2x = 32$  
+- Then $x = 16$.  
+- Substituting:  
+  $  t = 10 \cdot 16 \cdot n = 160n$  
+- Again, without knowing $n$, we cannot get a single numeric value.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (2): $x = 16$.  
+- From (1): $x = n + 3$.  
+- So $n = 13$.  
+- Substituting:  
+  $  t = 10 \cdot 16 \cdot 13 = 2080$  
+- Now we have a unique value for $t$.  
+- **Sufficient together.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+
+
+---
+## Q48
+
+
+We want: **The ratio of cars to trucks produced by Company X last year.**
+
+---
+
+### Step 1: Define variables  
+- Let $C$ = number of cars.  
+- Let $T$ = number of trucks.  
+- We want $C:T$.
+
+---
+
+### Statement (1):  
+*If cars had been 8% greater, then cars = 150% of trucks.*  
+
+So:  
+$1.08C = 1.5T$  
+$\frac{C}{T} = \frac{1.5}{1.08} = \frac{150}{108} = \frac{25}{18}$  
+
+This gives the exact ratio of cars to trucks.  
+**Sufficient.**
+
+---
+
+### Statement (2):  
+*Company X produced 565,000 cars and 406,800 trucks.*  
+
+So:  
+$\frac{C}{T} = \frac{565{,}000}{406{,}800}$  
+
+Simplify:  
+Divide numerator and denominator by 100 → $\frac{5650}{4068}$.  
+Both divisible by 2 → $\frac{2825}{2034}$.  
+This fraction cannot be reduced further.  
+So ratio = $2825:2034$.  
+**Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+Each statement alone already gives the ratio.  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+
+---
+## Q49
+
+
+We want: **Does $a^2 + b^2 = c^2$?**  
+That’s the Pythagorean theorem condition, i.e., is the triangle right‑angled?
+
+---
+
+### Step 1: Interpret the setup  
+We have a triangle with angles $x, y,$ and presumably the third angle $= 180 - (x+y)$.  
+Sides are labeled $a, b, c$. The question is essentially: is the triangle right‑angled?
+
+---
+
+### Statement (1): $x + y = 90$  
+- Then the third angle = $180 - 90 = 90$.  
+- So the triangle is a right triangle.  
+- In a right triangle, the Pythagorean theorem holds: $a^2 + b^2 = c^2$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $x = y$  
+- This means the triangle is isosceles.  
+- But isosceles triangles can be right‑angled (e.g., 45°–45°–90°) or not (e.g., 60°–60°–60°).  
+- Without knowing the actual measures, we cannot conclude.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- Statement (1) alone already guarantees sufficiency.  
+- Adding (2) doesn’t change that.  
+- Still **sufficient.**
+
+---
+
+### ✅ Final Answer:  
+**Statement (1) alone is sufficient, but statement (2) alone is not.**  
+That corresponds to **Answer Choice A** in GMAT-style Data Sufficiency.
+
+
+
+---
+## Q50
+
+To determine the time the order was completed, we need two pieces of information: a **reference point in time** and the **rate of production**.
+
+### Evaluating Statement (1): The machine began filling the order at 9:30 a.m.
+
+This gives us the start time, but we have no information about how fast the machine is working. It could finish in 10 minutes or 10 hours.
+**Statement (1) is NOT SUFFICIENT.**
+
+---
+
+### Evaluating Statement (2): The machine had filled 1/2 of the order by 10:30 a.m. and 5/6 of the order by 11:10 a.m.
+
+This statement provides two different points in time, which allows us to calculate the machine's **rate**.
+
+1. **Find the work done in the interval:**
+The difference between  $\frac{5}{6}$ and $\frac{1}{2}$​ is:
+$\frac{5}{6} - \frac{3}{6} = \frac{2}{6} = \frac{1}{3}$
+
+2. **Find the time elapsed:** The time from 10:30 a.m. to 11:10 a.m. is **40 minutes**.
+3. **Calculate the remaining work: ** At 11:10 a.m., the machine has completed $\frac{5}{6}$ of the order. To finish, it needs to complete the remaining $\frac{1}{6}$ of the order.
+4. **Determine the time to finish:** If it takes 40 minutes to do $\frac{1}{3}$ of the order, it will take **20 minutes** to do $\frac{1}{6}$ of the order (since $\frac{1}{6}$ is half of $\frac{1}{3}$).
+* 11:10 a.m. + 20 minutes = **11:30 a.m.**
+
+
+**Statement (2) is SUFFICIENT.**
+
+---
+
+### Conclusion
+
+We didn't even need the start time from Statement (1) because Statement (2) gave us enough data points to establish the constant rate and project the finish time.
+
+The correct answer is **B**.
+
+
+---
+
+## Q51
+
+We want: **Gross revenues from ticket sales during the second week.**
+
+---
+
+### Step 1: Define variables  
+- Let $W_1$ = revenues in week 1.  
+- Let $W_2$ = revenues in week 2.  
+- Let $W_3$ = revenues in week 3.  
+- We want $W_2$.
+
+---
+
+### Statement (1):  
+*Gross revenues during the second week were $1.5 million less than during the first week.*  
+
+$W_2 = W_1 - 1.5$
+
+This gives a relationship, but not the actual value of $W_2$, since $W_1$ is unknown.  
+**Insufficient.**
+
+---
+
+### Statement (2):  
+*Gross revenues during the third week were $2.0 million less than during the first week.*  
+
+$W_3 = W_1 - 2.0$
+
+This gives a relationship between $W_3$ and $W_1$, but nothing about $W_2$.  
+**Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (1): $W_2 = W_1 - 1.5$.  
+- From (2): $W_3 = W_1 - 2.0$.  
+- We now know both $W_2$ and $W_3$ in terms of $W_1$.  
+- But we still don’t know the actual value of $W_1$.  
+- Without a numerical value for $W_1$, we cannot determine $W_2$.  
+**Still insufficient.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are not sufficient.**  
+That corresponds to **Answer Choice E** in GMAT-style Data Sufficiency.
 
 
 

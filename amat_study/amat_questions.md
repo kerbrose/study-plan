@@ -200,6 +200,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
 ----
 
 <h3>6- If x and y are integers, what is the value of y ?</h3>
+
 (1) $xy = 27$
 
 (2) $x = y^2$
@@ -1258,6 +1259,7 @@ kilometer = 1000 meter)</h3>
   
 </fieldset>
 
+----
 
 <h3>35- Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the
 same time, water is pumped out of the tank at a constant rate through an outlet pipe. At what
@@ -1296,16 +1298,23 @@ of 10 gallons every 2 and half minutes.
   
 </fieldset>
 
+----
 
 <h3>36- Is x a negative number?</h3>
-1) 9x > 10x
-2) x + 3 is positive.
--
-Answer is A
+
+
+1) $9x > 10x$
+
+2) $x + 3$ is positive.
+
+[explanation](./amat_answer_explanation.md#Q36)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1321,19 +1330,20 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>37- If i and j are integers, is i + j an even integer?</h3>
-1) i < 10
-2) i = j
--
-Answer is B
+
+1) $i < 10$
+
+2) $i = j$
+
+[explanation](./amat_answer_explanation.md#Q37)
 <fieldset> 
 
   <div>
@@ -1341,7 +1351,9 @@ Answer is B
   </div>
 
   <div>
+    <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1353,22 +1365,23 @@ Answer is B
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
-<h3>38 The charge for a telephone call between City R and City S is $0.42 for each of the first 3
+<h3>38- The charge for a telephone call between City R and City S is $0.42 for each of the first 3
 minutes and $0.18 for each additional minute. A certain call between these two cities lasted for
 x minutes, where x is an integer. How many minutes long was the call?</h3>
-1)The charge for the first 3 minutes of the call was $0.36 less than the charge for the remainder
+
+1) The charge for the first 3 minutes of the call was $0.36 less than the charge for the remainder
 of the call.
+
 2) The total charge for the call was $2.88
--
-Answer is D
+
+[explanation](./amat_answer_explanation.md#Q38)
 <fieldset> 
 
   <div>
@@ -1384,24 +1397,28 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
 
 <h3>39 If Car X followed Car Y across a certain bridge that is 1/2 mile long, how many seconds did it
 take Car X to travel across the bridge?</h3>
-1)Car X drove onto the bridge exactly 3 seconds after Car Y drove onto the bridge and drove off
+
+1) Car X drove onto the bridge exactly 3 seconds after Car Y drove onto the bridge and drove off
 the bridge exactly 2 seconds after Car Y drove off the bridge.
+
 2) Car Y traveled across the bridge at a constant speed of 30 miles per hour.
--
-Answer is C
+
+[explanation](./amat_answer_explanation.md#Q39)
 <fieldset> 
 
   <div>
@@ -1413,7 +1430,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1421,18 +1440,22 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+
+----
 
 <h3>40- If p and q are positive, is p/q less than 1?</h3>
-(1) p is less than 4
-(2) q is less than 4
--
-Answer is E
+
+(1) $p$ is less than 4
+
+(2) $q$ is less than 4
+
+[explanation](./amat_answer_explanation.md#Q40)
+
 <fieldset> 
 
   <div>
@@ -1459,15 +1482,20 @@ Answer is E
   
 </fieldset>
 
+
+----
 
 <h3>41- Each type A machine fills 400 cans per minute,each Type B machine fills 600 cans per
 minute,and each Type C machine installs 2,400 lids per minute.A lid is installed on each can
 that is filled and on no can that is not filled.For a particular minute,what is the total number of
 machines working?</h3>
+
 (1) A total of 4,800 cans are filled that minute
+
 (2) For that minute,there are 2 Type B machines working for every Type C machine working
--
-The answer is C
+
+[explanation](./amat_answer_explanation.md#Q41)
+
 <fieldset> 
 
   <div>
@@ -1479,7 +1507,9 @@ The answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1487,19 +1517,24 @@ The answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+
+----
+
 
 <h3>42- In the rectangular coordinate system above, if ΔOPQ and ΔQRS have equal area, what are the
 coordinatesof point R ?</h3>
+
 (1)The coordinates of point P are (0,12).
-(2) OP = OQ and QS = RS.
--
-The answer is C
+
+(2) $OP = OQ$ and $QS = RS$.
+
+[explanation](./amat_answer_explanation.md#Q42)
+
 <fieldset> 
 
   <div>
@@ -1511,7 +1546,9 @@ The answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1519,20 +1556,23 @@ The answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
 
 
 <h3>43- After winning 50 percent of the first 20 games it played, Team A won all of the remaining
 games it played. What was the total number of games that Team A won?</h3>
+
 (1) Team A played 25 games altogether.
+
 (2) Team A won 60 percent of all the games it played.
--
-The answer is D
+
+[explanation](./amat_answer_explanation.md#Q43)
+
 <fieldset> 
 
   <div>
@@ -1548,27 +1588,34 @@ The answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+
+----
 
 <h3>44- If a, b, and c are consecutive integers and 0 < a < b < c, is the product abc a multiple of 8 ?</h3>
-(1) The product ac is even.
-(2) The product bc is a multiple of 4.
--
-The answer is A
+
+(1) The product $ac$ is even.
+
+(2) The product $bc$ is a multiple of 4.
+
+[explanation](./amat_answer_explanation.md#Q44)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1584,22 +1631,24 @@ The answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>45- Last year in a group of 30 businesses, 21 reported a net profit and 15 had investments in
 foreign markets. How many of the businesses did not report a net profit nor invest in foreign
 markets last year?</h3>
+
 (1) Last year 12 of the 30 businesses reported a net profit and had investments in foreign
 markets.
+
 (2) Last year 24 of the 30 businesses reported a net profit or invested in foreign markets, or both.
--
-Answer is D
+
+[explanation](./amat_answer_explanation.md#Q45)
+
 <fieldset> 
 
   <div>
@@ -1615,26 +1664,35 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+
+----
+
 
 <h3>46-Is the value of n closer to 50 than to 75?</h3>
-(1) 75- n>n-50
-(2) n> 60
--
-Answer is A
+
+(1) $75- n>n-50$
+
+(2) $n> 60$
+
+[explanation](./amat_answer_explanation.md#Q46)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1650,19 +1708,21 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
-<h3>47-If 2x (5n) = t, what is the value of t?</h3>
-(1) x = n + 3
-(2) 2x = 32
--
-Answer is C
+<h3>47- If 2x (5n) = t, what is the value of t?</h3>
+
+(1) $x = n + 3$
+
+(2) $2x = 32$
+
+[explanation](./amat_answer_explanation.md#Q47)
+
 <fieldset> 
 
   <div>
@@ -1674,7 +1734,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1682,22 +1744,27 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+
+----
 
 
 <h3>48- What was the ratio of the number of cars to the number of trucks produced by Company X last
 year?</h3>
+
 (1) Last year, if the number of cars produced by Company X had been 8 percent greater, the
 number of cars produced would have been 150 percent of the number of trucks produced by
 Company X.
+
 (2) Last year Company X produced 565,000 cars and 406,800 trucks.
--
-Answer is D
+
+[explanation](./amat_answer_explanation.md#Q48)
+
+
 <fieldset> 
 
   <div>
@@ -1713,27 +1780,34 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
-<h3>49-In the triangle above, does a^2 + b^2 = c^2 ?</h3>
-(1) x + y = 90
-(2) x = y
--
-Answer is A
+<h3>49- In the triangle above, does a^2 + b^2 = c^2 ?</h3>
+
+(1) $x + y = 90$
+
+(2) $x = y$
+
+[explanation](./amat_answer_explanation.md#Q49)
+
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1749,19 +1823,23 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+----
+
 
 <h3>50- On Monday morning a certain machine ran continuously at a uniform rate to fill a production
 order. At what time did it completely fill the order that morning?</h3>
+
 (1) The machine began filling the order at 9:30 a.m.
+
 (2) The machine had filled 1/2 of the order by 10:30 a.m. and 5/6 of the order by 11:10 a.m
--
-Answer is B
+
+[explanation](./amat_answer_explanation.md#Q50)
+
 <fieldset> 
 
   <div>
@@ -1769,7 +1847,9 @@ Answer is B
   </div>
 
   <div>
+    <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1781,19 +1861,22 @@ Answer is B
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
-<h3>51 What were the gross revenues from ticket sales for a certain film during the second week in
+----
+
+<h3>51- What were the gross revenues from ticket sales for a certain film during the second week in
 which it was shown?</h3>
+
 (1) Gross revenues during the second week were $1.5 million less than during the first week.
+
 (2) Gross revenues during the third week were $2.0 million less than during the first week.
--
-Answer is E
+
+[explanation](./amat_answer_explanation.md#Q51)
+
 <fieldset> 
 
   <div>
@@ -1820,6 +1903,7 @@ Answer is E
   
 </fieldset>
 
+----
 
 <h3>52- Last year, if Elena spent a total of $720 on newspapers, magazines, and books, what amount
 did she spend on newspapers?</h3>
