@@ -1942,7 +1942,7 @@ that she spent on magazines and books.
 </fieldset>
 
 
----
+----
 
 53- At a certain picnic, each of the guests was served either a single scoop or a double scoop of ice crea. How many of the guests were served a double scoop of ice cream?
 
@@ -1978,7 +1978,7 @@ that she spent on magazines and books.
   
 </fieldset>
 
----
+----
 
 54- By What percent was the price of a ceratain candy bar increased?
 
@@ -2015,3 +2015,46 @@ that she spent on magazines and books.
   </div>
   
 </fieldset>
+
+----
+
+55- 
+
+![tub](./img_q55_tub.png)
+
+
+A circular tub has a band painted around its circumference, as shown above. What is the surface area of this painted band?
+
+(1) $ x = 0.5$
+
+(2) The height of the tub is 1 meter.
+
+[explanation](./amat_answer_explanation.md#Q55)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+    </mark>
+  </div>
+  
+</fieldset>
+
+----
