@@ -2130,3 +2130,41 @@ A circular tub has a band painted around its circumference, as shown above. What
   </div>
   
 </fieldset>
+
+----
+
+
+58- If a real estate agent received a commision of 6 percent of the selling price of a certain house, what was the selling price of a certain house, what was the selling price of the house?
+
+(1) The selling price minus the real estate agent's commision was \$84,600.
+
+(2) The selling price was 250 percent of the original purchase price of \$36,000.
+
+
+[explanation](./amat_answer_explanation.md#Q58)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (D) EACH statement ALONE is sufficient.
+    </mark>
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
