@@ -1338,10 +1338,12 @@ of 10 gallons every 2 and half minutes.
 ----
 
 <h3>37- If i and j are integers, is i + j an even integer?</h3>
-1) i < 10
-2) i = j
--
-Answer is B
+
+1) $i < 10$
+
+2) $i = j$
+
+[explanation](./amat_answer_explanation.md#Q37)
 <fieldset> 
 
   <div>
@@ -1349,7 +1351,9 @@ Answer is B
   </div>
 
   <div>
+    <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1361,9 +1365,7 @@ Answer is B
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>

@@ -1527,6 +1527,46 @@ So combining is unnecessary.
 
 ---
 
+## Q37
+
+We want to determine if $i + j$ is an even integer.
+
+---
+
+### Step 1: Recall the rule
+- The sum of two integers is **even** if both are even or both are odd.
+- The sum is **odd** if one is even and the other is odd.
+
+So, we need to know whether $i$ and $j$ have the same parity (both even or both odd).
+
+---
+
+### Step 2: Analyze Statement (1) $i < 10$
+- This only tells us that $i$ is less than 10.  
+- It gives no information about whether $i$ is even or odd, nor about $j$.  
+- Therefore, **insufficient**.
+
+---
+
+### Step 3: Analyze Statement (2) $i = j$
+- If $i = j$, then $i + j = 2i$.  
+- $2i$ is always even, regardless of whether $i$ is odd or even.  
+- Therefore, this statement **alone is sufficient**.
+
+---
+
+### Step 4: Combine Statements (1) and (2)
+- Statement (2) already guarantees sufficiency. Adding (1) doesn’t change that.  
+- So, together they are also sufficient, but (2) alone is enough.
+
+---
+
+### ✅ Final Answer:
+**Statement (2) alone is sufficient, but statement (1) alone is not.**  
+That corresponds to **Answer Choice B** in GMAT-style Data Sufficiency.
+
+---
+
 
 
 ---
