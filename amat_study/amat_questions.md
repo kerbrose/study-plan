@@ -1370,6 +1370,7 @@ of 10 gallons every 2 and half minutes.
   
 </fieldset>
 
+----
 
 <h3>38- The charge for a telephone call between City R and City S is $0.42 for each of the first 3
 minutes and $0.18 for each additional minute. A certain call between these two cities lasted for
@@ -1407,13 +1408,17 @@ of the call.
   
 </fieldset>
 
+----
+
 <h3>39 If Car X followed Car Y across a certain bridge that is 1/2 mile long, how many seconds did it
 take Car X to travel across the bridge?</h3>
-1)Car X drove onto the bridge exactly 3 seconds after Car Y drove onto the bridge and drove off
+
+1) Car X drove onto the bridge exactly 3 seconds after Car Y drove onto the bridge and drove off
 the bridge exactly 2 seconds after Car Y drove off the bridge.
+
 2) Car Y traveled across the bridge at a constant speed of 30 miles per hour.
--
-Answer is C
+
+[explanation](./amat_answer_explanation.md#Q39)
 <fieldset> 
 
   <div>
@@ -1425,7 +1430,9 @@ Answer is C
   </div>
 
   <div>
+    <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1433,12 +1440,13 @@ Answer is C
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
+
+
+----
 
 <h3>40- If p and q are positive, is p/q less than 1?</h3>
 (1) p is less than 4

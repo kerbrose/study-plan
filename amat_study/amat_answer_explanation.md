@@ -1620,6 +1620,58 @@ That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
 
 ---
 
+## Q39
+
+
+We want: **How many seconds did Car X take to cross the ½‑mile bridge?**
+
+---
+
+### Step 1: Express the relationship
+- Time to cross = $\dfrac{\text{distance}}{\text{speed}}$.  
+- Distance = 0.5 miles.  
+- We need Car X’s speed to compute its crossing time.
+
+---
+
+### Statement (1):  
+*Car X drove onto the bridge exactly 3 seconds after Car Y, and drove off exactly 2 seconds after Car Y.*
+
+- This tells us Car X took **1 second less** than Car Y to cross the bridge.  
+- But we don’t know Car Y’s crossing time (or speed).  
+- Without Car Y’s time, we cannot determine Car X’s time.  
+- **Insufficient.**
+
+---
+
+### Statement (2):  
+*Car Y traveled across the bridge at a constant speed of 30 mph.*
+
+- Car Y’s time = $\dfrac{0.5}{30} \text{ hours} = \dfrac{1}{60} \text{ hours} = 60 \text{ seconds}$.  
+- So Car Y took 60 seconds.  
+- But this gives no information about Car X’s speed or time.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (2): Car Y’s time = 60 seconds.  
+- From (1): Car X’s time = Car Y’s time – 1 second = 59 seconds.  
+- Now we know Car X’s crossing time exactly.  
+- **Sufficient together.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+---
+
+
+
+
+
 
 
 ---
