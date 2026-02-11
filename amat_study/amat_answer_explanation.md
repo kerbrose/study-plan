@@ -2442,3 +2442,47 @@ That corresponds to **Answer Choice E** in GMAT-style Data Sufficiency.
 A useful shortcut here: whenever the question asks for **surface area of a cylindrical band**, check if both **radius** and **band height** are given. If either is missing, the information is insufficient. 
 
 ---
+
+
+## Q56
+
+Let’s carefully analyze this **Data Sufficiency** problem:
+
+We want: **Is $a > b$?**
+
+---
+
+### Step 1: Restate the condition  
+The question is asking directly whether $a$ is greater than $b$.
+
+---
+
+### Statement (1): $2a > 2b$  
+- Dividing both sides by 2 (positive constant), we get $a > b$.  
+- This directly answers the question.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $a + c > b + c$  
+- Subtracting $c$ from both sides, we get $a > b$.  
+- This also directly answers the question.  
+- **Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+- Each statement alone already gives sufficiency.  
+- Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+
+Notice how both statements are essentially transformations of the inequality $a > b$. A quick recognition trick: whenever both sides of an inequality are scaled by the same positive constant or shifted by the same constant, the inequality’s truth value is preserved.
+
+---
+
