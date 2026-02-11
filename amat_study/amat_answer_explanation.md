@@ -2297,3 +2297,148 @@ We want: **the amount Elena spent on newspapers** given her total spending was \
 **(B)** — Statement (2) alone is sufficient, but statement (1) alone is not.  
 
 ---
+
+## Q53
+
+Let’s carefully analyze this **Data Sufficiency** problem:
+
+We want: **How many guests were served a double scoop of ice cream?**
+
+---
+
+### Step 1: Define variables  
+- Let $G$ = total number of guests.  
+- Let $D$ = number of guests with double scoops.  
+- Let $S$ = number of guests with single scoops.  
+- Then:  
+  $G = D + S$  
+  Total scoops = $2D + S$.
+
+---
+
+### Statement (1): 60% of guests were served a double scoop  
+$D = 0.6G$  
+This gives the proportion, but not the actual number of guests. Without knowing $G$, we cannot find $D$.  
+**Insufficient.**
+
+---
+
+### Statement (2): A total of 120 scoops were served  
+$2D + S = 120$  
+But we don’t know how many guests there were, nor the proportion of double vs. single scoops.  
+**Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+From (1): $D = 0.6G$, $S = 0.4G$.  
+Total scoops = $2D + S = 2(0.6G) + 0.4G = 1.6G$.  
+From (2): $1.6G = 120 \quad \Rightarrow \quad G = 75$.  
+So:  
+$D = 0.6 \times 75 = 45$  
+We can determine the exact number of double‑scoop guests.  
+**Sufficient together.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+---
+
+## Q54
+
+
+We want: **By what percent was the price of the candy bar increased?**
+
+---
+
+### Step 1: Define variables  
+- Let the original price = $P$.  
+- Increase = 5 cents.  
+- New price = $P + 0.05$.  
+- Percent increase = $\dfrac{0.05}{P} \times 100\%$.  
+So we need the original price $P$.
+
+---
+
+### Statement (1): The price was increased by 5 cents  
+- This tells us the absolute increase, but not the original price.  
+- Without $P$, we cannot compute the percent increase.  
+- **Insufficient.**
+
+---
+
+### Statement (2): The price after the increase was 45 cents  
+- So $P + 0.05 = 0.45$.  
+- But we don’t know the size of the increase (only the final price).  
+- Without the increase amount, we cannot compute the percent increase.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (2): $P + 0.05 = 0.45 \Rightarrow P = 0.40$.  
+- From (1): Increase = 0.05.  
+- Percent increase = $\dfrac{0.05}{0.40} \times 100\% = 12.5\%$.  
+- Now we can determine the exact percent increase.  
+- **Sufficient together.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+---
+
+
+## Q55
+
+Let’s carefully analyze this **Data Sufficiency** problem:
+
+We want: **Surface area of the painted band around the circular tub.**
+
+---
+
+### Step 1: Recall formula  
+The painted band is essentially the **lateral surface area of a cylindrical strip** of height $x$.  
+$\text{Band area} = \text{circumference} \times \text{height} = (2\pi r)(x)$  
+So we need both the **radius $r$** of the tub and the **height $x$** of the band.
+
+---
+
+### Statement (1): $x = 0.5$  
+- This gives the height of the band.  
+- But we don’t know the radius $r$.  
+- Without $r$, we cannot compute the area.  
+- **Insufficient.**
+
+---
+
+### Statement (2): The height of the tub is 1 meter  
+- This gives the total height of the tub, not the band height.  
+- We still don’t know the radius $r$, nor the band’s height $x$.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (1): Band height = 0.5 m.  
+- From (2): Tub height = 1 m.  
+- But we still don’t know the radius $r$.  
+- Without $r$, we cannot compute the band’s surface area.  
+- **Still insufficient.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are not sufficient.**  
+That corresponds to **Answer Choice E** in GMAT-style Data Sufficiency.
+
+
+
+A useful shortcut here: whenever the question asks for **surface area of a cylindrical band**, check if both **radius** and **band height** are given. If either is missing, the information is insufficient. 
+
+---
