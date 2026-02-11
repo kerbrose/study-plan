@@ -1711,7 +1711,328 @@ That corresponds to **Answer Choice E** in GMAT-style Data Sufficiency.
 
 
 
+## Q41
 
+We want: **How many machines (A, B, C) are working in that minute?**
+
+---
+
+### Step 1: Recall machine rates
+- Type A: 400 cans/minute  
+- Type B: 600 cans/minute  
+- Type C: 2,400 lids/minute  
+- Each filled can must get a lid → total cans filled = total lids installed.
+
+Let $a, b, c$ = number of machines of type A, B, C.  
+Then:  
+$400a + 600b = 2400c$
+
+---
+
+### Statement (1): A total of 4,800 cans are filled that minute
+$400a + 600b = 4800$
+
+So the total cans filled = 4,800.  
+But we don’t know how many lids were installed (how many C machines).  
+Example: If $a=12, b=0$, then 12 A machines. If $a=0, b=8$, then 8 B machines.  
+Both satisfy 4,800 cans, but the number of machines differs.  
+So **insufficient**.
+
+---
+
+### Statement (2): For that minute, there are 2 Type B machines for every Type C machine
+$b = 2c$
+
+But without knowing the total cans filled, we can’t determine $a$.  
+Example: If $c=1, b=2$, then lids installed = 2,400. Cans filled must equal 2,400, but we don’t know how many A machines are involved.  
+So **insufficient**.
+
+---
+
+### Combine (1) and (2):
+From (1): $400a + 600b = 4800$.  
+From (2): $b = 2c$.  
+Also, cans filled = lids installed → $400a + 600b = 2400c$.
+
+Now substitute:  
+$4800 = 2400c \quad \Rightarrow \quad c = 2$  
+$b = 2c = 4$  
+$400a + 600(4) = 4800 \quad \Rightarrow \quad 400a + 2400 = 4800 \quad \Rightarrow \quad 400a = 2400 \quad \Rightarrow \quad a = 6$
+
+So:  
+- $a = 6$ (Type A)  
+- $b = 4$ (Type B)  
+- $c = 2$ (Type C)  
+
+Total machines = $6 + 4 + 2 = 12$.
+
+Thus, together the statements are **sufficient**.
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+
+---
+## Q42
+
+
+
+We want: **Coordinates of point R** given that triangles $ \triangle OPQ $ and $ \triangle QRS $ have equal area.
+
+---
+
+### Step 1: Interpret the setup
+- $O$ is the origin $(0,0)$.  
+- $P, Q, R, S$ are points in the coordinate plane.  
+- We’re told the two triangles have equal area.  
+- To solve, we need enough information to pin down $R$.
+
+---
+
+### Statement (1): $P = (0,12)$  
+- This fixes point $P$.  
+- But we still don’t know where $Q, R, S$ are.  
+- Equal area condition alone isn’t enough to determine $R$.  
+- **Insufficient.**
+
+---
+
+### Statement (2): $OP = OQ$ and $QS = RS$  
+- $OP = OQ$ means $P$ and $Q$ are equidistant from the origin.  
+- $QS = RS$ means $R$ and $S$ are symmetric with respect to $Q$.  
+- This gives geometric relationships, but without coordinates for $P$, we can’t calculate exact positions.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (1), $P = (0,12)$.  
+- From (2), $OP = OQ$. Since $OP = 12$, $OQ = 12$.  
+  → So $Q$ lies on the circle centered at origin with radius 12.  
+- Equal area condition ties $\triangle OPQ$ and $\triangle QRS$.  
+- With $QS = RS$, symmetry fixes $R$ relative to $Q$ and $S$.  
+- Together, these constraints are enough to uniquely determine $R$.  
+- **Sufficient.**
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are sufficient, but neither alone is sufficient.**  
+That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
+
+
+
+---
+## Q43
+
+
+We want: **Total number of games Team A won.**
+
+---
+
+### Step 1: Break down the situation
+- Team A played 20 games initially.  
+- It won 50% of those → $20 \times 0.5 = 10$ wins.  
+- After that, it won **all remaining games**.  
+- So total wins = $10 + \text{(remaining games)}$.  
+- To solve, we need to know how many games were played in total.
+
+---
+
+### Statement (1): Team A played 25 games altogether
+- Total games = 25.  
+- Remaining games = $25 - 20 = 5$.  
+- Team A won all 5 of those.  
+- Total wins = $10 + 5 = 15$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): Team A won 60% of all the games it played
+- Let total games = $N$.  
+- Wins = $0.6N$.  
+- But we also know wins = $10 + (N - 20)$.  
+  $  0.6N = 10 + (N - 20) = N - 10$  
+  $0.6N = N - 10 \quad \Rightarrow \quad 0.4N = 10 \quad \Rightarrow \quad N = 25$  
+- So total wins = $0.6 \times 25 = 15$.  
+- **Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+Each statement alone already gives the unique answer (15 wins).  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+---
+
+## Q44
+
+This is a classic number theory puzzle. To determine if the product  is a multiple of 8, we need to look at the "evenness" of these three consecutive integers.
+
+### The Core Principle
+
+In any set of three consecutive integers , there are only two possible patterns for even (E) and odd (O) numbers:
+
+1. **Odd, Even, Odd** (e.g., 1, 2, 3)
+2. **Even, Odd, Even** (e.g., 2, 3, 4)
+
+For the product  to be a multiple of 8, the total "count" of factors of 2 across all three numbers must be at least three (since ).
+
+---
+
+### Evaluating Statement (1): The product  is even.
+
+If the product of  and  is even, at least one of them must be even.
+
+* In the **Odd, Even, Odd** pattern, both  and  are odd, so  would be odd. This pattern is ruled out.
+* In the **Even, Odd, Even** pattern, both  and  are even, so  is even. This matches the statement.
+
+In the **Even, Odd, Even** pattern:
+
+* Since  and  are consecutive even numbers (like 2 and 4, or 4 and 6), one of them **must** be a multiple of 4.
+* The other even number provides at least one factor of 2.
+* Combined (), the product  will always be a multiple of 8.
+
+**Statement (1) is SUFFICIENT.**
+
+---
+
+### Evaluating Statement (2): The product  is a multiple of 4.
+
+Let’s test our two possible patterns:
+
+* **Pattern 1 (Odd, Even, Odd):** Let $a=1,b=2,c=3$. Here $bc=6$, which is **not** a multiple of 4. This pattern is ruled out.
+* **Pattern 2 (Even, Odd, Even):** Let $a=2,b=3,c=4$. Here $bc=12$, which **is** a multiple of 4. In this case, $abc=24$, which is a multiple of 8.
+
+Wait, let's check if Pattern 1 could ever work. If $b$ is even and $c$ is odd, for $bc$ to be a multiple of 4, $b$ itself must be a multiple of 4 (since  contributes no factors of 2).
+
+* If $b=4$, then $a=3$ and $c=5$.
+* Product $abc=3×4×5=60$. Is 60 a multiple of 8? **No.**
+
+Now we have a conflict:
+
+* If $a=2$, $b=3$, $c=4$, the answer is **Yes**.
+* If $a=3$, $b=4$, $c=5$, the answer is **No**.
+
+**Statement (2) is NOT SUFFICIENT.**
+
+---
+
+### Conclusion
+
+Since Statement (1) guarantees the **Even, Odd, Even** pattern (which always results in a multiple of 8), but Statement (2) allows for both "Yes" and "No" scenarios, the answer is **A**.
+
+
+
+---
+## Q45
+
+
+We want: **How many businesses did not report a net profit nor invest in foreign markets?**
+
+---
+
+### Step 1: Define sets
+- Total businesses = 30.  
+- Profit group = 21.  
+- Foreign investment group = 15.  
+- We want the number outside both groups (neither profit nor foreign).  
+- Formula:  
+  $ \text{Neither} = 30 - (\text{Profit} + \text{Foreign} - \text{Both})$  
+So we need the intersection (“Both”).
+
+---
+
+### Statement (1): 12 businesses reported both profit and foreign investment
+- Profit + Foreign – Both = $21 + 15 - 12 = 24$.  
+- Neither = $30 - 24 = 6$.  
+- We can determine the exact number.  
+- **Sufficient.**
+
+---
+
+### Statement (2): 24 businesses reported profit or foreign investment (or both)
+- Profit ∪ Foreign = 24.  
+- So Neither = $30 - 24 = 6$.  
+- We can determine the exact number.  
+- **Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+Each statement alone already gives the answer (6).  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+
+
+---
+## Q46
+
+
+We want: **Is $n$ closer to 50 than to 75?**
+
+---
+
+### Step 1: Translate the question  
+- “Closer to 50 than to 75” means:  
+  $|n - 50| < |n - 75|$.  
+- Equivalently: $n < 62.5$.  
+So the question is: **Is $n < 62.5$?**
+
+---
+
+### Statement (1): $75 - n > n - 50$  
+$75 - n > n - 50 \quad \Rightarrow \quad 125 > 2n \quad \Rightarrow \quad n < 62.5$  
+This directly tells us that $n$ is less than 62.5, i.e., closer to 50.  
+**Sufficient.**
+
+---
+
+### Statement (2): $n > 60$  
+- If $n = 61$, then it’s closer to 50 (distance 11 vs. 14).  
+- If $n = 70$, then it’s closer to 75 (distance 20 vs. 5).  
+- So depending on the value, $n$ could be closer to 50 or to 75.  
+**Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- Statement (1) alone already gives sufficiency.  
+- Adding (2) doesn’t change that.  
+- Still **sufficient**.
+
+---
+
+### ✅ Final Answer:  
+**Statement (1) alone is sufficient, but statement (2) alone is not.**  
+That corresponds to **Answer Choice A** in GMAT-style Data Sufficiency.
+
+
+---
+## Q47
+---
+## Q48
+---
+## Q49
+---
+## Q50
+---
+## Q51
 
 
 ---
