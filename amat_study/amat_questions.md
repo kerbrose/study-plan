@@ -1795,9 +1795,9 @@ Company X.
 
 <h3>49- In the triangle above, does a^2 + b^2 = c^2 ?</h3>
 
-(1) x + y = 90
+(1) $x + y = 90$
 
-(2) x = y
+(2) $x = y$
 
 [explanation](./amat_answer_explanation.md#Q49)
 

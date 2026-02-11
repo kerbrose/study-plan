@@ -2126,6 +2126,48 @@ That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
 
 ---
 ## Q49
+
+
+We want: **Does $a^2 + b^2 = c^2$?**  
+That’s the Pythagorean theorem condition, i.e., is the triangle right‑angled?
+
+---
+
+### Step 1: Interpret the setup  
+We have a triangle with angles $x, y,$ and presumably the third angle $= 180 - (x+y)$.  
+Sides are labeled $a, b, c$. The question is essentially: is the triangle right‑angled?
+
+---
+
+### Statement (1): $x + y = 90$  
+- Then the third angle = $180 - 90 = 90$.  
+- So the triangle is a right triangle.  
+- In a right triangle, the Pythagorean theorem holds: $a^2 + b^2 = c^2$.  
+- **Sufficient.**
+
+---
+
+### Statement (2): $x = y$  
+- This means the triangle is isosceles.  
+- But isosceles triangles can be right‑angled (e.g., 45°–45°–90°) or not (e.g., 60°–60°–60°).  
+- Without knowing the actual measures, we cannot conclude.  
+- **Insufficient.**
+
+---
+
+### Combine (1) and (2):  
+- Statement (1) alone already guarantees sufficiency.  
+- Adding (2) doesn’t change that.  
+- Still **sufficient.**
+
+---
+
+### ✅ Final Answer:  
+**Statement (1) alone is sufficient, but statement (2) alone is not.**  
+That corresponds to **Answer Choice A** in GMAT-style Data Sufficiency.
+
+
+
 ---
 ## Q50
 ---
