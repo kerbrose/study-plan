@@ -8,7 +8,7 @@
 
 [explanation](./amat_answer_explanation.md#Q1)
 
-----
+
 
 <fieldset> 
 
@@ -46,7 +46,7 @@ how many of the computers are Brand Y?</h3>
 
 [explanation](./amat_answer_explanation.md#Q2)
 
-----
+
 
 <fieldset> 
 
@@ -88,7 +88,7 @@ that they save per week?</h3>
 
 [explanation](./amat_answer_explanation.md#Q3)
 
-----
+
 
 <fieldset> 
 
@@ -129,7 +129,7 @@ been 5 percent less.
 
 [explanation](./amat_answer_explanation.md#Q4)
 
-----
+
 
 <fieldset> 
 
@@ -207,7 +207,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
 
 [explanation](./amat_answer_explanation.md#Q6)
 
-----
+
 
 <fieldset> 
 
@@ -246,7 +246,6 @@ attended the dinner, each of the k +1 employees would have paid $18.
 
 [explanation](./amat_answer_explanation.md#Q7)
 
-----
 
 
 <fieldset> 
@@ -385,7 +384,7 @@ mean) of the last two preceding terms.
 
 ----
 
-<h3>11-Is the median of the five numbers a, b, c, d and e equal to d?</h3>
+<h3>11- Is the median of the five numbers a, b, c, d and e equal to d?</h3>
 
 (1) $a < c < e$
 
@@ -1114,7 +1113,7 @@ when it started to leak? (Note: 1 gallon = 128 ounces)</h3>
 
 ----
 
-<h3>31-During a certain bicycle ride, was Sherry's average speed faster than 24 kilometers per hour? (1
+<h3>31- During a certain bicycle ride, was Sherry's average speed faster than 24 kilometers per hour? (1
 kilometer = 1000 meter)</h3>
 
 (1) Sherry's average speed during the bicycle ride was faster than 7 meters per second.
@@ -1930,6 +1929,43 @@ that she spent on magazines and books.
 
   <div>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+
+---
+
+53- At a certain picnic, each of the guests was served either a single scoop or a double scoop of ice crea. How many of the guests were served a double scoop of ice cream?
+
+(1) At the picnic, 60 percent of the guests were served a double scoop of ice cream.
+
+(2) A total of 120 scoops of ice cream were served to all the guests at the picnic.
+
+[explanation](./amat_answer_explanation.md#Q53)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
