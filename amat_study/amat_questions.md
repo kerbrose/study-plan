@@ -1371,14 +1371,16 @@ of 10 gallons every 2 and half minutes.
 </fieldset>
 
 
-<h3>38 The charge for a telephone call between City R and City S is $0.42 for each of the first 3
+<h3>38- The charge for a telephone call between City R and City S is $0.42 for each of the first 3
 minutes and $0.18 for each additional minute. A certain call between these two cities lasted for
 x minutes, where x is an integer. How many minutes long was the call?</h3>
-1)The charge for the first 3 minutes of the call was $0.36 less than the charge for the remainder
+
+1) The charge for the first 3 minutes of the call was $0.36 less than the charge for the remainder
 of the call.
+
 2) The total charge for the call was $2.88
--
-Answer is D
+
+[explanation](./amat_answer_explanation.md#Q38)
 <fieldset> 
 
   <div>
@@ -1394,13 +1396,13 @@ Answer is D
   </div>
 
   <div>
+    <mark>
     (D) EACH statement ALONE is sufficient.
+    </mark>
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>

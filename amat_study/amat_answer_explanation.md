@@ -1568,6 +1568,59 @@ That corresponds to **Answer Choice B** in GMAT-style Data Sufficiency.
 ---
 
 
+## Q38
+Let’s break this one down carefully:
+
+We’re asked: **How many minutes long was the call?**
+
+- Cost structure:  
+  - First 3 minutes: $0.42$ each → total $3 \times 0.42 = 1.26$.  
+  - Each additional minute: $0.18$.  
+  - Total cost = $1.26 + 0.18(x - 3)$, for $x \geq 3$.
+
+---
+
+### Statement (1):  
+*The charge for the first 3 minutes was $0.36 less than the charge for the remainder of the call.*
+
+- First 3 minutes = $1.26$.  
+- Remainder = $0.18(x - 3)$.  
+- Condition: $1.26 = 0.18(x - 3) - 0.36$.  
+
+Solve:  
+$1.26 + 0.36 = 0.18(x - 3) \quad \Rightarrow \quad 1.62 = 0.18(x - 3)$  
+$x - 3 = \frac{1.62}{0.18} = 9 \quad \Rightarrow \quad x = 12$
+
+So the call lasted **12 minutes**.  
+Statement (1) is **sufficient**.
+
+---
+
+### Statement (2):  
+*The total charge for the call was $2.88.*
+
+Equation:  
+$1.26 + 0.18(x - 3) = 2.88$  
+$0.18(x - 3) = 1.62 \quad \Rightarrow \quad x - 3 = 9 \quad \Rightarrow \quad x = 12$
+
+So again, the call lasted **12 minutes**.  
+Statement (2) is **sufficient**.
+
+---
+
+### Combining (1) and (2):  
+Each statement alone already gives the unique answer $x = 12$.  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+---
+
+
 
 ---
 
