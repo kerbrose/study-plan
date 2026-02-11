@@ -200,6 +200,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
 ----
 
 <h3>6- If x and y are integers, what is the value of y ?</h3>
+
 (1) $xy = 27$
 
 (2) $x = y^2$
@@ -1258,6 +1259,7 @@ kilometer = 1000 meter)</h3>
   
 </fieldset>
 
+----
 
 <h3>35- Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the
 same time, water is pumped out of the tank at a constant rate through an outlet pipe. At what
@@ -1296,16 +1298,23 @@ of 10 gallons every 2 and half minutes.
   
 </fieldset>
 
+----
 
 <h3>36- Is x a negative number?</h3>
-1) 9x > 10x
-2) x + 3 is positive.
--
-Answer is A
+
+
+1) $9x > 10x$
+
+2) $x + 3$ is positive.
+
+[explanation](./amat_answer_explanation.md#Q36)
+
 <fieldset> 
 
   <div>
+    <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    </mark>
   </div>
 
   <div>
@@ -1321,13 +1330,12 @@ Answer is A
   </div>
 
   <div>
-    <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
   </div>
   
 </fieldset>
 
+----
 
 <h3>37- If i and j are integers, is i + j an even integer?</h3>
 1) i < 10
