@@ -1449,10 +1449,13 @@ the bridge exactly 2 seconds after Car Y drove off the bridge.
 ----
 
 <h3>40- If p and q are positive, is p/q less than 1?</h3>
-(1) p is less than 4
-(2) q is less than 4
--
-Answer is E
+
+(1) $p$ is less than 4
+
+(2) $q$ is less than 4
+
+[explanation](./amat_answer_explanation.md#Q40)
+
 <fieldset> 
 
   <div>

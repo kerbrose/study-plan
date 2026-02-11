@@ -1669,6 +1669,46 @@ That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
 ---
 
 
+## Q40
+
+We want to know: **Is $ \frac{p}{q} < 1$?**  
+Equivalently: Is $p < q$? (since both are positive).
+
+---
+
+### Statement (1): $p < 4$  
+- This only tells us that $p$ is less than 4.  
+- But we don’t know anything about $q$.  
+- Example: If $p = 3$ and $q = 10$, then $p/q < 1$.  
+- If $p = 3$ and $q = 2$, then $p/q > 1$.  
+- So **insufficient**.
+
+---
+
+### Statement (2): $q < 4$  
+- This only tells us that $q$ is less than 4.  
+- But we don’t know anything about $p$.  
+- Example: If $p = 2$ and $q = 3$, then $p/q < 1$.  
+- If $p = 5$ and $q = 3$, then $p/q > 1$.  
+- So **insufficient**.
+
+---
+
+### Combine (1) and (2):  
+- Now we know $p < 4$ and $q < 4$.  
+- But this still doesn’t guarantee whether $p < q$.  
+- Example: $p = 2, q = 3 \Rightarrow p/q < 1$.  
+- Example: $p = 3, q = 2 \Rightarrow p/q > 1$.  
+- So **still insufficient**.
+
+---
+
+### ✅ Final Answer:  
+**Statements (1) and (2) together are not sufficient.**  
+That corresponds to **Answer Choice E** in GMAT-style Data Sufficiency.
+
+---
+
 
 
 
