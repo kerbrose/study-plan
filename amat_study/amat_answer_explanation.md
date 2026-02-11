@@ -2073,6 +2073,57 @@ That corresponds to **Answer Choice C** in GMAT-style Data Sufficiency.
 
 ---
 ## Q48
+
+
+We want: **The ratio of cars to trucks produced by Company X last year.**
+
+---
+
+### Step 1: Define variables  
+- Let $C$ = number of cars.  
+- Let $T$ = number of trucks.  
+- We want $C:T$.
+
+---
+
+### Statement (1):  
+*If cars had been 8% greater, then cars = 150% of trucks.*  
+
+So:  
+$1.08C = 1.5T$  
+$\frac{C}{T} = \frac{1.5}{1.08} = \frac{150}{108} = \frac{25}{18}$  
+
+This gives the exact ratio of cars to trucks.  
+**Sufficient.**
+
+---
+
+### Statement (2):  
+*Company X produced 565,000 cars and 406,800 trucks.*  
+
+So:  
+$\frac{C}{T} = \frac{565{,}000}{406{,}800}$  
+
+Simplify:  
+Divide numerator and denominator by 100 → $\frac{5650}{4068}$.  
+Both divisible by 2 → $\frac{2825}{2034}$.  
+This fraction cannot be reduced further.  
+So ratio = $2825:2034$.  
+**Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+Each statement alone already gives the ratio.  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+
 ---
 ## Q49
 ---
