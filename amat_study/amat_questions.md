@@ -29,7 +29,7 @@
   </div>
 
   <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient.</mark>
+    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient.✔    </mark>
   </div>
 
 </fieldset>
@@ -65,7 +65,7 @@ how many of the computers are Brand Y?</h3>
   <div>
   <mark>
     (D) EACH statement ALONE is sufficient.
-  </mark>
+  ✔    </mark>
   </div>
 
   <div>
@@ -103,7 +103,7 @@ that they save per week?</h3>
   <div>
   <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </mark>
+  ✔    </mark>
   </div>
 
   <div>
@@ -148,7 +148,7 @@ been 5 percent less.
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -184,7 +184,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -222,7 +222,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -261,7 +261,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -297,7 +297,7 @@ attended the dinner, each of the k +1 employees would have paid $18.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -342,7 +342,7 @@ mean) of the last two preceding terms.
   <div>
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    ✔    </mark>
   </div>
   
 </fieldset>
@@ -373,7 +373,7 @@ mean) of the last two preceding terms.
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -413,7 +413,7 @@ mean) of the last two preceding terms.
   <div>
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    ✔    </mark>
   </div>
   
 </fieldset>
@@ -445,7 +445,7 @@ mean) of the last two preceding terms.
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -477,7 +477,7 @@ mean) of the last two preceding terms.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -522,7 +522,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   <div>
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    ✔    </mark>
   </div>
   
 </fieldset>
@@ -553,7 +553,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -590,7 +590,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -613,7 +613,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -656,7 +656,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -684,7 +684,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -732,7 +732,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -756,7 +756,7 @@ revenue. What was the total of Elena's salary and commission last month?</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -806,7 +806,7 @@ of 2*?</h3>
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -831,7 +831,7 @@ of 2*?</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -880,7 +880,7 @@ of 2*?</h3>
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -904,7 +904,7 @@ of 2*?</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -949,7 +949,7 @@ be sold?</h3>
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -990,7 +990,7 @@ be sold?</h3>
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1032,7 +1032,7 @@ rate, to empty a tank that was initially full?</h3>
   <div>
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    ✔    </mark>
   </div>
   
 </fieldset>
@@ -1060,7 +1060,7 @@ rate, to empty a tank that was initially full?</h3>
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1105,7 +1105,7 @@ when it started to leak? (Note: 1 gallon = 128 ounces)</h3>
   <div>
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    ✔    </mark>
   </div>
   
 </fieldset>
@@ -1127,7 +1127,7 @@ kilometer = 1000 meter)</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1163,7 +1163,7 @@ kilometer = 1000 meter)</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1200,7 +1200,7 @@ kilometer = 1000 meter)</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1245,7 +1245,7 @@ kilometer = 1000 meter)</h3>
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1280,7 +1280,7 @@ of 10 gallons every 2 and half minutes.
   <div>
     <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1313,7 +1313,7 @@ of 10 gallons every 2 and half minutes.
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1352,7 +1352,7 @@ of 10 gallons every 2 and half minutes.
   <div>
     <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1398,7 +1398,7 @@ of the call.
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1431,7 +1431,7 @@ the bridge exactly 2 seconds after Car Y drove off the bridge.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1476,7 +1476,7 @@ the bridge exactly 2 seconds after Car Y drove off the bridge.
   <div>
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    ✔    </mark>
   </div>
   
 </fieldset>
@@ -1508,7 +1508,7 @@ machines working?</h3>
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1547,7 +1547,7 @@ coordinatesof point R ?</h3>
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1589,7 +1589,7 @@ games it played. What was the total number of games that Team A won?</h3>
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1614,7 +1614,7 @@ games it played. What was the total number of games that Team A won?</h3>
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1665,7 +1665,7 @@ markets.
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1691,7 +1691,7 @@ markets.
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1735,7 +1735,7 @@ markets.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1781,7 +1781,7 @@ Company X.
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1806,7 +1806,7 @@ Company X.
   <div>
     <mark>
     (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1848,7 +1848,7 @@ order. At what time did it completely fill the order that morning?</h3>
   <div>
     <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1897,7 +1897,7 @@ which it was shown?</h3>
   <div>
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    ✔    </mark>
   </div>
   
 </fieldset>
@@ -1924,7 +1924,7 @@ that she spent on magazines and books.
   <div>
     <mark>
     (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -1965,7 +1965,7 @@ that she spent on magazines and books.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -2003,7 +2003,7 @@ that she spent on magazines and books.
   <div>
     <mark>
     (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -2053,7 +2053,7 @@ A circular tub has a band painted around its circumference, as shown above. What
   <div>
     <mark>
     (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-    </mark>
+    ✔    </mark>
   </div>
   
 </fieldset>
@@ -2086,7 +2086,7 @@ A circular tub has a band painted around its circumference, as shown above. What
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -2122,7 +2122,7 @@ A circular tub has a band painted around its circumference, as shown above. What
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
   </div>
 
   <div>
@@ -2160,7 +2160,45 @@ A circular tub has a band painted around its circumference, as shown above. What
   <div>
     <mark>
     (D) EACH statement ALONE is sufficient.
-    </mark>
+    ✔    </mark>
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+
+----
+
+59- What is the value of |x|?
+
+(1) $x = -|x|$
+
+(2) $x^2 = 4$
+
+
+[explanation](./amat_answer_explanation.md#Q59)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+    ✔    </mark>
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
   </div>
 
   <div>
