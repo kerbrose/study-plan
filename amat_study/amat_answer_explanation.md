@@ -2540,3 +2540,108 @@ That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
 Notice how both statements essentially give you the same ratio by different proportions. A quick recognition trick: when the mix is only two ingredients, knowing either the flour fraction or the baking powder fraction is enough to determine the ratio. Would you like me to show you how to generalize this shortcut for any “two‑ingredient mixture” DS problem?
 
 ---
+
+## Q58
+
+Let’s carefully analyze this **Data Sufficiency** problem:
+
+We want: **The selling price of the house.**
+
+---
+
+### Step 1: Define variables  
+- Let $S$ = selling price.  
+- Commission = $0.06S$.  
+- Net amount (after commission) = $S - 0.06S = 0.94S$.
+
+---
+
+### Statement (1):  
+*The selling price minus the commission was \$84,600.*  
+
+So:  
+$0.94S = 84{,}600 \quad \Rightarrow \quad S = \frac{84{,}600}{0.94} = 90{,}000$  
+
+We can determine the exact selling price.  
+**Sufficient.**
+
+---
+
+### Statement (2):  
+*The selling price was 250% of the original purchase price of \$36,000.*  
+
+So:  
+$S = 2.5 \times 36{,}000 = 90{,}000$  
+
+We can determine the exact selling price.  
+**Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+Each statement alone already gives the selling price.  
+Together they are also sufficient, but not needed.
+
+---
+
+### ✅ Final Answer:  
+**Each statement alone is sufficient.**  
+That corresponds to **Answer Choice D** in GMAT-style Data Sufficiency.
+
+
+Notice how both statements independently anchor the selling price at \$90,000. A quick recognition trick: whenever you see commission problems, check if the statement gives either the net amount after commission or a direct percentage relation to another known value—both are enough to solve alone.
+
+---
+
+## Q59
+
+Let’s carefully analyze this **Data Sufficiency** problem:
+
+We want: **What is the value of $|x|$?**
+
+---
+
+### Step 1: Recall definition  
+$|x|$ is the nonnegative value of $x$. To determine it uniquely, we need enough information about $x$.
+
+---
+
+### Statement (1): $x = -|x|$  
+- If $x = -|x|$, then $x$ must be **nonpositive**.  
+- Case 1: If $x = 0$, then $|x| = 0$.  
+- Case 2: If $x < 0$, then $|x| = -x$. For example, if $x = -3$, then $|x| = 3$.  
+- So multiple values are possible.  
+- **Insufficient.**
+
+---
+
+### Statement (2): $x^2 = 4$  
+- Then $x = \pm 2$.  
+- So $|x| = 2$.  
+- This gives a unique value.  
+- **Sufficient.**
+
+---
+
+### Combine (1) and (2):  
+- From (2): $x = \pm 2$.  
+- From (1): $x = -|x|$.  
+  - If $x = 2$, then $2 = -|2| = -2$, contradiction.  
+  - If $x = -2$, then $-2 = -|-2| = -2$, consistent.  
+- So $x = -2$.  
+- Therefore $|x| = 2$.  
+- Still a unique value.  
+- **Sufficient.**
+
+---
+
+### ✅ Final Answer:  
+**Statement (2) alone is sufficient, but statement (1) alone is not.**  
+That corresponds to **Answer Choice B** in GMAT-style Data Sufficiency.
+
+
+
+Notice how statement (1) acted as a restriction, while statement (2) directly pinned down the absolute value. A quick recognition trick: whenever you see $|x|$ with a quadratic condition, check if the possible values collapse to a single absolute value.
+
+---
+
