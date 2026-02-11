@@ -1977,3 +1977,41 @@ that she spent on magazines and books.
   </div>
   
 </fieldset>
+
+---
+
+54- By What percent was the price of a ceratain candy bar increased?
+
+
+(1) The price of the candy bar was increased by 5 cents.
+
+(2) The price of the candy bar after the increase was 45 cents.
+
+[explanation](./amat_answer_explanation.md#Q54)
+
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    </mark>
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
