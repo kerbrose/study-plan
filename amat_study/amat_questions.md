@@ -1715,11 +1715,11 @@ markets.
 
 ----
 
-<h3>47-If 2x (5n) = t, what is the value of t?</h3>
+<h3>47- If 2x (5n) = t, what is the value of t?</h3>
 
-(1) x = n + 3
+(1) $x = n + 3$
 
-(2) 2x = 32
+(2) $2x = 32$
 
 [explanation](./amat_answer_explanation.md#Q47)
 
