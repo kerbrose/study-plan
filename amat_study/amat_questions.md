@@ -2026,7 +2026,7 @@ that she spent on magazines and books.
 A circular tub has a band painted around its circumference, as shown above. What is the surface area of this painted band?
 
 
-(1) $ x = 0.5 $
+(1) $x = 0.5$
 
 (2) The height of the tub is 1 meter.
 
@@ -2063,11 +2063,47 @@ A circular tub has a band painted around its circumference, as shown above. What
 56- Is it true that a > b?
 
 
-(1) $ 2a > 2b $
+(1) $2a > 2b$
 
 (2) $a + c > b + c $
 
 [explanation](./amat_answer_explanation.md#Q56)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (D) EACH statement ALONE is sufficient.
+    </mark>
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+----
+
+57- A throrughly blended biscuit mix includes only flour and baking powder. What is the ratio of the number of grams of baking powder to the number of grams of flour in the mix?
+
+(1) Exactly 9.9 grams of flour is contained in 10 grams of the mix.
+
+(2) Exactly 0.3 gram of baking powder is contained in 30 grams of the mix.
+
+[explanation](./amat_answer_explanation.md#Q57)
 
 <fieldset> 
 
