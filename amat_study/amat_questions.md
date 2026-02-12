@@ -2249,3 +2249,39 @@ A circular tub has a band painted around its circumference, as shown above. What
 </fieldset>
 
 ----
+
+61- A certain bakery sells rye bread in 16-ounce loaves and 24-ounce loaves, and all loaves of the same size sell for the same price per loaf regardless of the number of loaves purchased. What is the price of a 24-ounce loaf of rye bread in this bakery?
+
+(1) The total price of a 16-ounce loaf and a 24-ounce loaf of this bread is \$2.40.
+
+(2) The total price of two 16-ounce loaves and one 24-ounce loaf of this bread is \$3.40.
+
+[explanation](./amat_answer_explanation.md#Q61)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    ✔    </mark>
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+----
