@@ -1,3 +1,8 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net" integrity="sha384-n8MVd4MeHzEOCaZ<span>...</span>" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net" integrity="sha384-aOFwaIGQNyfPNyPoMPc7zxtQOp7bQAAWtvDJHEqGowLhl<span>...</span>" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net" integrity="sha384-+VBxdQ4XuX<span>...</span>" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
 # Data Sufficiency
 
 <h3>1- Is zw positive?</h3>
@@ -1944,7 +1949,7 @@ that she spent on magazines and books.
 
 ----
 
-53- At a certain picnic, each of the guests was served either a single scoop or a double scoop of ice crea. How many of the guests were served a double scoop of ice cream?
+<h3>53- At a certain picnic, each of the guests was served either a single scoop or a double scoop of ice crea. How many of the guests were served a double scoop of ice cream?</h3>
 
 (1) At the picnic, 60 percent of the guests were served a double scoop of ice cream.
 
@@ -1980,7 +1985,7 @@ that she spent on magazines and books.
 
 ----
 
-54- By What percent was the price of a ceratain candy bar increased?
+<h3>54- By What percent was the price of a ceratain candy bar increased?</h3>
 
 
 (1) The price of the candy bar was increased by 5 cents.
@@ -2018,12 +2023,12 @@ that she spent on magazines and books.
 
 ----
 
-55- 
+<h3>55- 
 
 ![tub](./img_q55_tub.png)
 
 
-A circular tub has a band painted around its circumference, as shown above. What is the surface area of this painted band?
+A circular tub has a band painted around its circumference, as shown above. What is the surface area of this painted band?</h3>
 
 
 (1) $x = 0.5$
@@ -2060,7 +2065,7 @@ A circular tub has a band painted around its circumference, as shown above. What
 
 ----
 
-56- Is it true that a > b?
+<h3>56- Is it true that a > b?</h3>
 
 
 (1) $2a > 2b$
@@ -2097,7 +2102,7 @@ A circular tub has a band painted around its circumference, as shown above. What
 
 ----
 
-57- A throrughly blended biscuit mix includes only flour and baking powder. What is the ratio of the number of grams of baking powder to the number of grams of flour in the mix?
+<h3>57- A throrughly blended biscuit mix includes only flour and baking powder. What is the ratio of the number of grams of baking powder to the number of grams of flour in the mix?</h3>
 
 (1) Exactly 9.9 grams of flour is contained in 10 grams of the mix.
 
@@ -2134,7 +2139,7 @@ A circular tub has a band painted around its circumference, as shown above. What
 ----
 
 
-58- If a real estate agent received a commision of 6 percent of the selling price of a certain house, what was the selling price of a certain house, what was the selling price of the house?
+<h3>58- If a real estate agent received a commision of 6 percent of the selling price of a certain house, what was the selling price of a certain house, what was the selling price of the house?</h3>
 
 (1) The selling price minus the real estate agent's commision was \$84,600.
 
@@ -2172,7 +2177,7 @@ A circular tub has a band painted around its circumference, as shown above. What
 
 ----
 
-59- What is the value of |x|?
+<h3>59- What is the value of |x|?</h3>
 
 (1) $x = -|x|$
 
@@ -2209,11 +2214,11 @@ A circular tub has a band painted around its circumference, as shown above. What
 
 ----
 
-60- 
+<h3>60- 
 
 ![triangle](./img_q60_triangle.png)
 
-60- What is the value of z in the triangle above?
+What is the value of z in the triangle above?</h3>
 
 (1) $x + y = 139$
 
@@ -2249,3 +2254,48 @@ A circular tub has a band painted around its circumference, as shown above. What
 </fieldset>
 
 ----
+
+
+<h3>61- A certain bakery sells rye bread in 16-ounce loaves and 24-ounce loaves, and all loaves of the same size sell for the same price per loaf regardless of the number of loaves purchased. What is the price of a 24-ounce loaf of rye bread in this bakery?</h3>
+
+(1) The total price of a 16-ounce loaf and a 24-ounce loaf of this bread is \$2.40.
+
+(2) The total price of two 16-ounce loaves and one 24-ounce loaf of this bread is \$3.40.
+
+[explanation](./amat_answer_explanation.md#Q61)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+    ✔    </mark>
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+----
+
+
+<h3>62- If \\(x\\)</h3>
+
+<body>
+  <h1>My Heading with LaTeX: \\( E = mc^2 \\)</h1>
+  <h2>A Subheading with an Integral: \\[ \\int_{-1}^{1} \\frac{1}{\\sqrt{1-x^{2}}} dx = \\pi \\]</h2>
+</body>
