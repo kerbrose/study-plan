@@ -2755,3 +2755,42 @@ Notice how this problem is a classic “two equations, two unknowns” setup. A 
 
 ---
 
+## Q62
+
+We are given:
+
+$\frac{\sqrt{x}}{y} = n$
+
+which implies:
+
+$\sqrt{x} = ny \quad \Rightarrow \quad x = (ny)^2$
+
+---
+
+### Statement (1): $yn = 10$
+
+- From this, we only know the product $yn$.
+- Then $x = (ny)^2 = (10)^2 = 100$.
+- So **Statement (1) alone is sufficient** to determine $x$.
+
+---
+
+### Statement (2): $y = 40, \; n = \frac{1}{4}$
+
+- Compute $ny = \frac{1}{4} \cdot 40 = 10$.
+- Then $x = (ny)^2 = (10)^2 = 100$.
+- So **Statement (2) alone is also sufficient** to determine $x$.
+
+---
+
+### Combined Statements
+
+- Both statements lead to the same result: $x = 100$.
+- Since each statement alone is sufficient, combining them is unnecessary.
+
+
+✅ **Final Answer (Data Sufficiency Style):**  
+Each statement alone is sufficient to determine the value of $x$.  
+That corresponds to **option D** in GMAT-style data sufficiency (Each statement alone is sufficient).  
+
+---
