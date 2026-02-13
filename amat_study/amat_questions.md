@@ -2293,9 +2293,38 @@ What is the value of z in the triangle above?</h3>
 ----
 
 
-<h3>62- If \\(x\\)</h3>
+<h3>62- If √x/y = n, What is the value of x?<h3>
 
-<body>
-  <h1>My Heading with LaTeX: \\( E = mc^2 \\)</h1>
-  <h2>A Subheading with an Integral: \\[ \\int_{-1}^{1} \\frac{1}{\\sqrt{1-x^{2}}} dx = \\pi \\]</h2>
-</body>
+(1) $yn = 10$
+
+(2) $y = 40$ and $n = \frac{1}{4}$
+
+[explanation](./amat_answer_explanation.md#Q62)
+
+<fieldset> 
+
+  <div>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    <mark>
+    (D) EACH statement ALONE is sufficient.
+    ✔    </mark>
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+----
