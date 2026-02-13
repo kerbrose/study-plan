@@ -2328,3 +2328,39 @@ What is the value of z in the triangle above?</h3>
 </fieldset>
 
 ----
+
+<h3>63- if m and n are consecutive positive integers, is m greater than n?<h3>
+
+(1) $m - 1$ and $n + 1$ are consecutive positive integers.
+
+(2) $m$ is an even integer.
+
+[explanation](./amat_answer_explanation.md#Q62)
+
+<fieldset> 
+
+  <div>
+    <mark>
+    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+    ✔    </mark>
+  </div>
+
+  <div>
+    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+  </div>
+
+  <div>
+    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+  </div>
+
+  <div>
+    (D) EACH statement ALONE is sufficient.
+  </div>
+
+  <div>
+    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+  </div>
+  
+</fieldset>
+
+----
