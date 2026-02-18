@@ -2794,3 +2794,53 @@ Each statement alone is sufficient to determine the value of $x$.
 That corresponds to **option D** in GMAT-style data sufficiency (Each statement alone is sufficient).  
 
 ---
+
+## Q63
+
+Let’s analyze this carefully in **GMAT Data Sufficiency style**:
+
+We are asked:  
+If $m$ and $n$ are consecutive positive integers, is $m > n$?
+
+---
+
+### Step 1: Restating the condition
+- If $m$ and $n$ are consecutive integers, then either:
+  - $m = n + 1$ (so $m > n$), or  
+  - $n = m + 1$ (so $m < n$).  
+- The question is essentially: *Which one comes first?*
+
+---
+
+### Statement (1): $m - 1$ and $n + 1$ are consecutive positive integers
+- If $m - 1$ and $n + 1$ are consecutive, then:
+  $(m - 1) = (n + 1) + 1 \quad \text{or} \quad (n + 1) = (m - 1) + 1$
+
+- Case A: $m - 1 = n + 2 \implies m = n + 3$.  
+But this contradicts the fact that $m$ and $n$ are consecutive integers. So Case A is impossible.
+
+- Case B: $n + 1 = m \implies m = n + 1$.  
+This matches the definition of consecutive integers, and clearly $m > n$.
+
+✅ **Statement (1) alone is sufficient.**
+
+---
+
+### Statement (2): $m$ is an even integer
+- If $m$ is even, then $n$ could be either:
+  - $m - 1$ (odd, smaller), or  
+  - $m + 1$ (odd, larger).  
+- Both are possible, so we cannot determine whether $m > n$.
+
+❌ **Statement (2) alone is not sufficient.**
+
+---
+
+### Combined Statements
+- Statement (1) already tells us $m = n + 1$.  
+- Adding Statement (2) doesn’t change the sufficiency.  
+
+✅ **Final Answer: Statement (1) alone is sufficient, but Statement (2) alone is not.**  
+This corresponds to **option A** in GMAT Data Sufficiency.
+
+---
