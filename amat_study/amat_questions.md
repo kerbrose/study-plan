@@ -1,8 +1,3 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net" integrity="sha384-n8MVd4MeHzEOCaZ<span>...</span>" crossorigin="anonymous">
-<script defer src="https://cdn.jsdelivr.net" integrity="sha384-aOFwaIGQNyfPNyPoMPc7zxtQOp7bQAAWtvDJHEqGowLhl<span>...</span>" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net" integrity="sha384-+VBxdQ4XuX<span>...</span>" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-
-
 # Data Sufficiency
 
 <h3>1- Is zw positive?</h3>
@@ -3417,6 +3412,7 @@ answer is B
 (2) The total of the expenditure for periodicals and newspapers was 25 percent less than the expenditure for books.
 
 [explanation](./amat_answer_explanation.md#Q91)
+
 answer is B
 
 <fieldset> 
@@ -3865,16 +3861,16 @@ answer is B
 
 ----
 
-112- if ⚬ represents on the opertions +, -, and x, is k ⚬ (𝜆 + m) = () + () for all numbers k, 𝜆, and m?
+112- if ∘ represents on the opertions +, -, and x, is k ∘ (𝜆 + m) = () + () for all numbers k, 𝜆, and m?
 
-(1) $k ⚬ 1$ is not equal to $1 ⚬ k$ for some numbers k.
+(1) $k ∘ 1$ is not equal to $1 ⚬ k$ for some numbers k.
 
-(2) ⚬ represents subtraction.
+(2) $∘$ represents subtraction.
 
 answer is D 
 
 
-
+----
 
 
 
