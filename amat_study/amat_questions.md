@@ -314,10 +314,10 @@ attended the dinner, each of the k +1 employees would have paid $18.
 
 <h3>9- What is the sum of the first four terms of sequence S?</h3>
 
-(1) After the first two terms of S,the value of each term of S is equal to the average (arithmetic
+(1) After the first two terms of $S$,the value of each term of $S$ is equal to the average (arithmetic
 mean) of the last two preceding terms.
 
-(2) The average (arithmetic mean) of the first three terms of S is 10.
+(2) The average (arithmetic mean) of the first three terms of $S$ is 10.
 
 [explanation](./amat_answer_explanation.md#Q9)
 
