@@ -1,2452 +1,2579 @@
 <!DOCTYPE html>
 <!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
 <html>
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.css" integrity="sha384-Wsr4Nh3yrvMf2KCebJchRJoVo1gTU6kcP05uRSh5NV3sj9+a8IomuJoQzf3sMq4T" crossorigin="anonymous">
 
-    <!-- The loading of KaTeX is deferred to speed up page rendering -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.js" integrity="sha384-+W9OcrYK2/bD7BmUAk+xeFAyKp0QjyRQUCxeU31dfyTt/FrPsUgaBTLLkVf33qWt" crossorigin="anonymous"></script>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.css"
+    integrity="sha384-Wsr4Nh3yrvMf2KCebJchRJoVo1gTU6kcP05uRSh5NV3sj9+a8IomuJoQzf3sMq4T" crossorigin="anonymous">
 
-    <!-- To automatically render math in text elements, include the auto-render extension: -->
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);"></script>
-  </head>
-  <body>
-    
+  <!-- The loading of KaTeX is deferred to speed up page rendering -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/katex.min.js"
+    integrity="sha384-+W9OcrYK2/bD7BmUAk+xeFAyKp0QjyRQUCxeU31dfyTt/FrPsUgaBTLLkVf33qWt"
+    crossorigin="anonymous"></script>
 
-<h1>Data Sufficiency</h1>
+  <!-- To automatically render math in text elements, include the auto-render extension: -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.28/dist/contrib/auto-render.min.js"
+    integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
 
-<div id="question_001">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 
-<h3>1- Is \(zw\) positive?</h3>
 
-(1) \(z + w^3 = 20\)
+  <style>
+    .question {
+      display: none;
+    }
 
-<br />
+    .active {
+      display: block;
+    }
+  </style>
 
-(2) \(z\) is positive
+</head>
 
-<br />
+<body>
+  <div class="container-md">
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q1">explanation</a>
+    <h1>Data Sufficiency</h1>
 
-<br />
 
-<fieldset> 
 
-  <div>
-    <input type="radio" id="q_001_a" name="q_001" value="a" />
-    <label for="q_001_a">(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.</label>
-  </div>
-  
-  <div>
-    <input type="radio" id="q_001_b" name="q_001" value="b" />
-    <label for="q_001_b">(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.</label>
-  </div>
+    <div id="question_ds_001" class="question">
 
-  <div>
-    <input type="radio" id="q_001_c" name="q_001" value="c" />
-    <label for="q_001_c">(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.</label>
-  </div>
+      <h3>1- Is \(zw\) positive?</h3>
 
-  <div>
-    <input type="radio" id="q_001_d" name="q_001" value="d" />
-    <label for="q_001_d">(D) EACH statement ALONE is sufficient.</label>
-  </div>
+      (1) \(z + w^3 = 20\)
 
-  <div>
-    <input type="radio" id="q_001_e" name="q_001" value="e" />
-    <label for="q_001_e">(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</label>
-  </div>
+      <br />
 
-</fieldset>
-<hr />
-</div>
+      (2) \(z\) is positive
 
-<div>
-<h3>2- Some computers at a certain company are Brand X and the rest are Brand Y. If the ratio of the
-number of Brand Y computers to the number of Brand X computers at the company is 5 to 6,
-how many of the computers are Brand Y?</h3>
+      <br />
 
-(1) There are 80 more Brand X computers than Brand Y computers at the company.
-<br />
-(2) There is a total of 880 computers at the company.
-<br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q1">explanation</a>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q2">explanation</a>
-<br />
+      <br />
 
+      <fieldset>
 
+        <div>
+          <input type="radio" id="q_001_a" name="q_001" value="a" />
+          <label for="q_001_a">(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.</label>
+        </div>
 
-<fieldset> 
+        <div>
+          <input type="radio" id="q_001_b" name="q_001" value="b" />
+          <label for="q_001_b">(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.</label>
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          <input type="radio" id="q_001_c" name="q_001" value="c" />
+          <label for="q_001_c">(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is
+            sufficient.</label>
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          <input type="radio" id="q_001_d" name="q_001" value="d" />
+          <label for="q_001_d">(D) EACH statement ALONE is sufficient.</label>
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          <input type="radio" id="q_001_e" name="q_001" value="e" />
+          <label for="q_001_e">(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</label>
+        </div>
 
-  <div>
-  <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+      </fieldset>
+      <hr />
+    </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
-</div>
+    <div id="question_ds_002" class="question">
+      <h3>2- Some computers at a certain company are Brand X and the rest are Brand Y. If the ratio of the
+        number of Brand Y computers to the number of Brand X computers at the company is 5 to 6,
+        how many of the computers are Brand Y?</h3>
 
+      (1) There are 80 more Brand X computers than Brand Y computers at the company.
+      <br />
+      (2) There is a total of 880 computers at the company.
+      <br />
 
-<div>
-<h3>3- If Ann saves \(x\) dollars each week and Beth saves \(y\) dollars each week, what is the total amount
-that they save per week?</h3>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q2">explanation</a>
+      <br />
 
-(1) Beth saves \(5 more per week than Ann saves per week.
-<br />
-(2) It takes Ann 6 weeks to save the same amount that Beth saves in 5 weeks
-<br />
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q3">explanation</a>
-<br />
 
-<fieldset> 
+      <fieldset>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-  <mark>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
-</div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
+      </fieldset>
+      <hr />
+    </div>
 
-<div>
-<h3>4- If the total price of \(n\) equally priced shares of a certain stock was \(12,000, what was the price
-per share of the stock?</h3>
 
-(1) If the price per share of the stock had been \(1 more, the total price of the \(n\) shares would
-have been \(300 more.
-<br />
-(2) If the price per share of the stock had been \(2 less, the total price of the \(n\) shares would have
-been 5 percent less.
-<br />
+    <div id="question_ds_003" class="question">
+      <h3>3- If Ann saves \(x\) dollars each week and Beth saves \(y\) dollars each week, what is the total amount
+        that they save per week?</h3>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q4">explanation</a>
+      (1) Beth saves \(5 more per week than Ann saves per week.
+      <br />
+      (2) It takes Ann 6 weeks to save the same amount that Beth saves in 5 weeks
+      <br />
 
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q3">explanation</a>
+      <br />
 
+      <fieldset>
 
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          <mark>
+            (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>
-    (D) EACH statement ALONE is sufficient.✔ </mark>
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      </fieldset>
+      <hr />
+    </div>
 
-<hr />
-</div>
 
-<div>
-<h3>5- The total cost of an office dinner was shared equally by \(k\) of the \(n\) employees who attended the
-dinner. What was the total cost of the dinner?</h3>
+    <div id="question_ds_004" class="question">
+      <h3>4- If the total price of \(n\) equally priced shares of a certain stock was \(12,000, what was the price
+        per share of the stock?</h3>
 
-(1) Each of the \(k\) employees who shared the cost of the dinner paid \(19.
-<br />
+      (1) If the price per share of the stock had been \(1 more, the total price of the \(n\) shares would
+      have been \(300 more.
+      <br />
+      (2) If the price per share of the stock had been \(2 less, the total price of the \(n\) shares would have
+      been 5 percent less.
+      <br />
 
-(2) If the total cost of the dinner had been shared equally by \(k +1\) of the n employees who attended the dinner, each of the \(k +1\) employees would have paid \(18.
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q4">explanation</a>
 
-<br />
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q5">explanation</a>
-<br />
 
+      <fieldset>
 
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
-  </div>
+        <div>
+          <mark>
+            (D) EACH statement ALONE is sufficient.✔ </mark>
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      </fieldset>
 
-<hr />
-</div>
+      <hr />
+    </div>
 
-<div>
-<h3>6- If \(x\) and \(y\) are integers, what is the value of \(y\)?</h3>
+    <div id="question_ds_005" class="question">
+      <h3>5- The total cost of an office dinner was shared equally by \(k\) of the \(n\) employees who attended the
+        dinner. What was the total cost of the dinner?</h3>
 
-(1) \(xy = 27\)
-<br />
-(2) \(x = y^2\)
-<br />
+      (1) Each of the \(k\) employees who shared the cost of the dinner paid \(19.
+      <br />
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q6">explanation</a>
+      (2) If the total cost of the dinner had been shared equally by \(k +1\) of the n employees who attended the
+      dinner, each of the \(k +1\) employees would have paid \(18.
 
-<br />
+      <br />
 
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q5">explanation</a>
+      <br />
 
-<fieldset> 
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
-</div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<div>
-<h3>7- What is the average (arithmetic mean) of \(x\) and \(y\)?</h3>
+      </fieldset>
 
-(1) The average of \(x\) and \(2y\) is 10.
-<br />
-(2) The average of \(2x\) and \(7y\) is 32.
-<br />
+      <hr />
+    </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q7">explanation</a>
+    <div id="question_ds_006" class="question">
+      <h3>6- If \(x\) and \(y\) are integers, what is the value of \(y\)?</h3>
 
-<br />
+      (1) \(xy = 27\)
+      <br />
+      (2) \(x = y^2\)
+      <br />
 
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q6">explanation</a>
 
-<fieldset> 
+      <br />
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
-</div>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
+        </div>
 
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<div>
-<h3>8- What was the amount of money donated to a certain charity?</h3>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-(1) Of the amount donated, 40 percent came from corporate donations.
-<br />
-(2) Of the amount donated, \(1.5 million came from noncorporate donations.
-<br />
+      </fieldset>
+      <hr />
+    </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q8">explanation</a>
-<br />
 
-<fieldset> 
+    <div id="question_ds_007" class="question">
+      <h3>7- What is the average (arithmetic mean) of \(x\) and \(y\)?</h3>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      (1) The average of \(x\) and \(2y\) is 10.
+      <br />
+      (2) The average of \(2x\) and \(7y\) is 32.
+      <br />
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q7">explanation</a>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
-  </div>
+      <br />
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <fieldset>
 
-<hr />
-</div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<div>
-<h3>9- What is the sum of the first four terms of sequence \(S\)?</h3>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
+        </div>
 
-(1) After the first two terms of \(S\), the value of each term of \(S\) is equal to the average (arithmetic mean) of the last two preceding terms.
-<br />
-(2) The average (arithmetic mean) of the first three terms of \(S\) is 10.
-<br />
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q9">explanation</a>
-<br />
-<fieldset> 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      </fieldset>
+      <hr />
+    </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+    <div id="question_ds_008" class="question">
+      <h3>8- What was the amount of money donated to a certain charity?</h3>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      (1) Of the amount donated, 40 percent came from corporate donations.
+      <br />
+      (2) Of the amount donated, \(1.5 million came from noncorporate donations.
+      <br />
 
-  <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient.✔ </mark>
-  </div>
-  
-</fieldset>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q8">explanation</a>
+      <br />
 
-<hr />
-</div>
+      <fieldset>
 
-<div>
-<h3>10- What is the value of the integer \(N\)?</h3>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-(1) \(101 < N < 103\)
-<br />
-(2) \(202 < 2N < 206\)
-<br />
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q10">explanation</a>
-<br />
-<fieldset> 
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.✔ </mark>
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient.✔ </mark>
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
 
-</div>
+    <div id="question_ds_009" class="question">
+      <h3>9- What is the sum of the first four terms of sequence \(S\)?</h3>
 
-<div>
-<h3>11- Is the median of the five numbers \(a\), \(b\), \(c\), \(d\) and \(e\) equal to \(d\)?</h3>
+      (1) After the first two terms of \(S\), the value of each term of \(S\) is equal to the average (arithmetic mean)
+      of the last two preceding terms.
+      <br />
+      (2) The average (arithmetic mean) of the first three terms of \(S\) is 10.
+      <br />
 
-(1) \(a < c < e\)
-<br />
-(2) \(b < d < c\)
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q9">explanation</a>
+      <br />
+      <fieldset>
 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q11">explanation</a>
-<br />
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient.✔ </mark>
+        </div>
 
-  <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient.✔ </mark>
-  </div>
-  
-</fieldset>
+      </fieldset>
 
-<hr />
-</div>
+      <hr />
+    </div>
 
+    <div id="question_ds_010" class="question">
+      <h3>10- What is the value of the integer \(N\)?</h3>
 
-<div>
-<h3>12- If \(n\) is an integer, then \(n\) is divisible by how many positive integers?</h3>
+      (1) \(101
+      < N < 103\) <br />
+      (2) \(202
+      < 2N < 206\) <br />
 
-(1) \(n\) is the product of two different prime numbers.
-<br />
-(2) \(n\) and \(2^3\) are each divisible by the same number of positive integers.
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q10">explanation</a>
+      <br />
+      <fieldset>
 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q12">explanation</a>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-<br />
-<fieldset> 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient.✔ </mark>
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient.✔    </mark>
-  </div>
+      </fieldset>
+      <hr />
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-
-<hr />
-</div>
-
-<div>
-<h3>13- If \(x\), \(y\), and \(z\) are numbers, is \(z = 18\) ?</h3>
-
-(1) The average (arithmetic mean) of \(x\), \(y\), and \(z\) is 6.
-<br />
-(2) \(x = -y\)
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q13">explanation</a>
-<br />
-<fieldset> 
-
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+    </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+    <div id="question_ds_011" class="question">
+      <h3>11- Is the median of the five numbers \(a\), \(b\), \(c\), \(d\) and \(e\) equal to \(d\)?</h3>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔ </mark>
-  </div>
+      (1) \(a
+      < c < e\) <br />
+      (2) \(b
+      < d < c\) <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q11">explanation</a>
+      <br />
+      <fieldset>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<div>
-<h3>14- Elena receives a salary plus a commission that is equal to a fixed percentage of her sales revenue. What was the total of Elena's salary and commission last month?</h3>
+        <div>
+          <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient.✔ </mark>
+        </div>
 
-(1) Elena's monthly salary is \(1,000.
-<br />
-(2) Elena's commission is 5 percent of her sales revenue.
-<br />
+      </fieldset>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q14">explanation</a>
-<br />
+      <hr />
+    </div>
 
-<fieldset> 
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+    <div id="question_ds_012" class="question">
+      <h3>12- If \(n\) is an integer, then \(n\) is divisible by how many positive integers?</h3>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      (1) \(n\) is the product of two different prime numbers.
+      <br />
+      (2) \(n\) and \(2^3\) are each divisible by the same number of positive integers.
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q12">explanation</a>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      <br />
+      <fieldset>
 
-  <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
-  </div>
-  
-</fieldset>
-<hr />
-</div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-<div>
-<h3>15- If the set \(S\) consists of five consecutive positive integers, what is the sum of these five integers?</h3>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-(1) The integer 11 is in \(S\), but 10 is not in \(S\)
-<br />
-(2) The sum of the even integers in \(S\) is 26
-<br />
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q15">explanation</a>
-<br />
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient.✔ </mark>
+        </div>
 
-<fieldset> 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+    <div id="question_ds_013" class="question">
+      <h3>13- If \(x\), \(y\), and \(z\) are numbers, is \(z = 18\) ?</h3>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient.✔ </mark>
-  </div>
+      (1) The average (arithmetic mean) of \(x\), \(y\), and \(z\) is 6.
+      <br />
+      (2) \(x = -y\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q13">explanation</a>
+      <br />
+      <fieldset>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
-</div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<div>
-<h3>16- Is the volume of cube \(A\) greater than the volume of cube \(B\)?</h3>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔ </mark>
+        </div>
 
-1) The volume of cube \(A\) is 160 percent of the volume of cube \(B\).
-<br />
-2) The volume of cube \(B\) is 62.5 percent of the volume of cube \(A\).
-<br />
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q16">explanation</a>
-<br />
+      </fieldset>
 
-<fieldset> 
+      <hr />
+    </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+    <div id="question_ds_014" class="question">
+      <h3>14- Elena receives a salary plus a commission that is equal to a fixed percentage of her sales revenue. What
+        was the total of Elena's salary and commission last month?</h3>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      (1) Elena's monthly salary is \(1,000.
+      <br />
+      (2) Elena's commission is 5 percent of her sales revenue.
+      <br />
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q14">explanation</a>
+      <br />
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <fieldset>
 
-<hr />
-</div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<div>
-<h3>17- What is the value of m if \(m = 4c / 5d\) and \(d\) is not equal to zero?</h3>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-1) \(c = 10d\) 
-<br />
-2) \(c = 2\) 
-<br />
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q17">explanation</a>
-<br />
+        <div>
+          <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
+        </div>
 
-<fieldset> 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.✔ </mark>
-  </div>
+      </fieldset>
+      <hr />
+    </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+    <div id="question_ds_015" class="question">
+      <h3>15- If the set \(S\) consists of five consecutive positive integers, what is the sum of these five integers?
+      </h3>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      (1) The integer 11 is in \(S\), but 10 is not in \(S\)
+      <br />
+      (2) The sum of the even integers in \(S\) is 26
+      <br />
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q15">explanation</a>
+      <br />
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
-</div>
+      <fieldset>
 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-<div>
-<h3>18- What is the value of \(2x - y\)?</h3>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-1) \(x + y = 12\)
-<br />
-2) \(x - y = 4\) 
-<br />
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q18">explanation</a>
-<br />
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient.✔ </mark>
+        </div>
 
-<fieldset> 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      </fieldset>
+      <hr />
+    </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+    <div id="question_ds_016" class="question">
+      <h3>16- Is the volume of cube \(A\) greater than the volume of cube \(B\)?</h3>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      1) The volume of cube \(A\) is 160 percent of the volume of cube \(B\).
+      <br />
+      2) The volume of cube \(B\) is 62.5 percent of the volume of cube \(A\).
+      <br />
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
-</div>
 
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q16">explanation</a>
+      <br />
 
-<div>
-<h3>19- What is the ratio of \(c\) to \(d\)?</h3>
+      <fieldset>
 
-(1) The ratio of \(3c\) to \(3d\) is 3 to 4.
-<br />
-(2) The ratio of \(c + 3\) to \(d +3\) is 4 to 5.
-<br />
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q19">explanation</a>
-<br />
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-<hr />
-</div>
 
+    <div id="question_ds_017" class="question">
+      <h3>17- What is the value of m if \(m = 4c / 5d\) and \(d\) is not equal to zero?</h3>
 
-<div>
-<h3>20- What is the value of \(x\)?</h3>
+      1) \(c = 10d\)
+      <br />
+      2) \(c = 2\)
+      <br />
 
-(1) \(x + 1 = 2 - 3x\) 
-<br />
-(2) \(1/(2x) = 2\) 
-<br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q17">explanation</a>
+      <br />
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q20">explanation</a>
-<br />
-<fieldset> 
+      <fieldset>
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.✔ </mark>
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      </fieldset>
+      <hr />
+    </div>
 
-<hr />
-</div>
 
-<div>
-<h3>21- Which of the positive numbers \(x\) or \(y\) is greater?</h3>
+    <div id="question_ds_018" class="question">
+      <h3>18- What is the value of \(2x - y\)?</h3>
 
-(1) \(y = 2x\) 
-<br />
-(2) \(2x + 5y = 12\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q21">explanation</a>
-<br />
+      1) \(x + y = 12\)
+      <br />
+      2) \(x - y = 4\)
+      <br />
 
-<fieldset> 
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q18">explanation</a>
+      <br />
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+      <fieldset>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<div>
-<h3>22- For all \(x\), the expression \(x^*\) is defined to be \(ax + a\), where \(a\) is a constant. What is the value of \(2^*\)?</h3>
+      </fieldset>
+      <hr />
+    </div>
 
-(1) \(3^*=2\) 
-<br />
-(2) \(5^*=3\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q22">explanation</a>
-<br />
 
-<fieldset> 
+    <div id="question_ds_019" class="question">
+      <h3>19- What is the ratio of \(c\) to \(d\)?</h3>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      (1) The ratio of \(3c\) to \(3d\) is 3 to 4.
+      <br />
+      (2) The ratio of \(c + 3\) to \(d +3\) is 4 to 5.
+      <br />
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q19">explanation</a>
+      <br />
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<div>
-<h3>23- If \(x² + y² = 29\), what is the value of \((x - y)²\)?</h3>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-(1) \(xy = 10\) 
-<br />
-(2) \(x = 5\) 
-<br />
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q23">explanation</a>
-<br />
+      </fieldset>
+      <hr />
+    </div>
 
-<fieldset> 
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+    <div id="question_ds_020" class="question">
+      <h3>20- What is the value of \(x\)?</h3>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      (1) \(x + 1 = 2 - 3x\)
+      <br />
+      (2) \(1/(2x) = 2\)
+      <br />
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q20">explanation</a>
+      <br />
+      <fieldset>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<div>
-<h3>24- Is \(2x > 2y\)?</h3>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-(1) \(x > y\) 
-<br />
-(2) \(3x > 3y\) 
-<br />
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q24">explanation</a>
-<br />
+      </fieldset>
 
-<fieldset> 
+      <hr />
+    </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+    <div id="question_ds_021" class="question">
+      <h3>21- Which of the positive numbers \(x\) or \(y\) is greater?</h3>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      (1) \(y = 2x\)
+      <br />
+      (2) \(2x + 5y = 12\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q21">explanation</a>
+      <br />
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<div>
-<h3>25- Rita's monthly salary is \(\frac{2}{3}\) Juanita's monthly salary. What is their combined monthly salary?</h3>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-(1) Rita's monthly salary is 4,000.
-<br />
-(2) Either Rita's monthly salary or Juanita's monthly salary is 6,000.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q25">explanation</a>
-<br />
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<fieldset> 
+      </fieldset>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+    <div id="question_ds_022" class="question">
+      <h3>22- For all \(x\), the expression \(x^*\) is defined to be \(ax + a\), where \(a\) is a constant. What is the
+        value of \(2^*\)?</h3>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      (1) \(3^*=2\)
+      <br />
+      (2) \(5^*=3\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q22">explanation</a>
+      <br />
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<div>
-<h3>26- A certain dealership has a number of cars to be sold by its salespeople. How many cars are to be sold?</h3>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-(1) If each of the salespeople sells 4 of the cars, 23 cars will remain unsold.
-<br />
-(2) If each of the salespeople sells 6 of the cars, 5 cars will remain unsold.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q26">explanation</a>
-<br />
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-<fieldset> 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+    <div id="question_ds_023" class="question">
+      <h3>23- If \(x² + y² = 29\), what is the value of \((x - y)²\)?</h3>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      (1) \(xy = 10\)
+      <br />
+      (2) \(x = 5\)
+      <br />
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q23">explanation</a>
+      <br />
 
-<hr />
-</div>
+      <fieldset>
 
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+        </div>
 
-<div>
-<h3>27- If \(x\) is a positive integer, what is the value of \(x\)?</h3>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  (1) \(x^2=√x\) 
-<br />
-  (2) \(n/x = n\) and \(n ≠ 0\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q27">explanation</a>
-<br />
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+    <div id="question_ds_024" class="question">
+      <h3>24- Is \(2x > 2y\)?</h3>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      (1) \(x > y\)
+      <br />
+      (2) \(3x > 3y\)
+      <br />
 
-<hr />
-</div>
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q24">explanation</a>
+      <br />
 
+      <fieldset>
 
-<div>
-<h3>28-How many hours would it take Pump \(A\) and Pump \(B\) working together, each at its own constant rate, to empty a tank that was initially full?</h3>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-(1) Working alone at its constant rate, Pump \(A\) would empty the full tank in 4 hours 20 minutes.
-<br />
-(2) Working alone, Pump \(B\) would empty the full tank at its constant rate of 72 liters per minute.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q28">explanation</a>
-<br />
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
-  </div>
-  
-</fieldset>
+    <div id="question_ds_025" class="question">
+      <h3>25- Rita's monthly salary is \(\frac{2}{3}\) Juanita's monthly salary. What is their combined monthly salary?
+      </h3>
 
-<hr />
-</div>
+      (1) Rita's monthly salary is 4,000.
+      <br />
+      (2) Either Rita's monthly salary or Juanita's monthly salary is 6,000.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q25">explanation</a>
+      <br />
 
-<div>
-<h3>29- What is the area of rectangular region \(R\)?</h3>
+      <fieldset>
 
-(1) Each diagonal of \(R\) has length 5.
-<br />
-(2) The perimeter of \(R\) is 14.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q29">explanation</a>
-<br />
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+        </div>
 
-<fieldset> 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <hr />
+    </div>
 
-<hr />
-</div>
+    <div id="question_ds_026" class="question">
+      <h3>26- A certain dealership has a number of cars to be sold by its salespeople. How many cars are to be sold?
+      </h3>
 
-<div>
-<h3>30- A tank containing water started to leak. Did the tank contain more than 30 gallons of water when it started to leak? (Note: 1 gallon = 128 ounces)</h3>
+      (1) If each of the salespeople sells 4 of the cars, 23 cars will remain unsold.
+      <br />
+      (2) If each of the salespeople sells 6 of the cars, 5 cars will remain unsold.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q26">explanation</a>
+      <br />
 
-(1) The water leaked from the tank at a constant rate of 6.4 ounces per minute.
-<br />
-(2) The tank became empty less than 12 hours after it started to leak.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q30">explanation</a>
-<br />
+      <fieldset>
 
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
-  </div>
-  
-</fieldset>
+      </fieldset>
 
+      <hr />
+    </div>
 
-<hr />
-</div>
 
-<div>
-<h3>31- During a certain bicycle ride, was Sherry's average speed faster than 24 kilometers per hour? (1 kilometer = 1000 meter)</h3>
+    <div id="question_ds_027" class="question">
+      <h3>27- If \(x\) is a positive integer, what is the value of \(x\)?</h3>
 
-(1) Sherry's average speed during the bicycle ride was faster than 7 meters per second.
-<br />
-(2) Sherry's average speed during the bicycle ride was slower than 8 meters per second.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q31">explanation</a>
-<br />
+      (1) \(x^2=√x\)
+      <br />
+      (2) \(n/x = n\) and \(n ≠ 0\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q27">explanation</a>
+      <br />
 
-<fieldset> 
+      <fieldset>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<hr />
-</div>
+      </fieldset>
 
-<div>
-<h3>32- Is the integer \(n\) a prime number?</h3>
+      <hr />
+    </div>
 
-(1) \(24 ≤ n ≤ 28\) 
-<br />
-(2) \(n\) is not divisible by 2 or 3
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q32">explanation</a>
-<br />
 
-<fieldset> 
+    <div id="question_ds_028" class="question">
+      <h3>28-How many hours would it take Pump \(A\) and Pump \(B\) working together, each at its own constant rate, to
+        empty a tank that was initially full?</h3>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+      (1) Working alone at its constant rate, Pump \(A\) would empty the full tank in 4 hours 20 minutes.
+      <br />
+      (2) Working alone, Pump \(B\) would empty the full tank at its constant rate of 72 liters per minute.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q28">explanation</a>
+      <br />
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
+        <div>
+          <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
+        </div>
 
-<div>
-<h3>33- If \(y = x^2 - 6x + 9\), what is the value of \(x\)?</h3>
+      </fieldset>
 
-(1) \(y = 0\) 
-<br />
-(2) \(x + y = 3\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q33">explanation</a>
-<br />
+      <hr />
+    </div>
 
-<fieldset> 
+    <div id="question_ds_029" class="question">
+      <h3>29- What is the area of rectangular region \(R\)?</h3>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+      (1) Each diagonal of \(R\) has length 5.
+      <br />
+      (2) The perimeter of \(R\) is 14.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q29">explanation</a>
+      <br />
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-<hr />
-</div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<div>
-<h3>34- If \(x\) and \(y\) are positive, is \(xy > x + y\)?</h3>
+      </fieldset>
 
-(1) \(x < y\) 
-<br />
-(2) \(2 < x\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q34">explanation</a>
-<br />
+      <hr />
+    </div>
 
-<fieldset> 
+    <div id="question_ds_030" class="question">
+      <h3>30- A tank containing water started to leak. Did the tank contain more than 30 gallons of water when it
+        started to leak? (Note: 1 gallon = 128 ounces)</h3>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      (1) The water leaked from the tank at a constant rate of 6.4 ounces per minute.
+      <br />
+      (2) The tank became empty less than 12 hours after it started to leak.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q30">explanation</a>
+      <br />
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<div>
-<h3>35- Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the same time, water is pumped out of the tank at a constant rate through an outlet pipe. At what rate, in gallons per minute, is the amount of water in the tank increasing?</h3>
+        <div>
+          <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
+        </div>
 
-1) The amount of water initially in the tank is 200 gallons.
-<br />
-2) Water is pumped into the tank at a rate of 10 gallons per minute and out of the tank at a rate of 10 gallons every 2 and half minutes.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q35">explanation</a>
-<br />
+      </fieldset>
 
-<fieldset> 
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔</mark>
-  </div>
+    <div id="question_ds_031" class="question">
+      <h3>31- During a certain bicycle ride, was Sherry's average speed faster than 24 kilometers per hour? (1 kilometer
+        = 1000 meter)</h3>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      (1) Sherry's average speed during the bicycle ride was faster than 7 meters per second.
+      <br />
+      (2) Sherry's average speed during the bicycle ride was slower than 8 meters per second.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q31">explanation</a>
+      <br />
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+        </div>
 
-<hr />
-</div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<div>
-<h3>36- Is \(x\) a negative number?</h3>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-(1) \(9x > 10x\) 
-<br />
-(2) \(x + 3\) is positive.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q36">explanation</a>
-<br />
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<fieldset> 
+      </fieldset>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔ </mark>
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+    <div id="question_ds_032" class="question">
+      <h3>32- Is the integer \(n\) a prime number?</h3>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      (1) \(24 ≤ n ≤ 28\)
+      <br />
+      (2) \(n\) is not divisible by 2 or 3
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q32">explanation</a>
+      <br />
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+        </div>
 
-<hr />
-</div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<div>
-<h3>37- If \(i\) and \(j\) are integers, is \(i + j\) an even integer?</h3>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-1) \(i < 10\) 
-<br />
-2) \(i = j\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q37">explanation</a>
-<br />
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<fieldset> 
+      </fieldset>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔ </mark>
-  </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+    <div id="question_ds_033" class="question">
+      <h3>33- If \(y = x^2 - 6x + 9\), what is the value of \(x\)?</h3>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      (1) \(y = 0\)
+      <br />
+      (2) \(x + y = 3\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q33">explanation</a>
+      <br />
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <fieldset>
 
-<hr />
-</div>
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+        </div>
 
-<div>
-<h3>38- The charge for a telephone call between City \(R\) and City \(S\) is $0.42 for each of the first 3 minutes and $0.18 for each additional minute. A certain call between these two cities lasted for \(x\) minutes, where \(x\) is an integer. How many minutes long was the call?</h3>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-1) The charge for the first 3 minutes of the call was $0.36 less than the charge for the remainder of the call.
-<br />
-2) The total charge for the call was $2.88
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q38">explanation</a>
-<br />
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+    <div id="question_ds_034" class="question">
+      <h3>34- If \(x\) and \(y\) are positive, is \(xy > x + y\)?</h3>
 
-<hr />
-</div>
+      (1) \(x
+      < y\) <br />
+      (2) \(2
+      < x\) <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q34">explanation</a>
+      <br />
 
-<div>
-<h3>39- If Car \(X\) followed Car \(Y\) across a certain bridge that is \(1/2\) mile long, how many seconds did it take Car \(X\) to travel across the bridge?</h3>
+      <fieldset>
 
-1) Car \(X\) drove onto the bridge exactly 3 seconds after Car \(Y\) drove onto the bridge and drove off the bridge exactly 2 seconds after Car \(Y\) drove off the bridge.
-<br />
-2) Car \(Y\) traveled across the bridge at a constant speed of 30 miles per hour.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q39">explanation</a>
-<br />
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <hr />
+    </div>
 
+    <div id="question_ds_035" class="question">
+      <h3>35- Water is pumped into a partially filled tank at a constant rate through an inlet pipe. At the same time,
+        water is pumped out of the tank at a constant rate through an outlet pipe. At what rate, in gallons per minute,
+        is the amount of water in the tank increasing?</h3>
 
-<hr />
-</div>
+      1) The amount of water initially in the tank is 200 gallons.
+      <br />
+      2) Water is pumped into the tank at a rate of 10 gallons per minute and out of the tank at a rate of 10 gallons
+      every 2 and half minutes.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q35">explanation</a>
+      <br />
 
-<div>
-<h3>40- If \(p\) and \(q\) are positive, is \(p/q\) less than 1?</h3>
+      <fieldset>
 
-(1) \(p\) is less than 4
-<br />
-(2) \(q\) is less than 4
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q40">explanation</a>
-<br />
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
-  </div>
-  
-</fieldset>
+      <hr />
+    </div>
 
+    <div id="question_ds_036" class="question">
+      <h3>36- Is \(x\) a negative number?</h3>
 
-<hr />
-</div>
 
-<div>
-<h3>41- Each type \(A\) machine fills 400 cans per minute, each Type \(B\) machine fills 600 cans per minute, and each Type \(C\) machine installs 2,400 lids per minute. A lid is installed on each can that is filled and on no can that is not filled. For a particular minute, what is the total number of machines working?</h3>
+      (1) \(9x > 10x\)
+      <br />
+      (2) \(x + 3\) is positive.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q36">explanation</a>
+      <br />
 
-(1) A total of 4,800 cans are filled that minute
-<br />
-(2) For that minute, there are 2 Type \(B\) machines working for every Type \(C\) machine working
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q41">explanation</a>
-<br />
+      <fieldset>
 
-<fieldset> 
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔ </mark>
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      </fieldset>
 
+      <hr />
+    </div>
 
-<hr />
-</div>
+    <div id="question_ds_037" class="question">
+      <h3>37- If \(i\) and \(j\) are integers, is \(i + j\) an even integer?</h3>
 
+      1) \(i
+      < 10\) <br />
+      2) \(i = j\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q37">explanation</a>
+      <br />
 
-<div>
-<h3>42- In the rectangular coordinate system above, if \(ΔOPQ\) and \(ΔQRS\) have equal area, what are the coordinatesof point \(R\) ?</h3>
 
-(1)The coordinates of point \(P\) are \((0,12)\).
-<br />
-(2) \(OP = OQ\) and \(QS = RS\) .
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q42">explanation</a>
-<br />
+      <fieldset>
 
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔ </mark>
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      </fieldset>
 
-<hr />
-</div>
+      <hr />
+    </div>
 
+    <div id="question_ds_038" class="question">
+      <h3>38- The charge for a telephone call between City \(R\) and City \(S\) is $0.42 for each of the first 3 minutes
+        and $0.18 for each additional minute. A certain call between these two cities lasted for \(x\) minutes, where
+        \(x\) is an integer. How many minutes long was the call?</h3>
 
-<div>
-<h3>43- After winning 50 percent of the first 20 games it played, Team \(A\) won all of the remaining games it played. What was the total number of games that Team \(A\) won?</h3>
+      1) The charge for the first 3 minutes of the call was $0.36 less than the charge for the remainder of the call.
+      <br />
+      2) The total charge for the call was $2.88
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q38">explanation</a>
+      <br />
 
-(1) Team \(A\) played 25 games altogether.
-<br />
-(2) Team \(A\) won 60 percent of all the games it played.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q43">explanation</a>
-<br />
+      <fieldset>
 
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      </fieldset>
 
+      <hr />
+    </div>
 
-<hr />
-</div>
+    <div id="question_ds_039" class="question">
+      <h3>39- If Car \(X\) followed Car \(Y\) across a certain bridge that is \(1/2\) mile long, how many seconds did it
+        take Car \(X\) to travel across the bridge?</h3>
 
-<div>
-<h3>44- If \(a\), \(b\), and \(c\) are consecutive integers and \(0 < a < b < c\), is the product \(abc\) a multiple of 8 ?</h3>
+      1) Car \(X\) drove onto the bridge exactly 3 seconds after Car \(Y\) drove onto the bridge and drove off the
+      bridge exactly 2 seconds after Car \(Y\) drove off the bridge.
+      <br />
+      2) Car \(Y\) traveled across the bridge at a constant speed of 30 miles per hour.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q39">explanation</a>
+      <br />
 
-(1) The product \(ac\) is even.
-<br />
-(2) The product \(bc\) is a multiple of 4.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q44">explanation</a>
-<br />
+      <fieldset>
 
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-
-<hr />
-</div>
-
-<div>
-<h3>45- Last year in a group of 30 businesses, 21 reported a net profit and 15 had investments in foreign markets. How many of the businesses did not report a net profit nor invest in foreign markets last year?</h3>
-
-(1) Last year 12 of the 30 businesses reported a net profit and had investments in foreign
-markets.
-<br />
-(2) Last year 24 of the 30 businesses reported a net profit or invested in foreign markets, or both.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q45">explanation</a>
-<br />
-
-<fieldset> 
-
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+    <div id="question_ds_040" class="question">
+      <h3>40- If \(p\) and \(q\) are positive, is \(p/q\) less than 1?</h3>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      (1) \(p\) is less than 4
+      <br />
+      (2) \(q\) is less than 4
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q40">explanation</a>
+      <br />
 
+      <fieldset>
 
-<hr />
-</div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<div>
-<h3>46- Is the value of \(n\) closer to 50 than to 75?</h3>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-(1) \(75- n>n-50\) 
-<br />
-(2) \(n> 60\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q46">explanation</a>
-<br />
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
+        </div>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
-  </div>
+      </fieldset>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+    <div id="question_ds_041" class="question">
+      <h3>41- Each type \(A\) machine fills 400 cans per minute, each Type \(B\) machine fills 600 cans per minute, and
+        each Type \(C\) machine installs 2,400 lids per minute. A lid is installed on each can that is filled and on no
+        can that is not filled. For a particular minute, what is the total number of machines working?</h3>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      (1) A total of 4,800 cans are filled that minute
+      <br />
+      (2) For that minute, there are 2 Type \(B\) machines working for every Type \(C\) machine working
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q41">explanation</a>
+      <br />
 
-<hr />
-</div>
+      <fieldset>
 
-<div>
-<h3>47- If \(2x (5n) = t\), what is the value of \(t\)?</h3>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-(1) \(x = n + 3\) 
-<br />
-(2) \(2x = 32\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q47">explanation</a>
-<br />
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+      </fieldset>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <hr />
+    </div>
 
 
-<hr />
-</div>
+    <div id="question_ds_042" class="question">
+      <h3>42- In the rectangular coordinate system above, if \(ΔOPQ\) and \(ΔQRS\) have equal area, what are the
+        coordinatesof point \(R\) ?</h3>
 
+      (1)The coordinates of point \(P\) are \((0,12)\).
+      <br />
+      (2) \(OP = OQ\) and \(QS = RS\) .
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q42">explanation</a>
+      <br />
 
-<div>
-<h3>48- What was the ratio of the number of cars to the number of trucks produced by Company X last year?</h3>
+      <fieldset>
 
-(1) Last year, if the number of cars produced by Company X had been 8 percent greater, the number of cars produced would have been 150 percent of the number of trucks produced by Company X.
-<br />
-(2) Last year Company X produced 565,000 cars and 406,800 trucks.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q48">explanation</a>
-<br />
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔ </mark>
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
 
-<hr />
-</div>
+    <div id="question_ds_043" class="question">
+      <h3>43- After winning 50 percent of the first 20 games it played, Team \(A\) won all of the remaining games it
+        played. What was the total number of games that Team \(A\) won?</h3>
 
-<div>
-<h3>49- 
-<br />
-<img src="./img_q49_triangle.png" alt="q49 triangle">
-<br />
+      (1) Team \(A\) played 25 games altogether.
+      <br />
+      (2) Team \(A\) won 60 percent of all the games it played.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q43">explanation</a>
+      <br />
 
-In the triangle above, does \(a^2 + b^2 = c^2\) ?</h3>
+      <fieldset>
 
-(1) \(x + y = 90\) 
-<br />
-(2) \(x = y\) 
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q49">explanation</a>
-<br />
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<fieldset> 
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔ </mark>
-  </div>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      </fieldset>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <hr />
+    </div>
 
-<hr />
-</div>
+    <div id="question_ds_044" class="question">
+      <h3>44- If \(a\), \(b\), and \(c\) are consecutive integers and \(0 < a < b < c\), is the product \(abc\) a
+          multiple of 8 ?</h3>
 
+          (1) The product \(ac\) is even.
+          <br />
+          (2) The product \(bc\) is a multiple of 4.
+          <br />
+          <a
+            href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q44">explanation</a>
+          <br />
 
-<div>
-<h3>50- On Monday morning a certain machine ran continuously at a uniform rate to fill a production order. At what time did it completely fill the order that morning?</h3>
+          <fieldset>
 
-(1) The machine began filling the order at 9:30 a.m.
-<br />
-(2) The machine had filled \(1/2\) of the order by 10:30 a.m. and \(5/6\) of the order by 11:10 a.m
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q50">explanation</a>
-<br />
+            <div>
+              <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+            </div>
 
-<fieldset> 
+            <div>
+              (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+            </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+            <div>
+              (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+            </div>
 
-  <div>
-    <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔</mark>
-  </div>
+            <div>
+              (D) EACH statement ALONE is sufficient.
+            </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+            <div>
+              (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+            </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+          </fieldset>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+          <hr />
+    </div>
 
-<hr />
-</div>
+    <div id="question_ds_045" class="question">
+      <h3>45- Last year in a group of 30 businesses, 21 reported a net profit and 15 had investments in foreign markets.
+        How many of the businesses did not report a net profit nor invest in foreign markets last year?</h3>
 
-<div>
-<h3>51- What were the gross revenues from ticket sales for a certain film during the second week in which it was shown?</h3>
+      (1) Last year 12 of the 30 businesses reported a net profit and had investments in foreign
+      markets.
+      <br />
+      (2) Last year 24 of the 30 businesses reported a net profit or invested in foreign markets, or both.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q45">explanation</a>
+      <br />
 
-(1) Gross revenues during the second week were $1.5 million less than during the first week.
-<br />
-(2) Gross revenues during the third week were $2.0 million less than during the first week.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q51">explanation</a>
-<br />
+      <fieldset>
 
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔ </mark>
-  </div>
-  
-</fieldset>
+      </fieldset>
 
-<hr />
-</div>
 
-<div>
-<h3>52- Last year, if Elena spent a total of $720 on newspapers, magazines, and books, what amount did she spend on newspapers?</h3>
+      <hr />
+    </div>
 
-(1) Last year, the amount that Elena spent on magazines was 80 percent of the amount that she spent on books.
-<br />
-(2) Last year, the amount that Elena spent on newspapers was 60 percent of the total amount that she spent on magazines and books.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q52">explanation</a>
-<br />
 
-<fieldset> 
+    <div id="question_ds_046" class="question">
+      <h3>46- Is the value of \(n\) closer to 50 than to 75?</h3>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      (1) \(75- n>n-50\)
+      <br />
+      (2) \(n> 60\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q46">explanation</a>
+      <br />
 
-  <div>
-    <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔</mark>
-  </div>
+      <fieldset>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<div>
-<h3>53- At a certain picnic, each of the guests was served either a single scoop or a double scoop of ice crea. How many of the guests were served a double scoop of ice cream?</h3>
+      </fieldset>
 
-(1) At the picnic, 60 percent of the guests were served a double scoop of ice cream.
-<br />
-(2) A total of 120 scoops of ice cream were served to all the guests at the picnic.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q53">explanation</a>
-<br />
+      <hr />
+    </div>
 
-<fieldset> 
+    <div id="question_ds_047" class="question">
+      <h3>47- If \(2x (5n) = t\), what is the value of \(t\)?</h3>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      (1) \(x = n + 3\)
+      <br />
+      (2) \(2x = 32\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q47">explanation</a>
+      <br />
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.  ✔</mark>
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-<hr />
-</div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<div>
-<h3>54- By What percent was the price of a ceratain candy bar increased?</h3>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
+      </fieldset>
 
-(1) The price of the candy bar was increased by 5 cents.
-<br />
-(2) The price of the candy bar after the increase was 45 cents.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q54">explanation</a>
-<br />
 
-<fieldset> 
+      <hr />
+    </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+    <div id="question_ds_048" class="question">
+      <h3>48- What was the ratio of the number of cars to the number of trucks produced by Company X last year?</h3>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔ </mark>
-  </div>
+      (1) Last year, if the number of cars produced by Company X had been 8 percent greater, the number of cars produced
+      would have been 150 percent of the number of trucks produced by Company X.
+      <br />
+      (2) Last year Company X produced 565,000 cars and 406,800 trucks.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q48">explanation</a>
+      <br />
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-
-<hr />
-</div>
-
-<div>
-<h3>55- 
-<br />
-<img src="./img_q55_tub.png" alt="tub" />
-
-<br />
-A circular tub has a band painted around its circumference, as shown above. What is the surface area of this painted band?</h3>
-
-<br />
-(1) \(x = 0.5\) 
-<br />
-(2) The height of the tub is 1 meter.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q55">explanation</a>
-<br />
-
-<fieldset> 
-
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
-  </div>
-  
-</fieldset>
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔ </mark>
+        </div>
 
-<hr />
-</div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<div>
-<h3>56- Is it true that \(a > b\)?</h3>
+      </fieldset>
 
+      <hr />
+    </div>
 
-(1) \(2a > 2b\) 
-<br />
-(2) \(a + c > b + c \)
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q56">explanation</a>
-<br />
+    <div id="question_ds_049" class="question">
+      <h3>49-
+        <br />
+        <img src="./img_q49_triangle.png" alt="q49 triangle">
+        <br />
 
-<fieldset> 
+        In the triangle above, does \(a^2 + b^2 = c^2\) ?
+      </h3>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      (1) \(x + y = 90\)
+      <br />
+      (2) \(x = y\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q49">explanation</a>
+      <br />
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔ </mark>
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<div>
-<h3>57- A throrughly blended biscuit mix includes only flour and baking powder. What is the ratio of the number of grams of baking powder to the number of grams of flour in the mix?</h3>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-(1) Exactly 9.9 grams of flour is contained in 10 grams of the mix.
-<br />
-(2) Exactly 0.3 gram of baking powder is contained in 30 grams of the mix.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q57">explanation</a>
-<br />
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<fieldset> 
+      </fieldset>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+    <div id="question_ds_050" class="question">
+      <h3>50- On Monday morning a certain machine ran continuously at a uniform rate to fill a production order. At what
+        time did it completely fill the order that morning?</h3>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+      (1) The machine began filling the order at 9:30 a.m.
+      <br />
+      (2) The machine had filled \(1/2\) of the order by 10:30 a.m. and \(5/6\) of the order by 11:10 a.m
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q50">explanation</a>
+      <br />
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      <fieldset>
 
-<hr />
-</div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
+        <div>
+          <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔</mark>
+        </div>
 
-<div>
-<h3>58- If a real estate agent received a commision of 6 percent of the selling price of a certain house, what was the selling price of a certain house, what was the selling price of the house?</h3>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-(1) The selling price minus the real estate agent's commision was  $84,600.
-<br />
-(2) The selling price was 250 percent of the original purchase price of $36,000.
-<br />
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q58">explanation</a>
-<br />
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<fieldset> 
+      </fieldset>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+      <hr />
+    </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+    <div id="question_ds_051" class="question">
+      <h3>51- What were the gross revenues from ticket sales for a certain film during the second week in which it was
+        shown?</h3>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      (1) Gross revenues during the second week were $1.5 million less than during the first week.
+      <br />
+      (2) Gross revenues during the third week were $2.0 million less than during the first week.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q51">explanation</a>
+      <br />
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
-  </div>
+      <fieldset>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<div>
-<h3>59- What is the value of \(|x|\)?</h3>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-(1) \(x = -|x|\) 
-<br />
-(2) \(x^2 = 4\) 
-<br />
+        <div>
+          <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔ </mark>
+        </div>
 
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q59">explanation</a>
-<br />
+      </fieldset>
 
-<fieldset> 
+      <hr />
+    </div>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+    <div id="question_ds_052" class="question">
+      <h3>52- Last year, if Elena spent a total of $720 on newspapers, magazines, and books, what amount did she spend
+        on newspapers?</h3>
 
-  <div>
-    <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔ </mark>
-  </div>
+      (1) Last year, the amount that Elena spent on magazines was 80 percent of the amount that she spent on books.
+      <br />
+      (2) Last year, the amount that Elena spent on newspapers was 60 percent of the total amount that she spent on
+      magazines and books.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q52">explanation</a>
+      <br />
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+      <fieldset>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
-
-<hr />
-</div>
-
-<div>
-<h3>60- 
-<br />
-<img src="./img_q60_triangle.png" alt="triangle">
-<br />
-What is the value of \(z\) in the triangle above?</h3>
-
-(1) \(x + y = 139\) 
-<br />
-(2) \(y + z = 108\) 
-<br />
-
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q60">explanation</a>
-<br />
-
-<fieldset> 
-
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔ </mark>
-  </div>
+        <div>
+          <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      </fieldset>
 
-<hr />
-</div>
 
+      <hr />
+    </div>
 
-<div>
-<h3>61- A certain bakery sells rye bread in 16-ounce loaves and 24-ounce loaves, and all loaves of the same size sell for the same price per loaf regardless of the number of loaves purchased. What is the price of a 24-ounce loaf of rye bread in this bakery?</h3>
+    <div id="question_ds_053" class="question">
+      <h3>53- At a certain picnic, each of the guests was served either a single scoop or a double scoop of ice crea.
+        How many of the guests were served a double scoop of ice cream?</h3>
 
-(1) The total price of a 16-ounce loaf and a 24-ounce loaf of this bread is $2.40.
-<br />
-(2) The total price of two 16-ounce loaves and one 24-ounce loaf of this bread is $3.40.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q61">explanation</a>
-<br />
+      (1) At the picnic, 60 percent of the guests were served a double scoop of ice cream.
+      <br />
+      (2) A total of 120 scoops of ice cream were served to all the guests at the picnic.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q53">explanation</a>
+      <br />
 
-<fieldset> 
+      <fieldset>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
-  </div>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
-<hr />
-</div>
+      </fieldset>
 
+      <hr />
+    </div>
 
-<div>
+    <div id="question_ds_054" class="question">
+      <h3>54- By What percent was the price of a ceratain candy bar increased?</h3>
 
-<h3>62- If \(\frac{\sqrt{x}}{y} = n\), What is the value of \(x\)?</h3>
 
-(1) \(yn = 10\)
-<br />
-(2) \(y = 40\) and \(n = \frac{1}{4}\)
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q62">explanation</a>
-<br />
+      (1) The price of the candy bar was increased by 5 cents.
+      <br />
+      (2) The price of the candy bar after the increase was 45 cents.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q54">explanation</a>
+      <br />
 
-<fieldset> 
+      <fieldset>
 
-  <div>
-    (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
-  </div>
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔ </mark>
+        </div>
 
-  <div>
-    <mark>(D) EACH statement ALONE is sufficient. ✔ </mark>
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
+      </fieldset>
 
+      <hr />
+    </div>
 
-<hr />
-</div>
+    <div id="question_ds_055" class="question">
+      <h3>55-
+        <br />
+        <img src="./img_q55_tub.png" alt="tub" />
 
+        <br />
+        A circular tub has a band painted around its circumference, as shown above. What is the surface area of this
+        painted band?
+      </h3>
 
-<div>
-<h3>63- if \(m\) and \(n\) are consecutive positive integers, is \(m\) greater than \(n\)?</h3>
+      <br />
+      (1) \(x = 0.5\)
+      <br />
+      (2) The height of the tub is 1 meter.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q55">explanation</a>
+      <br />
 
-(1) \(m - 1\) and \(n + 1\) are consecutive positive integers.
-<br />
-(2) \(m\) is an even integer.
-<br />
-<a href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q63">explanation</a>
-<br />
+      <fieldset>
 
-<fieldset> 
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
 
-  <div>
-    <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔ </mark>
-  </div>
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
 
-  <div>
-    (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
-  </div>
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-  <div>
-    (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
-  </div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
-  <div>
-    (D) EACH statement ALONE is sufficient.
-  </div>
+        <div>
+          <mark>(E) Statement (1) and (2) TOGHTHER are NOT sufficient. ✔</mark>
+        </div>
 
-  <div>
-    (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
-  </div>
-  
-</fieldset>
+      </fieldset>
+
+      <hr />
+    </div>
+
+    <div id="question_ds_056" class="question">
+      <h3>56- Is it true that \(a > b\)?</h3>
+
+
+      (1) \(2a > 2b\)
+      <br />
+      (2) \(a + c > b + c \)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q56">explanation</a>
+      <br />
+
+      <fieldset>
+
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
+
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
+
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
+
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
+
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
+
+      </fieldset>
+
+      <hr />
+    </div>
+
+    <div id="question_ds_057" class="question">
+      <h3>57- A throrughly blended biscuit mix includes only flour and baking powder. What is the ratio of the number of
+        grams of baking powder to the number of grams of flour in the mix?</h3>
+
+      (1) Exactly 9.9 grams of flour is contained in 10 grams of the mix.
+      <br />
+      (2) Exactly 0.3 gram of baking powder is contained in 30 grams of the mix.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q57">explanation</a>
+      <br />
+
+      <fieldset>
+
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
+
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
+
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
+
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
+
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
+
+      </fieldset>
+
+      <hr />
+    </div>
+
+
+    <div id="question_ds_058" class="question">
+      <h3>58- If a real estate agent received a commision of 6 percent of the selling price of a certain house, what was
+        the selling price of a certain house, what was the selling price of the house?</h3>
+
+      (1) The selling price minus the real estate agent's commision was $84,600.
+      <br />
+      (2) The selling price was 250 percent of the original purchase price of $36,000.
+      <br />
+
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q58">explanation</a>
+      <br />
+
+      <fieldset>
+
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
+
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
+
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
+
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔</mark>
+        </div>
+
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
+
+      </fieldset>
+
+
+      <hr />
+    </div>
+
+    <div id="question_ds_059" class="question">
+      <h3>59- What is the value of \(|x|\)?</h3>
+
+      (1) \(x = -|x|\)
+      <br />
+      (2) \(x^2 = 4\)
+      <br />
+
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q59">explanation</a>
+      <br />
+
+      <fieldset>
+
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
+
+        <div>
+          <mark>(B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient. ✔ </mark>
+        </div>
+
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
 
-<hr />
-</div>
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
 
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
 
+      </fieldset>
 
+      <hr />
+    </div>
 
+    <div id="question_ds_060" class="question">
+      <h3>60-
+        <br />
+        <img src="./img_q60_triangle.png" alt="triangle">
+        <br />
+        What is the value of \(z\) in the triangle above?
+      </h3>
+
+      (1) \(x + y = 139\)
+      <br />
+      (2) \(y + z = 108\)
+      <br />
+
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q60">explanation</a>
+      <br />
+
+      <fieldset>
+
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔ </mark>
+        </div>
+
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
+
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
+
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
+
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
+
+      </fieldset>
+
+      <hr />
+    </div>
+
+
+    <div id="question_ds_061" class="question">
+      <h3>61- A certain bakery sells rye bread in 16-ounce loaves and 24-ounce loaves, and all loaves of the same size
+        sell for the same price per loaf regardless of the number of loaves purchased. What is the price of a 24-ounce
+        loaf of rye bread in this bakery?</h3>
+
+      (1) The total price of a 16-ounce loaf and a 24-ounce loaf of this bread is $2.40.
+      <br />
+      (2) The total price of two 16-ounce loaves and one 24-ounce loaf of this bread is $3.40.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q61">explanation</a>
+      <br />
+
+      <fieldset>
+
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
+
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
+
+        <div>
+          <mark>(C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient. ✔</mark>
+        </div>
+
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
+
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
+
+      </fieldset>
+
+      <hr />
+    </div>
+
+
+    <div id="question_ds_062" class="question">
+
+      <h3>62- If \(\frac{\sqrt{x}}{y} = n\), What is the value of \(x\)?</h3>
+
+      (1) \(yn = 10\)
+      <br />
+      (2) \(y = 40\) and \(n = \frac{1}{4}\)
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q62">explanation</a>
+      <br />
+
+      <fieldset>
+
+        <div>
+          (A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient.
+        </div>
+
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
+
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
+
+        <div>
+          <mark>(D) EACH statement ALONE is sufficient. ✔ </mark>
+        </div>
+
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
+
+      </fieldset>
+
+
+
+      <hr />
+    </div>
+
+
+    <div id="question_ds_063" class="question">
+      <h3>63- if \(m\) and \(n\) are consecutive positive integers, is \(m\) greater than \(n\)?</h3>
+
+      (1) \(m - 1\) and \(n + 1\) are consecutive positive integers.
+      <br />
+      (2) \(m\) is an even integer.
+      <br />
+      <a
+        href="https://github.com/kerbrose/study-plan/blob/main/amat_study/amat_answer_explanation.md#Q63">explanation</a>
+      <br />
+
+      <fieldset>
+
+        <div>
+          <mark>(A) Statement (1) ALONE is sufficient, but Statement (2) alone is not sufficient. ✔ </mark>
+        </div>
+
+        <div>
+          (B) Statement (2) ALONE is sufficient, but Statement (1) alone is not sufficient.
+        </div>
+
+        <div>
+          (C) Both statements TOGHTHER are sufficient, but NIGHTHER statements ALONE is sufficient.
+        </div>
+
+        <div>
+          (D) EACH statement ALONE is sufficient.
+        </div>
+
+        <div>
+          (E) Statement (1) and (2) TOGHTHER are NOT sufficient.
+        </div>
+
+      </fieldset>
+
+      <hr />
+    </div>
+
+
+
+
+  </div>
+</body>
 
-  </body>
 </html>
