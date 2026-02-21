@@ -3504,7 +3504,7 @@ answer is A
 
 (2) $r$ is divisible by 3.
 
-[explanation](./amat_answer_explanation.md#Q92)
+[explanation](./amat_answer_explanation.md#Q97)
 
 answer is C
 
@@ -3588,7 +3588,7 @@ answer is E
 
 (2) $j = \frac{1}{k}$ and $m = \frac{1}{4}$
 
-[explanation](./amat_answer_explanation.md#Q93)
+[explanation](./amat_answer_explanation.md#Q102)
 
 answer is B
 
@@ -3649,7 +3649,7 @@ answer is A
 
 (2) $\frac{p}{2}$ is an integer.
 
-[explanation](./amat_answer_explanation.md#Q94)
+[explanation](./amat_answer_explanation.md#Q105)
 
 answer is E
 
@@ -3687,7 +3687,7 @@ answer is E
 
 (2) x = 3
 
-[explanation](./amat_answer_explanation.md#Q95)
+[explanation](./amat_answer_explanation.md#Q106)
 
 answer is A
 
@@ -3725,7 +3725,7 @@ answer is A
 
 (2) From May 1, 1975 to May 1, 1984, the closing price of a share of stock X increased by $4.50.
 
-[explanation](./amat_answer_explanation.md#Q96)
+[explanation](./amat_answer_explanation.md#Q107)
 
 answer is C
 
@@ -3764,7 +3764,7 @@ answer is C
 
 (2) $√d$ is the square of an integer.
 
-[explanation](./amat_answer_explanation.md#Q97)
+[explanation](./amat_answer_explanation.md#Q108)
 
 answer is D 
 
@@ -3827,7 +3827,7 @@ answer is D
 
 (2) $x - y = \frac{1}{x+y}$
 
-[explanation](./amat_answer_explanation.md#Q98)
+[explanation](./amat_answer_explanation.md#Q111)
 
 answer is B
 
