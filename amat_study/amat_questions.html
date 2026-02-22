@@ -5546,7 +5546,7 @@
     </div>
 
 
-    <div class="row justify-content-center fixed-bottom exam-sim-timer">
+    <div class="row justify-content-center fixed-bottom exam-sim-timer d-none d-print-none">
       <div class="col-2 align-self-center">
         <div class="card shadow text-center">
           <div class="card-body">
@@ -5606,6 +5606,7 @@
     showPaginationButton();
     fillNav();
     updateNavLinks();
+    showTimer();
     startTimer(60);
   }
 
@@ -5744,7 +5745,11 @@
     });
   }
 
-
+  function showTimer() {
+    const timerElement = document.querySelector('.exam-sim-timer');
+    timerElement.classList.remove('d-none');
+  }
+  
   function startTimer(duration) {
     let timer = duration, minutes, seconds;
     const countdownElement = document.getElementById('countdown');
