@@ -4416,3 +4416,807 @@ discounted by 10 percent. This series of successivediscounts is equivalent to a 
 (E) 10%
 
 ----
+
+
+----
+50- Machines A and B always operate independently and at their respective constant rates. When working alone, Machine A can fill a production lot in 5 hours, and Machine B can fill the same lot in $x$ hours. When the two machines operate simulaneously to fill the production lot, it takes them 2 hours to complete the job. What is the value of $x$?
+
+(A) $3\frac{1}{3}$
+(B) $3$
+(C) $2\frac{1}{2}$
+(D) $2\frac{1}{3}$
+(E) $1\frac{1}{2}$
+
+----
+
+51- The annual interest rate earned by an investment increased by 10 percent from last year to this year. If the annual interest rate earned by the investment this year was 11 percent, What was the annual interest rate last year?
+
+(A) 1%
+(B) 1.1%
+(C) 9.1%
+(D) 10%
+(E) 10.8%
+
+----
+
+52- After 4,000 gallons of water were added to a large water tank that was already filled to $\frac{3}{4}$ of its capacity, the tank was then at $\frac{4}{5}$ of its capacity. How many gallons of water does the tank hold when filled to capacity?
+
+(A) 5,000
+(B) 6,200
+(C) 20,000
+(D) 40,000
+(E) 80,000
+
+----
+
+53- Guadalupe owns 2 rectangular tracts of land. One is 300 m by 500 m and the other is 250 m by 630 m. The combined area of these 2 tracts is how many square meters?
+
+(A) 3,360
+(B) 307,500
+(C) 621,500
+(D) 704,000
+(E) 2,816,000
+
+----
+
+54- if $\frac{x}{4}$ is 2 more than $\frac{x}{8}$, then $x = $?
+
+(A) 4
+(B) 8
+(C) 16
+(D) 32
+(E) 64
+
+
+----
+
+55- The annaul budget of a certain college is to be shown on a circl graph. If the size of each sector of the graph is to be proportional to the amount of the budget it represents, How many degrees of the circle should be used to represent an item that is 15 percent of the budget?
+
+(A) 15°
+(B) 36°
+(C) 54°
+(D) 90°
+(E) 150°
+
+----
+
+56- One inlet pipe fills an empty tank in 5 hours. A second inlet pipe fills the same tank in 3 hours. if both pipes are used together, how long will it take to fill $\frac{2}{3}$ of the tank?
+
+(A) $\frac{8}{15}$ hr
+(B) $\frac{3}{4}$ hr
+(C) $\frac{5}{4}$ hr
+(D) $\frac{15}{8}$ hr
+(E) $\frac{8}{3}$ hr
+
+----
+
+57- The maximum recommended pulse rate $R$, When exercising, for a person who is $x$ years of age is given by the equation $R = 176 - 0.8x$. What is the age, in years, of a person whose maximum recommended pulse rate when exercising is 140?
+
+(A) 40
+(B) 45
+(C) 50
+(D) 55
+(E) 60
+
+----
+
+58- $2x + 2y = -4$
+<br />
+$4x + y = 1$
+In the system of equation above, What is the value of $x$?
+
+(A) $-3$
+(B) $-1$
+(C) $\frac{2}{5}$
+(D) $1$
+(E) $1\frac{1}{4}$
+
+----
+
+59- In the Johnsons' monthly budget, the dollar amounts allocated to household expenses, food, and miscellaneous items are in the ratio 5:2:1, respectively. If the total amount allocated to these three categories is $1,800, What is the amount allocated to food?
+
+(A) $900
+(B) $720
+(C) $675
+(D) $450
+(E) $225
+
+----
+
+------------------------------
+
+60- In Country X a returning tourist may import goods with a total value of $500 or less tax free, but must pay an 8 percent tax on the portion of the total value in excess of $500. What tax must be paid by a returning tourist who imports goods with a total value of $730 ?
+
+(A) $58.40
+(B) $40.00
+(C) $24.60
+(D) $18.40
+(E) $16.00
+
+----
+
+61- If positive integers $x$ and $y$ are not both odd, which of the following must be even?
+
+(A) $xy$
+(B) $x + y$
+{C) $x - y$
+(D) $x + y - 1$
+(E) $2(x+y)-1$
+
+----
+
+62- 0n 3 sales John has received commissions of $240, $80, and $110, and he has 1 additional sale pending. If John is to receive an average (arithmetic mean) commission of exactly $150 on the 4 sales, then the 4th commission must be
+
+(A) $164
+(B) $170
+{C) $175
+(D) $182
+(E) $185
+
+----
+
+63- 1f the number $n$ of calculators sold per week varies with the price $p$ in dollars according to the equation $n = 300 - 20p$, What would be the total weekly revenue from the sale of $10 calculators?
+
+{A) $100
+(B) $300
+(C) $1,000
+(D) $2,800
+(E) $3,000
+
+----
+
+64- If Mario was 32 years old 8 years ago, How old was he x years ago?
+(A) $x-40$
+(B) $x-24$
+(C) $40-x$
+(D) $24-x$
+(E) $24+x$
+
+----
+
+65- Running at the same constant rate, 6 identical machines can produce a total of 270 bottles per minute. At this rate, How many bottles could 10 such machines produce in 4 minutes?
+
+(A) 648
+(B) 1,800
+(C) 2,700
+(D) 10,800
+(E) 64,800
+
+----
+
+66- Three business partners, $Q$, $R$, and $S$, agree to divide their total profit for a certain year in the ratios 2:5:8, respectively. If $Q$'s share was $4,000, What was the total profit of the business partners for the year?
+
+(A) $26,000
+(B) $30,000
+(C) $52,000
+(D) $60,000
+(E) $300,000
+
+----
+
+67-
+![xline](./img_ps_q67_xline.png)
+<br />
+Of the five coordinates associated with points $A$, $8$, $C$, $D$, and $E$ on the number line above, Which has the greatest absolute value?
+
+(A) A
+(B) B
+(C) C
+(D) D
+(E) E
+
+----
+
+
+68- A restaurant meal cost $35.50 and there was no tax. If the tip was more than 10 percent but less than 15 percent of the cost of the meal, then the total amount paid must have been between?
+
+(A) $40 and $42
+(B) §39 and $41
+(C) §38 and §40
+(D) §37 and §39
+(E) §36 and §37
+
+----
+
+68- Harriet wants to put up fencing around three sides of her rectangular yard and leave a side of 20 feet unfenced. If the yard has an area of 680 square feet, how many feet of fencing does she need?
+
+(A) 34
+(B) 40
+(C) 68
+(D) 88
+(E) 102
+
+----
+
+69- Increasing the original price of an article by 15 percent and then increasing the new price by 15 percent is equivalent to increasing the original price by
+
+(A) 32.25%
+(B) 31.00%
+(C) 30.25%
+(D) 30.00%
+(E) 22.50%
+
+----
+
+70- If $k$ is an integer and $0.0010101 x 10^k$ is greater than 1,000, What is the least possible value of $k$ ?
+
+(A) 2
+(B) 3
+(C) 4
+(D) 5
+(E) 6
+
+----
+
+71- If $(b—S)(4+\frac{2}{b})=0$ and $b≠3$,then $b=$
+
+(A) $-8$
+(B) $-2$
+(C) $-\frac{1}{2}$
+(D) $\frac{1}{2}$
+(E) $2$
+
+----
+
+72- In a weight-lifting competition, the total weight of Joe's two lifts was 750 pounds. If twice the weight of his first lift was 300 pounds moare than the weight of his second lift, What was the weight, in pounds, of his first lift?
+
+(A) 225
+(B) 275
+(C) 325
+(D) 350
+(E) 400
+
+----
+
+73- One hour after Yolanda started walking from $X$ to $Y$, a distance of 45 miles, Bob started walking along the same road from $Y$ to $X$, If Yolanda’s walking rate was 3 miles per hour and Bob’s was 4 miles per hour, How many miles had Bob walked when they met?
+
+(A) 24
+(B) 23
+(C) 22
+(D) 21
+(E) 19.5
+
+----
+
+74- The average (arithmetic mean) of 6 numbers is 8.5. When one number is discarded, the average of the remaining numbers becomes 7.2. What is the discarded number?
+
+(A) 7.8
+(B) 9.8
+(C) 10.0
+(D) 12.4
+(E) 15.0
+
+----
+
+75- ![coordinates](./img_ps_q75_coordinates.png)
+<br />
+In the rectangular coordinate system above, the area of $\triangleRST$ is
+
+(A) $\frac{bc}{2}$
+(B) $\frac{b(c-1)}{2}$
+(C) $\frac{c(b-1)}{2}$
+(D) $\frac{a(c-1)}{2}$
+(E) $\frac{c(a-1)}{2}$
+
+----
+
+76- Which of the following equations has a root in comman with $x² - 6x + 5 = 0$ ?
+
+(A) $x² + 1 = 0$
+(B) $x² - x - 2 = 0$
+(C) $x² - 10x -5 = 0$
+(D) $2x² - 2 = 0$
+(E) $x² - 2x - 3 = 0$
+
+
+----
+
+77- One inlet pipe fills an empty tank in 5 hours. A second inlet pipe fills the same tank in 3 haurs. If both pipes are used together, How long will it take to fill $\frac{2}{3}$ of the tank?
+
+(A) $\frac{8}{15}$ hr
+(B) $\frac{3}{4}$ hr
+(C) $\frac{5}{4}$ hr
+(D) $\frac{15}{8}$ hr
+(E) $\frac{8}{3}$ hr
+
+----
+
+78- During the first week of September, a shoe retailer sold 10 pairs of a certain style of oxfords at $35.00 a pair. If, during the second week of September, 15 pairs were sold at the sale price of $27.50 a pair, by what amount did the revenue from weekly sales of these oxfords increase during the second week?
+
+(A) $62.50
+(B) $75.00
+(C) $112.50
+(D) $137.20
+(E) $175.00
+
+----
+
+79- The number $2 — 0.5$ is how many times the number $1 — 0.5$ ?
+
+(A) 2
+(B) 2.5
+(C) 3
+(D) 3.5
+(E) 4
+
+----
+
+80- if $x = -1$, then $-(x^4 + x^3 + x² + x)$ =
+
+(A) -10
+(B) -4
+(C) 0
+(D) 4
+(E) 10
+
+----
+
+81- Coins are dropped into a toll box so that the box is being filled at the rate of approximately 2 cubic feet per hour. If the empty rectangular box is 4 feet long, 4 feet wide, and 3 feet deep, approximately how many hours does it take to fill the box?
+
+(A) 4
+(B) 8
+(C) 16
+(D) 24
+(E) 48
+
+----
+
+82- $(\frac{1}{5})² - (\frac{1}{5})(\frac{1}{4})$ =
+
+(A) $-\frac{1}{20}$
+(B) $-\frac{1}{100}$
+(C) $\frac{1}{100}$
+(D) $\frac{1}{20}$
+(E) $\frac{1}{5}$
+
+----
+
+83- A club collected exactly $599 from its memebers. If each member contributed at least $12, What is the greatest number of members the club could have?
+
+(A) 43
+(B) 44
+(C) 49
+(D) 50
+(E) 51
+
+----
+
+
+84- A union contract specifies a 6 percent salary increase plus a $450 bonus for each employee. For a certain employee, this is equivalent to an 8 percent salary increase. What was this employee’s salary before the new contract?
+
+(A) $21,500
+(B) $22,500
+(C) $23,500
+(D) $24,300
+(E) $25,000
+
+----
+
+
+85- If $n$ is a positive integer and $k + 2 = 3^n$, Which of the following could not be a value of $k$ ?
+
+(A) 1
+(B) 4
+(C) 7
+(D) 25
+(E) 79
+
+----
+
+86- Elena purchased brand $X$ pens for $4.00 a piece and brand $Y$ pens for $2.80 a piece. If Elena purchased a tatal of 12 of these pens for $42.00, How many brand $X$ pens did she purchase?
+
+(A) 4
+(B) 5
+(C) 6
+(D) 7
+(E) 8
+
+
+----
+
+87- If the length and width of a rectangular garden plot were each increased by 20 percent, What would be the percent increase in the area of the plot?
+
+(A) 20%
+(B) 24%
+(C) 36%
+(D) 40%
+(E) 44%
+
+
+----
+
+88- The population of a bacteria culture doubles every 2 minutes. Approximately how many minutes will it take for the population to grow from 1,000 to 500,000 bacteria?
+
+(A) 10
+(B) 12
+(C) 14
+(D) 16
+(E) 18
+
+
+----
+
+89- When 10 is divided by the positive integer $n$, the remainder is $n — 4$. Which of the following could be the value of $n$ ?
+
+(A) 3
+(B) 4
+(C) 7 answer
+(D) 8
+(E) 12
+
+----
+
+90- For a light that has an intensity of 60 candles at its source, the intensity in candles. $S$, of the light at a point $d$ feet from the source is given by the formula $S = \frac{60k}{d}$ , where $k$ is a constant. If the intensity of the light is 30 candles at a distance of 2 feet from the source, What is the intensity of the light at a distance of 20 feet from the source?
+
+(A) $\frac{3}{10}$ candle
+(B) $\frac{1}{2}$ candle
+(C) $1\frac{1}{3}$ candles
+(D) $2$ candles
+(E) $3$ candles
+
+----
+
+91- If $x$ and $y$ are prime numbers, which of the following CAMNMNOT be the sum of $x$ and $y$ ?
+
+(A) 5
+(B) 9
+(C) 13
+(D) 16
+(E) 23
+
+----
+
+92- Of the 3,600 employees of Company X, $\frac{1}{3}$ are clerical. If the clerical staff were to be reduced by $\frac{1}{3}$, What percent of the total number of the remaining employees would then be clerical?
+
+(A) 25%
+(B) 22.2%
+(C) 20%
+(D) 12.5%
+(E) 11.1%
+
+
+----
+
+93- In which of the following pairs are the two numbers reciprocals of each other?
+<br />
+<p>I. $3$ and $\frac{1}{3}$</p>
+<p>II. $\frac{1}{17}$ and $\frac{-1}{17}$</p>
+<p>III. $\sqrt{3}$ and $\frac{\sqrt{3}}{3}$</p>
+
+
+(A) I only
+(B) II only
+(C) I and II
+(D) I and III
+(E) II and III
+
+----
+
+94- What is 45 percent of $\frac{7}{12}$ of 240 ?
+
+(A) 63
+(B) 90
+(C) 108
+(D) 140
+(E) 311
+
+----
+
+95- If $x$ books cost $5 each and $y$ books cost $8 each, then the average (arithmetic mean) cost, in dollars per book, is equal to
+
+(A) $\frac{5x + 8y}{x + y}$
+(B) $\frac{5x + 8y}{xy}$
+(C) $\frac{5x + 8y}{13}$
+(D) $\frac{40xy}{x + y}$
+(E) $\frac{40xy}{13}$
+
+
+----
+
+96- If $\frac{1}{2}$ of the money in a certain trust fund was invested in stocks, $\frac{1}{4}$ in bonds, $\frac{1}{5}$ in a mutual fund, and the remaining $10,000 in a government certificate, What was the total amount of the trust fund?
+
+(A) $100,000
+(B) $150,000
+(C) $200,000
+(D) $500,000
+(E) $2,000,000
+
+----
+
+97- Marion rented a car for $18.00 plus $0.10 per mile driven. Craig rented a car for $25.00 plus $0.05 per mile driven. If each drove $d$ miles and each was charged exactly the same amount for the rental, then $d$ equals
+
+(A) 100
+(B) 120
+(C) 135
+(D) 140
+(E) 150
+
+
+----
+
+98- Machine $A$ produces bolts at a uniform rate of 120 every 40 seconds, and machine $B$ produces bolts at a uniform rate of 100 every 20 seconds. If the two machines run simultaneously, How many seconds will it take for them to produce a total of 200 bolts?
+
+(A) 22
+(B) 25
+(C) 28
+(D) 32
+(E) 56
+
+
+----
+
+99- $\frac{3.003}{2.002}$ =
+
+(A) 1.05
+(B) 1.50015
+(C) 1.501
+(D) 1.5015
+(E) 1.5
+
+----
+
+100- ![graph](./img_ps_q100_graph.png)
+<br />
+
+In 1982 the approximate average cost of operating a subcompact car for 10,000 miles was
+
+(A) $360
+(B) $3,400
+(C) $4,100
+(D) $4,500
+(E) $4,900
+
+----
+
+101- ![graph](./img_ps_q101_graph.png)
+<br />
+
+In 1984 the average cost of operating a subcompact car was approximately what percent less than the average cost of operating a midsized car?
+
+(A) 12%
+(B) 20%
+(C) 25%
+(D) 33%
+(E) 48%
+
+
+----
+
+102- ![graph](./img_ps_q102_graph.png)
+
+<br />
+
+
+For each of the years shown, the average cost per mile of operating a compact car minus the average cost per mile of operating a subcompact car was between
+
+
+(A) $0.12 and $0.18
+(B) $0.10 and $0.15
+(C) $0.09 and $0.13
+(D) $0.06 and $0.12
+(E) $0.05 and $0.08
+
+----
+
+103- What is the decimal equivalent of $(\frac{1}{5})^5$ ?
+
+(A) 0.00032
+(B) 0.0016
+(C) 0.00625
+(D) 0.008
+(E) 0.03125
+
+----
+
+104- Two hundred gallons of fuel oil are purchased at $0.91 per gallon and are consumed at a rate of $0.70 worth of fuel per hour. At this rate, How many hours are required to consume the 200 gallons of fuel oil?
+
+(A) 140
+(B) 220
+(C) 260
+(D) 322
+(E) 330
+
+
+----
+
+105- If $\frac{4 - x}{2 + x} = x$, What is the value of $x² + 3x —4$ ?
+
+(A) -4
+(B) -1
+(C) 0
+(D) 1
+(E) 2
+
+----
+
+106- If $b < 2$ and $2x - 3b = 0$, Which of the following must be true?
+
+(A) $x > -3$
+(B) $x < 2$
+(C) $x = 3$
+(D) $x < 3$
+(E) $x > 3$
+
+----
+
+107- ![trapezoid](./img_ps_q107_trapezoid.png)
+
+<br />
+The trapezoid shown in the figure above represents a cross section of the rudder of a ship. If the distance from $A$ to $B$ is 13 feet, What is the area of the cross section of the rudder in square feet?
+
+(A) 39
+(B) 40
+(C) 42
+(D) 45
+(E) 46.5
+
+
+----
+
+108- $\frac{(-1.5)(1.2) - (4.5)(0.4)}{30}$
+
+(A) -1.2
+(B) -0.12
+(C) 0
+(D) 0.12
+(E) 1.2
+
+----
+
+109- If $n$ is a positive integer, then $n(n + 1)(n + 2)$ is
+
+(A) even only when $n$ is even
+(B) even only when $n$ is odd
+(C) odd whenewer $n$ is odd
+(D) divisible by 3 only when $n$ is odd
+(C) divisible by 4 whenever $n$ is even
+
+----
+
+110- If Jack had twice the amount of money that he has, he would have exactly the amount necessary to buy 3 hamburgers at $0.96 a piece and 2 milk shakes at $1.28 a piece. How much money does Jack have?
+
+(A) $1.60
+(B) $2.24
+(C) $2.72
+(D) $3.36
+(E) $5.44
+
+----
+
+111- If a photocopier makes 2 copies in $\frac{1}{3}$ second, then, at the same rate, How many copies does it make in 4 minutes?
+
+(A) 360
+(B) 480
+(C) 576
+(D) 720
+(E) 1,440
+
+----
+
+112- The price of a certain television set is discounted by 10 percent, and the reduced price is then discounted by 10 percent. This series of successive discounts is equivalent to a single discount of?
+
+
+(A) 20%
+(B) 19%
+(C) 18%
+(D) 11%
+(E) 10%
+
+----
+
+113- If $\frac{2}{1 + \frac{2}{y}} = 1$, then $y$ =
+
+(A) $-2$
+(B) $-\frac{1}{2}$
+(C) $\frac{1}{2}$
+(D) $2$
+(E) $3$
+
+----
+
+114- If a rectangular photograph that is 10 inches wide by 15 inches long is to be enlarged so that the width will be 22 inches and the ratio of width to length will be unchanged, then the length, in inches, of the enlarged photograph will be
+
+(A) 33
+(B) 32
+(C) 30
+(D) 27
+(E) 25
+
+----
+
+115- If $m$ is an integer such that $(—2)^2m = 2^9-m$, then $m$ =
+
+(A) 1
+(B) 2
+(C) 3
+(D) 4
+(E) 6
+
+----
+
+116- If $0 ≤ x ≤ 4$ and $y < 12$, Which of the following CANNOT be the value of $xy$ ?
+
+(A) -2
+(B) 0
+(C) 6
+(D) 24
+(E) 48
+
+
+----
+
+117- ![grap](./img_ps_q117_graph.png)
+
+<br />
+In the figure above, $V$ represents an observation point at one end of a pool. From $V$, an object that is actually located on the bottorm of the pool at point $R$ appears to be at point $S$. If $VR = 10 feet$, What is the distance $RS$, in feet, between the actual position and the percerved position of the object?
+
+(A) $10 - 5 \sqrt{3}$
+(B) $10 - 5 \sqrt{2}$
+(C) $2$
+(D) $2\frac{1}{2}$
+(E) $4$
+
+
+
+----
+
+
+118- If the total payroll expense of a certain business in year $Y$ was $84,000, which was 20 percent more than in year $X$, What was the total payroll expense in year $X$ ?
+
+(A) $70,000
+(B) $68,320
+(C) $64,000
+(D) $60,000
+(E) $52,320
+
+----
+
+119- If $a$, $b$, and $c$ are consecutive positive integers and $a < b < c$, Which of the following must be true?
+
+<p>I. $c - a = 2$</p>
+<p>II. $abc$ is an even integer.</p>
+<p>III. $\frac{a + b + c}{3}$ is an integer.</p>
+
+
+(A) I only
+(B) II only
+(C) I and II only
+(D) II and III only
+(E) I, II, and III
+
+----
+
+120- A straight pipe 1 yard in length was marked off in fourths and also in thirds. If the pipe was then cut into separate pieces at each of these markings, Which of the following gives all the different lengths of the pieces, in fractions of a yard?
+
+(A) $\frac{1}{6}$ and $\frac{1}{4}$ only
+(B) $\frac{1}{4}$ and $\frac{1}{3}$ only
+(C) $\frac{1}{6}$, $\frac{1}{4}$ and $\frac{1}{3}$
+(D) $\frac{1}{12}$, $\frac{1}{6}$ and $\frac{1}{4}$
+(E) $\frac{1}{12}$, $\frac{1}{6}$ and $\frac{1}{3}$
+
+
+----
+
+121- What is the least infeger that is a sum of three different primes each greater than 20 ?
+
+(A) 69
+(B) 73
+(C) 75
+(D) 79
+(E) 83
+
+----
+
+
+122- A tourist purchased a total of $1,500 worth of traveler’s checks in $10 and $50 denominations. During the trip the tourist cashed 7 checks and then lost all of the rest. If the number of $10 checks cashed was one more or one less than the number of $50 checks cashed, What is the minimum possible value of the checks that were lost?
+
+
+(A) $1,430
+(B) $1,310
+(C) $1,290
+(D) $1,270
+(E) $1,150
+
+
+----
+
