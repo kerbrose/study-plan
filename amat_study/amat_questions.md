@@ -5220,3 +5220,396 @@ In the figure above, $V$ represents an observation point at one end of a pool. F
 
 ----
 
+123- ![circle](./img_ps_q123_circle.png)
+<br />
+If the circle above has center $O$ and circumference $18π$, then the perimeter of sector $RSTO$ is
+
+
+(A) $3π + 9$
+(B) $3π + 18$
+(C) $6π + 9$
+(D) $6π + 18$
+(E) $6π + 24$
+
+
+----
+
+124- If each of the following fractions were written as a repeating decimal, Which would have the longest sequence of different digits?
+
+(A) $\frac{2}{11}$
+(B) $\frac{1}{3}$
+(C) $\frac{41}{99}$
+(D) $\frac{2}{3}$
+(E) $\frac{23}{37}$
+
+
+----
+
+
+125- Today Rose is twice as old as Sam and Sam is 3 years younger than Tina. If Rose, Sam, and Tina are all alive 4 years from today, Which of the following must be true on that day?
+
+<p>I. Rose is twice as old as Sam.</p>
+<p>II. Sam is 3 years younger than Tina.</p>
+<p>III. Rose is older than Tina.</p>
+
+(A) I only
+(B) II only
+(C) III only
+(D) I and II
+(E) II and III
+
+
+----
+
+126- The average (arithmetic mean) of 6, 8, and 10 equals the average of 7. 9, and
+
+(A) 5
+(B) 7
+(C) 8
+(D) 9
+(E) 11
+
+
+----
+
+127- ![graph](./img_ps_q127_graph.png)
+<br />
+In the figure above, the coordinates of point $V$ are
+
+(A) (-7, 5)
+(B) (-5, 7)
+(C) (5, 7)
+(D) (7, 5)
+(E) (7, -5)
+
+----
+
+128- Tickets for all but 100 seats in a 10,000-seat stadium were sold. Of the tickets sald, 20 percent were sold at half price and the remaining tickets were sold at the full price of $2. What was the total revenue from ticket sales?
+
+(A) $15,840
+(B) $17,820
+(C) $18,000
+(D) $19,800
+(E) $21,780
+
+----
+
+129- In a mayoral election, Candidate $X$ received $\frac{1}{3}$ more votes than Candidate $Y$, and Candidate $Y$ received $\frac{1}{4}$ fewer votes than Candidate $Z$. If Candidate $Z$ received 24,000 votes, How many votes did Candidate $X$ receive?
+
+(A) 18,000
+(B) 22,000
+(C) 24,000
+(D) 26,000
+(E) 32,000
+
+----
+
+
+130- René earns $8.50 per hour on days other than Sundays and twice that rate on Sundays. Last week she worked a total of 40 hours, including 8 hours on Sunday. What were her earnings for the week?
+
+(A) $272
+(B) $340
+(C) $398
+(D) $408
+(E) $476
+
+----
+
+
+131- In a shipment of 120 machine parts, 5 percent were defective. In a shipment of 80 machine parts, 10 percent were defective. For the two shipments combined, What percent of the machine parts were defective?
+
+
+(A) 6.5%
+(B) 7.0%
+(C) 7.5%
+(D) 8.0%
+(E) 8.5%
+
+
+----
+
+132- $\frac{2\frac{2}{5} - 1\frac{2}{3}}{\frac{2}{3} - \frac{3}{5}}$ =
+
+(A) 16
+(B) 14
+(C) 3
+(D) 1
+(E) -1
+
+
+----
+
+133- If $x = -1$, then $\frac{x^4 - x^3 + x^2}{x - 1}$ =
+
+(A) $-\frac{3}{2}$
+(B) $-\frac{1}{2}$
+(C) $0$
+(D) $\frac{1}{2}$
+(E) $\frac{3}{2}$
+
+
+----
+
+134- Which of the following equations is NOT equivalent to $25x^2 = y^2 - 4$ ?
+
+(A) $25x^2 + 4 = y^2$
+(B) $75x^2 = 3y^2 -12$
+(C) $25x^2 = (y + 2)(y -2)$
+(D) $5x = y - 2$
+(E) $x^2 = \frac{y^2 -4}{25}$
+
+----
+
+135- A toy store regularly sells all stock at a discount of 20 percentto 40 percent. If an additional 25 percent were deducted from the discount price during a special sale, What would be the lowest possible price of a toy costing $16 before any discount?
+
+(A) $5.60
+(B) $7.20
+(C) $8.80
+(D) $9.60
+(E) $15.20
+
+
+----
+
+
+136- If there are 664,579 prime numbers among the first 10 million positive integers, approximately What percent of the first 10 million positive integers are prime numbers?
+
+(A) 0.0066%
+(B) 0.066%
+(C) 0.66%
+(D) 6.6%
+(E) 66%
+
+
+----
+
+
+137- A bank customer borrowed $10,000, but received $y$ dollars less than this due to discounting. If there was a separate $25 service charge, then, in terms of $y$, the service charge was What fraction of the amount that the customer received?
+
+(A) $\frac{25}{10,000 -y}$
+(B) $\frac{25}{10,000 - 25y}$
+(C) $\frac{25y}{10,000 - y}$
+(D) $\frac{y - 25}{10,000 - y}$
+(E) $\frac{25}{10,000 - (y - 25)}$
+
+----
+
+
+138- An airline passenger is planning a trip that involves three connecting flights that leave from Airports $A$, $B$, and $C$, respectively. The first flight leaves Airport $A$ every hour, beginning at 8:00 a.m., and arrives at Airport $B$ $2\frac{1}{2}$ hours later. The second flight leaves Airport $B$ every 20 minutes, beginning at 8:00 a.m., and arrives at Airport $C$ $1\frac{1}{6}$ hours later. The third flight leaves Airport $C$ every hour, beginning at 8:45 a.m. What is the least total amount of time the passenger must spend between flights if all flights keep to their schedules?
+
+
+(A) 25 min
+(B) 1 hr 5 min
+(C) 1 hr 15 min
+(D) 2 hr 20 min
+(E) 3 hr 40 min
+
+
+----
+
+
+139- ![triangle](./img_ps_q139_triangle.png)
+<br />
+The shaded portion of the rectangular lot shown above represents a flower bed. If the area of the bed is 24 square yards and $x = y + 2$, then $z$ equals
+
+(A) $\sqrt{13}$
+(B) $2\sqrt{13}$
+(C) $6$
+(D) $8$
+(E) $10$
+
+
+----
+
+140- How many multiples of 4 are there between 12 and 96, inclusive?
+
+(A) 21
+(B) 22
+(C) 23
+(D) 24
+(E) 25
+
+----
+
+
+141- Jack is now 14 years older than Bill. If in 10 years Jack will be twice as old as Bill, How old will Jack be in 5 years?
+
+(A) 9
+(B) 19
+(C) 21
+(D) 23
+(E) 33
+
+----
+
+
+142- In Country $X$ a returning tourist may import goods with a total value of $500 or less tax free, but must pay an 8 percent tax on the portion of the total value in excess of $500. What tax must be paid by a returning tourist who imports goods with a total value of $730 ?
+
+(A) $58.40
+(B) $40.00
+(C) $24.60
+(D) $18.40
+(E) $16.00
+
+----
+
+
+143- Which of the following is greater than $\frac{2}{3}$ ?
+
+(A) $\frac{33}{50}$
+(B) $\frac{8}{11}$
+(C) $\frac{3}{5}$
+(D) $\frac{13}{27}$
+(E) $\frac{5}{8}$
+
+----
+
+
+144- A rope 40 feet long is cut into two pieces. If one piece is 18 feet longer than the other, What is the length, in feet, of the shorter piece?
+
+(A) 9
+(B) 11
+(C) 18
+(D) 22
+(E) 29
+
+----
+
+
+145- If 60 percent of a rectangular floor is covered by a rectangular rug that is 9 feet by 12 feet, What is the area, in square feet, of the floor?
+
+(A) 65
+(B) 108
+(C) 180
+(D) 270
+(E) 300
+
+----
+
+146- The Earth travels around the Sun at a speed of approximately 18.5 miles per second. This approximate speed
+is how many miles per hour?
+
+(A) 1,080
+(B) 1,160
+(C) 64,800
+(D) 66,600
+(E) 3,996,000
+
+----
+
+147- A collection of books went on sale, and $\frac{2}{3}$ of them were sold for $2.50 each. If none of the 36 remaining books were sold, What was the total amount received for the books that were sold?
+
+(A) $180
+(B) $135
+(C) $90
+(D) $60
+(E) $54
+
+
+----
+
+
+148- If “basis points” are defined so that 1 percent is equal to 100 basis points, then 82.5 percent is How many basis points greater than 62.5 percent?
+
+(A) 0.02
+(B) 0.2
+(C) 20
+(D) 200
+(E) 2,000
+
+
+----
+
+149- The amounts of time that three secretaries worked on a special project are in the ratio of 1 to 2 to 5. If they worked a combined total of 112 hours, How many hours did the secretary who worked the longest spend on the project?
+
+(A) 80
+(B) 70
+(C) 56
+(D) 16
+(E) 14
+
+----
+
+
+150- If the guotient $\frac{a}{b}$ is positive, Which of the following must be true?
+
+(A) $a > 0$
+(B) $b > 0$
+(C) $ab > 0$
+(D) $a - b > 0$
+(E) $a + b > 0$
+
+----
+
+151- $8^2x+3 = 2^3x+6$, then $x$ =
+
+(A) $-3$
+(B) $-1$
+(C) $0$
+(D) $1$
+(E) $3$
+
+----
+
+152- Of the following, the closest approximation to $\sqrt{\frac{2.98(601.5)}{15.79}}$ is
+
+(A) 5
+(B) 15
+(C) 20
+(D) 25
+(E) 225
+
+----
+
+
+153- Which of the following CANNOT be the greatest commaon divisor of two positive integers $x$ and $y$ ?
+
+(A) $1$
+(B) $x$
+(C) $y$
+(D) $x - y$
+(E) $x + y$
+
+----
+
+154- An empty pool being filled with water at a constant rate takes 8 hours to fill to $\frac{3}{5}$ of its capacity. How much more time will it take to finish filling the pool?
+
+(A) 5 hr 30 min
+(B) 5 hr 20 min
+(C) 4 hr 48 min
+(D) 3 hr 12 min
+(E) 2 hr 40 min
+
+----
+
+155- A positive number $x$ is multiplied by 2, and this product is then divided by 3. If the positive square root of the result of these two operations equals $x$, What is the value of $x$ ?
+
+(A) $\frac{9}{4}$
+(B) $\frac{3}{2}$
+(C) $\frac{4}{3}$
+(D) $\frac{2}{3}$
+(E) $\frac{1}{2}$
+
+----
+
+
+156- A tank contains 10,000 gallons of a solution that is 5 percent sodium chloride by volume. If 2,500 gallons of water evaporate from the tank, the remaining solufion will be approximately What percent sodium chloride?
+
+(A) 1.25%
+(B) 3.75%
+(C) 6.25%
+(D) 6.67%
+(E) 11.7%
+
+----
+
+
+157- A certain grocery purchased $x$ pounds of produce for $p$ dollars per pound. If $y$ pounds of the produce had to be discarded due to spoilage and the grocery sold the rest for 5 dollars per pound, Which of the following represents the gross profit on the sale of the produce?
+
+(A) $(x-y)s - xp$
+(B) $(x-y)p-ys$
+(C) $(s-p)y-xp$
+(D) $xp-ys$
+(E) $(x-y)(s-p)$
+
+----
