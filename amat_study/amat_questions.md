@@ -5613,3 +5613,889 @@ is how many miles per hour?
 (E) $(x-y)(s-p)$
 
 ----
+
+⚠ 158- If $x + 3y =21$ and $3x + y = 7$, then $x+y=$
+
+- 6
+- 2
+- 7 ✔
+- 4
+
+----
+
+⚠ 159- If $x+3y=40$ and $3x+y=4$, then $x+y=$
+
+- 11 ✔
+- 20
+- 44
+- 40
+
+----
+
+⚠ 160- If $x+3y=5$ and $3x+y=7$, then $x+y=$
+
+- 1
+- 2
+- 3 ✔
+- 4
+
+----
+
+⚠ 161- If $x+3y=10$ and $3x+y=6$, then $x+y=$
+
+- 1
+- 2
+- 4 ✔
+- 5
+
+----
+⚠ 162- If $x+y=7$ and $x^2+y^2= 25$, then which one of the following equals the value of $x^3+y^3=$?
+
+- 7
+- 25
+- 35
+- 91 ✔
+- None of the above
+
+----
+
+⚠ 163- If $x + y = 7$ and $x² + y² = 25$, then which one of the following equals the value of $x^3 - y^3 =$?
+
+- 107
+- 20
+- 35
+- 37 ✔
+
+----
+
+⚠ 164- If $x + y = 7$ and $x - y = 3$, then which one of the following equals the value of $x² - y² =$?
+
+- 7
+- 21 ✔
+- 35
+- 9
+
+----
+
+⚠ 165- If $x + y = 4$ and $x² + y² = 16$, then which one of the following equals the value of $x⁵ + y⁵ =$?
+
+- 256
+- 1024 ✔
+- 64
+- 91
+
+----
+
+⚠ 166- If $x² – y² = 100$ and $x – y = 2$ then $x + y =$ ?
+
+
+----
+
+⚠ 167- If $9x – 6y$, then the ratio of $x$ to $y$ is
+
+- 9:6
+- 3:2
+- 2:3 ✔
+- 6:2
+
+---- 
+
+⚠ 168- If $9x = 3y$, then the ratio of $x$ to $y$ is
+
+- 9:3
+- 1:3 ✔
+- 3:1
+- 6:5
+
+----
+
+⚠ 169- If $4x = 5y$, then the ratio of $x$ to $y$ is
+
+- 5:9
+- 5:4 ✔
+- 1:2
+- 4:5
+
+----
+
+⚠ 170- How do you find the ratio of $x$ to $y$ given $5x = 6y$?
+
+
+----
+⚠ 171- The number of integers from 36 to 56 is
+
+- 23
+- 24
+- 21 ✔
+- 20
+
+----
+
+⚠ 172- The number of integers from 30 to 67 is
+
+- 37
+- 38 ✔
+- 40
+- 36
+----
+
+⚠ 173- How many integers are between -8 and 17, inclusive?
+
+- 24
+- 17
+- 9
+- 8
+- 26 ✔
+
+----
+
+⚠ 174- What is the sum of odd integers from 35 to 85, inclusive?
+
+(A) 1,560 ✔
+(B) 1,500
+(C) 1,240
+(D) 1,120
+(E) 1,100
+
+----
+
+⚠ 175- If $a$ and $b$ are integers, $x = 32a$, $y = 23b$, and the values of both $x$ and $y$ lie between 90 and 100 (not including the two), then $a – b$ could be
+
+- -2
+- -1 ✔
+- 0
+- 1
+
+----
+
+⚠ 176- If $a$ and $b$ are integers, $x = 36a$, $y = 32b$, and the values of both $x$ and $y$ lie between 250 and 260 (not including the two), then $a – b$ could
+
+- -2
+- -1 ✔
+- 0
+- 1
+
+----
+
+⚠ 177- If $a$ and $b$ are integers, $x = 14a$, $y = 12b$, and the values of both $x$ and $y$ lie between 80 and 90 (not including the two), then $a – b$ could be
+
+- -2
+- -1 ✔
+- 0
+- 1
+
+----
+
+⚠ 178- If $a$ and $b$ are integers, $x = 21a$, $y = 16b$, and the values of both $x$ and $y$ lie between 60 and 70 (not including the two), then $a – b$ could be
+
+- -2
+- -1 ✔
+- 0
+- 1
+
+----
+⚠ 179- $\frac{1}{1-(0.9)^2}$
+
+- 36/35
+- 100/9 ✔
+- 19/100
+- 30/11
+
+----
+
+⚠ 180- $\frac{1}{1-(0.8)^2}$
+
+- 25/9 ✔
+- 16/15
+- 9/25
+- 25/11
+
+----
+⚠ 181- $\frac{1}{1-(0.25)^2}$
+
+
+----
+
+⚠ 182- $\frac{1}{1-(0.3)^3}$
+
+- 36/35
+- 10/30
+- 37/36 ✔
+- 30/11
+
+----
+⚠ 183- What is the average of all prime numbers between 40 and 54?
+
+- 43
+- 45
+- 46 ✔
+- 50
+
+----
+
+⚠ 184- What is the average of all prime numbers between 60 and 74?
+
+- 86
+- 68 ✔
+- 67
+- 56
+
+----
+
+⚠ 185- If $p ≠ 0$ and $p = \sqrt{(2pq - q²)}$, then in terms of $q$, $p =$
+
+- $±q$
+- $q$ ✔
+- $-q$
+- $2q$
+
+----
+
+⚠ 186- $p ≠ 0$ and $p^\frac{2}{3} = \sqrt[3]{2pq - q²}$, then in terms of $q$, $p =$
+
+- $q$ ✔
+- $±q$
+- $-q$
+- $2q$
+
+----
+⚠ 187- If $p ≠ 0$ and $p^\frac{2}{9}=\sqrt[9]{2pq-q^2}$, then in terms of $q$, $p =$
+
+- $q$ ✔
+- $±q$
+- $-q$
+- $2q$
+
+----
+
+⚠ 188- If $p ≠ 0$ and $p^\frac{2}{r}=\sqrt[r]{2pq-q^2}$, then in terms of $q$, $p =$
+
+- $q$ ✔
+- $±q$
+- $-q$
+- $2q$
+
+----
+⚠ 189- If $p ≠ 0$ and $p^\frac{2}{5}=\sqrt[5]{2pq-q^2}$, then in terms of $q$, $p =$
+
+- $q$ ✔
+- $±q$
+- $-q$
+- $2q$
+
+----
+
+⚠ 190- If $a³ = 9$, then $a⁹ =$ 
+
+- 111
+- 121
+- 729 ✔
+- 1331
+
+----
+
+⚠ 191- If $a³ = 125$, then $a² =$ 
+
+- 111
+- 121
+- 25 ✔
+- 131
+
+----
+⚠ 192- If $a⁴ = 16$, then $a⁸ =$ 
+
+- 64
+- 512
+- 32
+- 256 ✔
+
+----
+⚠ 193- How many millilitres of acid are there in 250 millilitres of 6% acid?
+
+- 3.5
+- 14
+- 15
+- 35 ✔
+
+----
+⚠ 193- How many millilitres of acid are there in 300 millilitres of 6% acid?
+
+- 3.5
+- 10
+- 14
+- 18 ✔
+
+----
+
+⚠ 194- How many millilitres of acid are there in 400 millilitres of 4% acid?
+
+- 3.5
+- 10
+- 16 ✔
+- 35
+
+----
+
+⚠ 195- Of the following, which is greater than 3/5?
+
+- 2/5
+- 3/7
+- 4/9
+- 10/15 ✔
+
+----
+
+⚠ 196- Of the following, which is greater than 5/9?
+
+- 2/5
+- 2/3 ✔
+- 2/6
+- 3/7
+
+----
+
+⚠ 197- Which of the following is the largest?
+
+- 335% ✔
+- 1.25
+- 2+1/3
+- 4/3
+
+----
+
+⚠ 198- Which of the following is the largest?
+
+- 125%
+- 1.25
+- 1+1/7
+- 14/3 ✔
+
+----
+
+⚠ 199- Which of the following is the largest?
+
+- 123%
+- 1.25 ✔
+- 1+1/7
+- 4/7
+
+----
+
+⚠ 200- If $a$, $b$, and $c$ are not equal to $0$ or $1$ and if $a^x = b$, $b^y = c$, and $c^z = a$, then $xyz =$
+
+- $0$
+- $1$ ✔
+- $2$
+- $a$
+
+----
+
+⚠ 201- If $a$, $b$, and $c$ are not equal to $0$ or $1$ and if $a^x = b$, $b^y = c^4$, and $c^z = a$, then $xyz =$
+
+- $0$
+- $4$ ✔
+- $2$
+- $a$
+
+----
+
+⚠ 202- If $a$, $b$, and $c$ are not equal to $0$ or $1$ and if $a^x = b$, $b^y = c^2$, and $c^2 = a$, then $xyz =$
+
+- $0$
+- $2$ ✔
+- $1$
+- $a$
+
+----
+
+⚠ 203- A web press prints 6 pages every 3 seconds At this rate, How many pages will the press print in 6 minutes?
+
+- 261
+- 270
+- 216
+- 720 ✔
+
+----
+
+⚠ 204- A web press prints 4 pages every 3 seconds At this rate, How many pages will the press print in 7 minutes?
+
+- 350
+- 530
+- 750
+- 560 ✔
+
+----
+
+⚠ 205- A project has two test cases. Two teams are formed to study the two different test cases. James is assigned to all teams Except for James, each researcher is assigned to exactly one team. If each team has exactly 8 members. Then what is the exact number of researchers required?
+
+- 12
+- 14
+- 15 ✔
+- 13
+
+----
+
+⚠ 206- A project has four test cases. Four teams are formed to study the four different test cases. James is assigned to all four teams, Except for James. Each researcher is assigned to exactly one team. If each team has exactly 6 members. Then what is the exact number of researchers required?
+
+- 20
+- 21 ✔
+- 23
+- 24
+
+----
+
+⚠ 207- A project has three test cases. Three teams are formed to study the three different test cases. James is assigned to all three teams. Except for James. Each researcher is assigned to exactly one team. If each team has exactly 5 members. Then what is the exact number of researchers required?
+
+- 12
+- 14
+- 15
+- 13 ✔
+
+----
+
+⚠ 208- Suppose x is an integer and divisible by 16 but not by 3. Then which of the following cannot be an integer?
+
+- x/6 ✔
+- x/8
+- x/4
+- x/2
+
+----
+
+⚠ 209- Suppose x is divisible by 8 but not by 3. Then which of the following cannot be an integer?
+
+- x/2
+- x/4
+- x/6 ✔
+- x/8
+- x
+
+----
+
+⚠ 210- Suppose x is an integer and divisible by 28 but not by 3. Then which of the following cannot be an integer?
+
+- x/2
+- x/4
+- x/6 ✔
+- x/7
+
+----
+
+⚠ 211- Suppose x is an integer and divisible by 20 but not by 3. Then which of the following cannot be an integer?
+
+- x/2
+- x/6 ✔
+- x/4
+- x/10
+
+----
+
+⚠ 211- In a country, 40% if the male and 60% of the female citizen are eligible to vote. 60% of male citizens eligible to vote and 40% of female citizens eligible to vote voted. What fraction of the citizens voted during the election?
+
+- 0.25
+- 0.24 ✔
+- 0.32
+- 0.5
+
+----
+
+⚠ 212- In a country, 50% of the male citizen and 70% of the female are eligible to vote. 70% of male citizens eligible to vote voted and 50% of female citizens eligible to vote voted. What fraction of the citizens voted during the election?
+
+- 0.25
+- 0.35 ✔
+- 0.45
+- 0.5
+
+----
+
+⚠ 213- $\frac{a}{b} = \frac{1}{3}$ , then $\frac{3a-b}{a}=$
+
+- $\frac{8}{3}$
+- $0$ ✔
+- $-\frac{3}{2}$
+- $-\frac{2}{3}$
+
+----
+
+⚠ 214- $\frac{b}{a} = -\frac{2}{3}$, then $\frac{2b}{a} - \frac{b}{a}=$ 
+
+- $-\frac{2}{6}$
+- $-\frac{5}{6}$
+- $-\frac{2}{3}$ ✔
+- $-\frac{}{}$
+
+----
+
+
+⚠ 215- If $\frac{a}{b} = -\frac{2}{3}$, then $\frac{(b-3a)}{a} = $
+
+- $-\frac{7}{2}$ ✔
+- $-\frac{7}{3}$
+- $-\frac{8}{3}$
+- $0$
+
+----
+
+⚠ 216- $\frac{b}{a} = -\frac{2}{3}$, then $\frac{2b+a}{3a} =$
+
+- $-\frac{1}{9}$ ✔
+- $-\frac{4}{9}$
+- $\frac{1}{3}$
+- $-\frac{7}{9}$
+
+----
+⚠ 217- If $x = 4$, then $-2^{2\sqrt{x}}+2=$ 
+
+- $-14$ ✔
+- $-8$
+- $-2$
+- $0$
+
+----
+
+⚠ 218- If $x = 4$, then $-2^{\sqrt{x}}+4 =$ 
+
+- $4$
+- $8$
+- $-2$
+- $0$ ✔
+
+----
+
+⚠ 219- If $x = 4$, then $-2^{2x}+8\sqrt{x} =$
+
+- $-240$ ✔
+- $-272$
+- $272$
+- $224$
+
+----
+
+⚠ 220- There are 4 doors to a lecture room. Two are red and the others are green. In how many ways can a lecturer enter the room and leave the room from different coloured doors?
+
+- 8 ✔
+- 12
+- 6
+- 10
+
+----
+
+⚠ 221- There are 3 doors to a lecture room. Two are red and the other is green. In how many ways can a lecturer enter the room and leave the room from different coloured doors?
+
+- 8
+- 12
+- 4 ✔
+- 10
+
+----
+
+⚠ 222- There are 4 doors to a lecture room. In how many ways can a lecturer enter and leave the room?
+
+- 8
+- 16
+- 10
+- 12 ✔
+
+----
+
+⚠ 223- There are 3 doors to a lecture room. In how many ways can a lecturer enter and leave the room?
+
+- 20
+- 6 ✔
+- 30
+- 124
+
+----
+⚠ 223- What is the greatest prime factor of $(2^4)² - 1$?
+
+- 3
+- 5 ✔
+- -1
+- 2
+
+----
+
+⚠ 224- What is the greatest prime factor of $(3^3)^4 - 1$?
+
+- 11
+- 2
+ - 5
+- 7 ✔
+
+----
+
+⚠ 225- What is the greatest prime factor of $(3²)^3 – 3$?
+
+- 3
+- 2
+- 11 ✔
+- 17
+
+----
+
+⚠ 226- What is the greatest prime factor of the number $(3^6 – 1)$?
+
+- 2
+- 3
+- 7
+- 13 ✔
+- 17
+
+----
+
+⚠ 227- What is the greatest prime divisor of $3^100 - 3^97$?
+
+- 2
+- 3
+- 7
+- 11
+- 13 ✔
+
+----
+
+⚠ 228- What is the greatest prime factor of 1 + 2 + 3 … + 40?
+
+- 17
+- 29
+- 31
+- 37
+- 41 ✔
+
+----
+
+⚠ 229- If $x - z > y - z$, then Which of the following must be true? 
+
+<p>(I) $x + z < y + z$</p>
+<p>(II) $xz > yz$</p>
+<p>(III) $x/z < y/z$</p>
+
+- (I) only
+- (II) only ✔
+- (III) only
+- (I) and (II) only
+
+----
+
+⚠ 230- If $x – z > y – z$, then Which of the following must be true?
+<p>(I) $x + z > y + z$</p>
+<p>(II) $xz < yz$</p>
+<p>(III) $x/z < y/z$</p>
+
+- (I) only ✔
+- (II) only
+- (III) only
+- (I) and (II) only
+
+----
+
+⚠ 231- The next number in the sequence: 6,9,15,24, 36, … is
+
+- 60
+- 51 ✔
+- 63
+- 108
+
+----
+
+⚠ 232- The next number in the sequence: 1,0.3,0.09,0.027, … is
+
+- 0.81
+- 0.081
+- 0.0081 ✔
+- 0.00081
+
+----
+
+⚠ 233- The next number in the sequence: 3, 3, 6, 18, 72, 360 is
+
+- 2160 ✔
+- 2088
+- 720
+- 480
+
+----
+
+⚠ 234- The next number in the sequence: 6, 6, 12, 36, 144, 720 is:
+
+- 4320 ✔
+- 2880
+- 5760
+- 4800
+
+----
+
+⚠ 235- The missing number in the sequence: 1, 1/5, 1/25, …, 1/625 is
+
+- 1/125 ✔
+- 1/225
+- 1/100
+- 10
+
+----
+
+⚠ 236- The missing number in the sequence: 1. 6. 36. …. 1296 is
+
+- 216 ✔
+- 112
+- 64
+- 120
+
+----
+
+⚠ 237- The missing number in the sequence: 1, 7, 49, …, 2401 is
+
+- 343 ✔
+- 90
+- 1064
+- 1200
+
+----
+
+⚠ 238- The next number in the sequence: $\frac{1}{13}$, $\frac{1}{169}$, $\frac{1}{2197}$, … is
+
+- $2500$
+- $13$
+- $\frac{1}{28561}$ ✔
+- $\frac{1}{16900}$
+
+----
+
+⚠ 239- If $w$ widgets cost $d$ dollars, then (at this rate) How many dollars will 145 widgets cost?
+
+- $\frac{wd}{145}$
+- $\frac{145w}{d}$
+- $\frac{145d}{w}$ ✔
+- $\frac{d}{145w}$
+
+----
+
+⚠ 240- If $k$ widgets cost $n$ dollars, then (at this rate) How many dollars will 1000 widgets cost?
+
+- $\frac{kn}{1000}$
+- $\frac{1000k}{n}$
+- $\frac{1000n}{k}$ ✔
+- $\frac{n}{1000k}$
+
+----
+
+⚠ 241- The length of a rectangle is increased by 25%. By what percentage should the width be decreased so that the area of the rectangle remains unchanged?
+
+- 20% ✔
+- 25%
+- 30%
+- 33.33%
+
+----
+
+⚠ 242- The length of a rectangle is increased by 15%. By what percentage should the width be decreased so that the area of the rectangle remains unchanged?
+
+- 13.043% ✔
+- 15%
+- 10%
+- 13.33%
+
+----
+
+⚠ 243- The length of a rectangle is increased by 60%. By what percentage should the width of be decreased so that the area of the rectangle remains unchanged?
+
+- 37.5% ✔
+- 25%
+- 30%
+- 40.33%
+
+----
+
+⚠ 244- Diameter of a circle is 2. What is the area of the circle?
+
+- $π$ ✔
+- $\sqrt{2}π$
+- $4π$
+- $2\sqrt{2}π$
+
+----
+
+⚠ 245- Diameter of a circle is $2\sqrt{5}$. What is the area of the circle?
+
+- $2π$
+- $3π$
+- $\sqrt{5}π$
+- $5π$ ✔
+
+----
+
+⚠ 246- Diameter of a circle is $2\sqrt{3}$. What is the area of the circle?
+
+- $2π$
+- $\sqrt{3}π$
+- $3π$ ✔
+- $2\sqrt{3}π$
+
+----
+
+⚠ 247- If $-\frac{y}{x}$ is a fraction greater than $0$, then which of the following must be less than $0$?
+- $-\frac{x}{y}$
+- $\frac{x}{y}$ ✔
+- $\sqrt{\frac{y}{x}}$
+- $(y/x)²$
+
+----
+
+⚠ 248- If $\frac{y}{x²}$ is a fraction greater than $0$, then which of the following must be less than $0$?
+
+- $-\frac{x}{y}$ ✔
+- $\frac{x²}{y}$
+- $\sqrt{\frac{y}{x}}$
+- $(\frac{y}{x})²$
+
+----
+
+⚠ 249- If x/y is a fraction greater than 1, then which of the following must be less than 1?
+
+- $3y/x$
+- $x/(3y)$
+- $\frac{x}{y}$
+- $y/x$ ✔
+- $y$
+
+----
+
+⚠ 250- If $\frac{x}{2y} is a fraction less than $0$, then which of the following?
+
+- $\frac{2y}{x}$
+- $\frac{x}{2y - 12}$
+- $\sqrt{\frac{x}{2y}}$
+- $\frac{x²}{4y²}$ ✔
+
+----
+
+⚠ 251- Hose A can fill a tank in 5 minutes, and hose B can fill the same tank in 6 minutes. How many tanks would hose B can fill in the time Hose A fills 6 tanks?
+
+- 3
+- 4
+- 5 ✔
+- 5.5
+- 6
+
+----
+
+⚠ 252- Hose A can fill a tank in 4 minutes, and hose B can fill the same tank in 2 minutes. How many tanks
+
+- 9
+- 14 ✔
+- 12
+- 10
+
+----
+
+⚠ 253- Pipe A can fill a tank in 3 hours. If pipe B can fill the same tank in 2 hours. How many minutes will it take both pipes to fill 2/3 of a tank?
+
+- 30
+- 48 ✔
+- 54
+- 60
+
+----
+
+⚠ 254- If $(3-x)^\frac{1}{2} = x^\frac{1}{2} + 1$, then $4x^2 = $?
+
+-
