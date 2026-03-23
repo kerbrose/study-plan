@@ -5691,7 +5691,7 @@ is how many miles per hour?
 
 ----
 
-⚠ 167- If $9x – 6y$, then the ratio of $x$ to $y$ is
+⚠ 167- If $9x = 6y$, then the ratio of $x$ to $y$ is
 
 - 9:6
 - 3:2
@@ -5885,7 +5885,7 @@ is how many miles per hour?
 
 ----
 
-⚠ 190- If $a³ = 9$, then $a⁹ =$ 
+⚠ 190- If $a^3 = 9$, then $a^9 =$ 
 
 - 111
 - 121
@@ -5894,7 +5894,7 @@ is how many miles per hour?
 
 ----
 
-⚠ 191- If $a³ = 125$, then $a² =$ 
+⚠ 191- If $a^3 = 125$, then $a² =$ 
 
 - 111
 - 121
@@ -5902,7 +5902,7 @@ is how many miles per hour?
 - 131
 
 ----
-⚠ 192- If $a⁴ = 16$, then $a⁸ =$ 
+⚠ 192- If $a^4 = 16$, then $a^8 =$ 
 
 - 64
 - 512
@@ -6122,7 +6122,7 @@ is how many miles per hour?
 - $-\frac{2}{6}$
 - $-\frac{5}{6}$
 - $-\frac{2}{3}$ ✔
-- $-\frac{}{}$
+- $-\frac{8}{}$
 
 ----
 
@@ -6498,4 +6498,33 @@ is how many miles per hour?
 
 ⚠ 254- If $(3-x)^\frac{1}{2} = x^\frac{1}{2} + 1$, then $4x^2 = $?
 
--
+----
+
+⚠ 255- Which of the following is the largest?
+
+- 2+1/3
+- 1.23
+- 125%
+- 4/3
+
+
+----
+
+⚠ 256- In a country, 40% of the male citizen and 70% of the female are eligible to vote. 70% of male citizens eligible to vote voted, and 40% of female citizens eligible to vote voted. What fraction of the citizens voted during the election?
+
+- 0.28 ✔
+- 0.4
+- 0.32
+- 0.5
+
+----
+
+
+⚠ 256- A project has four test cases. Four teams are formed to study the four different test cases. James is assigned to all four teams. Except for James, each researcher is assigned to exactly one team. If each team has exactly 5 members, then what is the exact number of researcher required?
+
+- 15
+- 16
+- 17 ✔
+- 18
+
+----
